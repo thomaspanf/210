@@ -1,0 +1,1 @@
+problems 2 and beyond, the functions take in dictionaries, not text files. quick fix 

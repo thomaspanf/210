@@ -67,6 +67,7 @@ def calculate_average_rating(d):
     avg_result = {}
     for key, value in result.items():
         avg_result[key] = sum(value)/float(len(value))
+    del result
     return avg_result
 
     
