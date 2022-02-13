@@ -40,34 +40,16 @@ def read_movie_genre(f):
 # 2.1
 def create_genre_dict(d):
     result = {}
-    for line in open(d):
-        line = line.rstrip()
-        data = line.split('|')[0:]
-        if data[0] in result.keys():
-            result[data[0]].append(data[2])
-        else:
-            result[data[0]] = [data[2]]
-    return(result)
+    for k, v in d.items():
+        result[v] = result.get(v, []) + [k]
+    return result
 
     
 # 2.2
 def calculate_average_rating(d):
-    result = {}
-    for line in open(d):
-        #list of data in format ['Toy Story (1995)', '4.0']
-        data = line.split('|')[0:]
-        data = data[:-1]
-        ##if key exists
-        if data[0] in result.keys():
-            result[data[0]].append(float(data[1]))
-        ##otherwise add new key value pair
-        else:
-            result[data[0]] = [float(data[1])]
-    ##surely there is a better way to do this
     avg_result = {}
-    for key, value in result.items():
+    for key, value in d.items():
         avg_result[key] = sum(value)/float(len(value))
-    del result
     return avg_result
 
     
