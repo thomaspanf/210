@@ -19,9 +19,9 @@ def read_ratings_data(f):
         data = line.split('|')[0:]
         data = data[:-1]
         if data[0] in result.keys():
-            result[data[0]].append(data[1])
+            result[data[0]].append(float(data[1]))
         else:
-            result[data[0]] = [data[1]]
+            result[data[0]] = [float(data[1])]
     return(result)
     
 
@@ -39,16 +39,35 @@ def read_movie_genre(f):
 
 # 2.1
 def create_genre_dict(d):
-    # parameter d: dictionary that maps movie to genre
-    # return: dictionary that maps genre to movies
-    # WRITE YOUR CODE BELOW
+    result = {}
+    for line in open(d):
+        line = line.rstrip()
+        data = line.split('|')[0:]
+        if data[0] in result.keys():
+            result[data[0]].append(data[2])
+        else:
+            result[data[0]] = [data[2]]
+    return(result)
 
     
 # 2.2
 def calculate_average_rating(d):
-    # parameter d: dictionary that maps movie to ratings
-    # return: dictionary that maps movie to average rating
-    # WRITE YOUR CODE BELOW
+    result = {}
+    for line in open(d):
+        #list of data in format ['Toy Story (1995)', '4.0']
+        data = line.split('|')[0:]
+        data = data[:-1]
+        ##if key exists
+        if data[0] in result.keys():
+            result[data[0]].append(float(data[1]))
+        ##otherwise add new key value pair
+        else:
+            result[data[0]] = [float(data[1])]
+    ##surely there is a better way to do this
+    avg_result = {}
+    for key, value in result.items():
+        avg_result[key] = sum(value)/float(len(value))
+    return avg_result
 
     
 # ------ TASK 3: RECOMMENDATION --------
