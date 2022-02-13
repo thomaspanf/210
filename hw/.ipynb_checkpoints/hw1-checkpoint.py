@@ -24,7 +24,6 @@ def read_ratings_data(f):
             result[data[0]] = [float(data[1])]
     return(result)
     
-
 # 1.2
 def read_movie_genre(f):
     result = {}
@@ -34,7 +33,6 @@ def read_movie_genre(f):
         result[data[2]] = data[0]
     return(result)
     
-
 # ------ TASK 2: PROCESSING DATA --------
 
 # 2.1
@@ -44,7 +42,6 @@ def create_genre_dict(d):
         result[v] = result.get(v, []) + [k]
     return result
 
-    
 # 2.2
 def calculate_average_rating(d):
     avg_result = {}
@@ -52,17 +49,22 @@ def calculate_average_rating(d):
         avg_result[key] = sum(value)/float(len(value))
     return avg_result
 
-    
 # ------ TASK 3: RECOMMENDATION --------
 
 # 3.1
 def get_popular_movies(d, n=10):
-    # parameter d: dictionary that maps movie to average rating
-    # parameter n: integer (for top n), default value 10
-    # return: dictionary that maps movie to average rating
-    # WRITE YOUR CODE BELOW
-
     
+    sorted_avg = dict(sorted(d.items(), key=lambda x:x[1], reverse=True))
+    items = sorted_avg.items()
+    topn = list(items)[:n]
+    #convert list to dict
+    dict_top_n = dict(topn)
+    
+    del sorted_avg
+    del items
+
+    return dict_top_n
+
 # 3.2
 def filter_movies(d, thres_rating=3):
     # parameter d: dictionary that maps movie to average rating
