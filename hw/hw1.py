@@ -66,11 +66,12 @@ def get_popular_movies(d, n=10):
     return dict_top_n
 
 # 3.2
-def filter_movies(d, thres_rating=3):
-    # parameter d: dictionary that maps movie to average rating
-    # parameter thres_rating: threshold rating, default value 3
-    # return: dictionary that maps movie to average rating
-    # WRITE YOUR CODE BELOW
+def filter_movies(d, thres_rating = 3):
+    result = {} 
+    for k in d.keys():
+        if d.get(k) >= thres_rating:
+            result[k] = d[k]
+    return result
 
     
 # 3.3
