@@ -1,0 +1,406 @@
+
+<!-- saved from url=(0081)https://www.cs.rutgers.edu/courses/210/classes/spring_2022_venugopal/hw2/hw2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>
+            .flipX video::-webkit-media-text-track-display {
+                transform: matrix(-1, 0, 0, 1, 0, 0) !important;
+            }
+            .flipXY video::-webkit-media-text-track-display {
+                transform: matrix(-1, 0, 0, -1, 0, 0) !important;
+            }
+            .flipXYX video::-webkit-media-text-track-display {
+                transform: matrix(1, 0, 0, -1, 0, 0) !important;
+            }</style><style>
+            @keyframes blinkWarning {
+                0% { color: red; }
+                100% { color: white; }
+            }
+            @-webkit-keyframes blinkWarning {
+                0% { color: red; }
+                100% { color: white; }
+            }
+            .blinkWarning {
+                -webkit-animation: blinkWarning 1s linear infinite;
+                -moz-animation: blinkWarning 1s linear infinite;
+                animation: blinkWarning 1s linear infinite;
+            }</style></head><body>
+
+<link href="./hw2_files/css" rel="stylesheet" type="text/css">
+<style>
+body { width: 90%; margin-left: 5%; 
+font: 14px sans-serif, Trebuchet MS, Arial;}
+h2 {padding-top: 1.5em; }
+.task { font: 14px Verdana, Arial, sans-serif; margin-top: 2em; color:blue;}
+.func {font-weight: bold; color: brown;}
+.fnhdr { text-decoration: none; }
+a, a:hover, a:visited { color: blue; }
+.pts { color: red; }
+div.sidebar {width: 60%; margin-left: 10%; background:whitesmoke; border:1px solid grey;padding:5px;}
+tt { color: blue; }
+</style>
+
+<center>
+<h2>
+Homework Assignment 2
+<p>Pokemon, Covid, Text Processing
+</p></h2>
+<h3>
+<font color="red">
+<p>Worth 140 points. 
+</p><p>Posted Friday, Mar 4
+</p><p>Due Monday, Mar 28 at 11 PM in Canvas
+</p></font><p><font color="red">Late Submission: By Tuesday, Mar 29, 11 PM in Canvas - 15 point penalty<br>
+(15 points will be deducted from your score)</font>
+
+</p></h3>
+</center>
+<p>
+You have the option to work individually or with a partner. But no groups 
+over 2 people!
+
+<b>
+</b></p><p><b>We are going to roll over the partner information from Assignment 1 for this
+assignment, so if you want to continue working with your partner from Assignment 1, 
+you don't need to inform us.
+  
+</b></p><p><b>However, if you are partnering with someone different than for 
+Assignment 1, or if you were working 
+  alone for Assignment 1 but are now working with a partner, or if you were working
+  with a partner for Assignment 1 but are now working alone, you will need to let your 
+recitation TA know.
+</b>
+
+</p><p>Make sure you abide by the <a href="https://www.cs.rutgers.edu/academics/undergraduate/academic-integrity-policy/programming-assignments">DCS Acadmic Integrity Policy for Programming Assignments.</a>
+</p><hr>
+<p>For the problems in this homework,
+write your code in files <b>pokemon.py</b>, <b>covid.py</b>, and
+<b>tfidf.py</b> respectively. 
+
+</p><p>Each of these files should be executable, which
+means that when we run your program, it should do an end-to-end run of the tasks 
+in each problem, and produce results as required. For instance:
+</p><pre>    &gt; python pokemon.py
+</pre>
+should execute the tasks in Problem 1 and produce the required output files.
+
+<p>Zip all of these Python files into a single file
+named <b>hw2.zip</b> and submit this to Canvas. Do not include any input or
+output files, we only need your Python code.
+
+</p><p>You are allowed up to 3 submissions (total over regular and late submissions), <font color="red">only the last submission will be graded</font>. Note: If you have a late submission, it will override any submissions you may
+have made before the regular deadline, and you will be assessed the 15 point
+penalty.
+
+</p><hr>
+<font color="red">For any of the problems in this assignment, you may only import and use modules we have
+covered in lecture before NumPy and Pandas. So you can use math, collections, re, and csv.
+(Technically you can use json, but it's not required for this assignment since you are not
+working with JSON-formatted data. Likewise, the random module is not required for this assignment.)</font><p><font color="red">
+You may NOT use NumPy or Pandas.</font>
+</p><hr>
+<h3>Problem 1: Pokemon Box Dataset (45 points)</h3>
+<p>Given a CSV data file as represented by the sample file
+<a href="https://www.cs.rutgers.edu/courses/210/classes/spring_2022_venugopal/hw2/pokemonTrain.csv">pokemonTrain.csv</a>, perform the following operations on it.
+</p><ol>
+<p></p><li><span class="pts">[7 pts]</span>
+Find out what percentage of "fire" type pokemons are at or above the 
+"level" 40.<br>
+<p>Your program should print the value as follows (replace ... with value):
+</p><div class="sidebar">
+  Percentage of fire type Pokemons at or above level 40 = ...
+</div>
+
+<p>The value should be rounded off (not ceiling) using the <tt>round()</tt>
+function. So, for instance, if the value is 12.3 
+(less than or equal to 12.5) you would print 12, but if it was 12.615 (more than 12.5),
+you would print 13, as in:
+</p><div class="sidebar">
+  Percentage of fire type Pokemons at or above level 40 = 13
+</div>
+<p><b><font color="red">Do NOT add % after the value (such as 13%), 
+only print the number</font></b>
+
+</p><p class="func">Print the value to a file named "pokemon1.txt"<br>
+<font color="red">If you do not print to a file, or your output file name is not
+exactly as required, you will get 0 points.</font>
+
+</p><p></p></li><li><span class="pts">[10 pts]</span> Fill in the missing "type" column values (given by NaN) by mapping them from 
+the corresponding "weakness" values. You will see that typically a given pokemon 
+weakness has a fixed "type", but there are some exceptions. So, fill in 
+the "type" column with the most common "type" corresponding to the pokemon’s 
+"weakness" value. 
+
+<p>For example, most of the pokemons having the weakness "electric" are 
+"water" type pokemons but there are other types too that have "electric" as their 
+weakness (exceptions in that "type"). But since "water" is the most common type for 
+weakness "electric", it should be filled in.
+
+</p><p>In case of a tie, use the type that appears first in alphabetical order.
+
+</p><p></p></li><li><span class="pts">[13 pts]</span> Fill in the missing values in the Attack ("atk"), Defense ("def") and 
+Hit Points ("hp") columns as follows:
+<p></p><ol type="a">
+<li>Set the pokemon level threshold to 40.
+<p></p></li><li>For a Pokemon having level above the threshold (i.e. &gt; 40), 
+fill in the missing value for atk/def/hp with the 
+average values of atk/def/hp of Pokemons with level &gt; 40. So, for instance,
+you would substitute the missing "atk" value for Magmar (level 44), with the
+average "atk" value for Pokemons with level &gt; 40.
+Round the average to one decimal place.
+<p></p></li><li>For a Pokemon having level equal to or below the threshold 
+(i.e. &lt;= 40), 
+fill in the missing value for atk/def/hp with the 
+average values of atk/def/hp of Pokemons with level &lt;= 40.
+Round the average to one decimal place.
+</li></ol>
+
+<p class="func">After performing #2 and #3, write the modified data to another csv file
+named "pokemonResult.csv"<br>
+<b><font color="red">If you do not write the modified data to another CSV file, 
+or your output file name is not exactly as required, you will get 0 points.</font></b>
+
+</p><p><b>The following tasks should be performed on
+  the pokemonResult.csv file that resulted above.</b><br>
+
+</p><p></p></li><li><span class="pts">[10 pts]</span> Create a dictionary that maps pokemon types to their personalities. This 
+dictionary would map a string to a list of strings. For example:
+<pre>     {"fire": ["docile", "modest", ...], "normal": ["mild", "relaxed", ...],  ...}
+</pre>
+    <p>Note: You can create an empty default dictionary of list with <tt>defaultdict(list)</tt>
+</p><p>Your dictionary should have the keys ordered alphabetically, and also 
+items ordered alphabetically in the values list, as shown in the example above.
+
+</p><p>Print the dictionary in the following format:
+
+</p><pre>   Pokemon type to personality mapping:
+
+      normal: mild, relaxed, ...
+      fire: docile, modest, ...
+      ...
+</pre>
+   
+<p class="func">Print the dictionary to a file named "pokemon4.txt"<br>
+<b><font color="red">If you do not print to a file, or your output file name is not
+exactly as required, you will get 0 points.</font></b>
+   
+</p><p></p></li><li><span class="pts">[5 pts]</span> Find out the average Hit Points ("hp") for pokemons of stage 3.0.
+<p>Your program should print the value as follows (replace ... with value):
+</p><div class="sidebar">
+  Average hit point for Pokemons of stage 3.0 = ...
+</div>
+<p>You should round off the value, like in #1 above.
+</p><p class="func">Print the value to a file named "pokemon5.txt"<br>
+<b><font color="red">If you do not print to a file, or your output file name is not
+exactly as required, you will get 0 points.</font></b>
+
+</p></li></ol>
+
+<hr>
+
+<h3>Problem 2: Covid-19 Dataset (35 points)</h3>
+<p>Given a Covid-19 data CSV file with 12 feature columns, perform the tasks given 
+below. Use the sample file <a href="https://www.cs.rutgers.edu/courses/210/classes/spring_2022_venugopal/hw2/covidTrain.csv">covidTrain.csv</a> to test 
+your code.
+
+</p><ol>
+<p></p><li><span class="pts">[5 pts]</span> In the age column, wherever there is a range of values, replace it by the 
+rounded off average value. E.g., for 10-14 substitute 12. (Rounding should be
+done like in 1.1). You might want to use regular expressions here, but it is not required.
+<p></p></li><li><span class="pts">[6 pts]</span> Change the date format for the date columns - date_onset_symptoms, 
+date_admission_hospital and date_confirmation from dd.mm.yyyy to mm.dd.yyyy. 
+Again, you can use regexps here, but it is not required.
+<p></p></li><li><span class="pts">[7 pts]</span> Fill in the missing (NaN) "latitude" and "longitude" values by the average of the latitude and longitude values for the 
+province where the case was recorded. 
+Round the average to 2 decimal places.
+<p></p></li><li><span class="pts">[7 pts]</span> Fill in the missing “city” values by the most occurring city value in that province. 
+In case of a tie, use the city that appears first in alphabetical order.
+<p></p></li><li><span class="pts">[10 pts]</span> Fill in the missing "symptom" values by the single most frequent symptom 
+in the province where the case was recorded. 
+In case of a tie, use the symptom that appears first in alphabetical order.
+</li></ol>
+
+<p><b>Note</b>: While iterating through records, if you come across multiple 
+symptoms for a single record, you need to consider them individually for frequency 
+counts. 
+
+</p><p><b>Watch out!</b>: Some symptoms could be separated by a <tt>'; '</tt> , i.e., 
+semicolon plus space and some by <tt>';'</tt> , i.e., just a semicolon, even within the 
+same record. For example:
+</p><pre>  "fever; sore throat;cough;weak; expectoration;muscular soreness"
+</pre>
+
+<p class="func">After performing all these tasks, write the whole data back to another 
+CSV file named “covidResult.csv”<br>
+<b><font color="red">If you do not write data back to another CSV file,
+or your output file name is not exactly as required, you will get 0 points.</font></b>
+
+</p><hr>
+
+<h3>Problem 3: Text Processing (60 pts)</h3>
+
+<p>For this problem, you are given a set of documents (text files) on which
+you will perform some preprocessing tasks, and then compute what is called
+the TF-IDF score for each word. The TF-IDF score for a word is measure
+of its importance within the entire set of documents: the higher the score,
+the more important is the word.
+
+</p><p>The input set of documents must be read from a file named "tfidf_docs.txt". This
+file will list all the documents (one per line) you will need to work with. 
+For instance, if you need to work with the set "doc1.txt", "doc2.txt", and
+"doc2.txt", the input file "tfidf_docs.txt" contents will look like this:
+</p><pre>     doc1.txt
+     doc2.txt
+     doc2.txt
+</pre>
+
+<ul>
+<li><b>Part 1: Preprocessing (30 pts)</b>
+
+<p>For each document in the input set, clean and preprocess it as follows:
+</p><ol>
+<p></p><li><span class="pts">[15 pts]</span> Clean.
+<p></p><ul>
+<li>Remove all characters that are not words or 
+whitespaces. Words are sequences of letters (upper and lower case), digits,
+and underscores. 
+</li><li>Remove extra whitespaces between words. e.g., 
+“Hello World! Let’s&nbsp;&nbsp;&nbsp;learn&nbsp;&nbsp;&nbsp;&nbsp;Python!”,
+so that there is exactly one whitespace between any pair of words.
+</li><li>Remove all website links. A website link is a sequence of non-whitespace characters
+that starts with either "http://" or "https://".
+</li><li>Convert all the words to lowercase. 
+</li></ul>
+<p>The resulting document should only contain lowercase words 
+separated by a single whitespace.
+
+</p><p></p></li><li><span class="pts">[7 pts]</span> Remove stopwords. 
+
+<p>From the document that results after #1 above, remove "stopwords". These are the
+non-essential (or "noise") words listed in the file 
+<a href="https://www.cs.rutgers.edu/courses/210/classes/spring_2022_venugopal/hw2/stopwords.txt">stopwords.txt</a>
+</p><p></p></li><li><span class="pts">[8 pts]</span> Stemming and Lemmatization.
+<p>This is a process of reducing words to their root forms.
+For example, look at the following reductions: run, running, runs → run. All 
+three words capture the same idea ‘run’ and hence their suffixes are not as 
+important. 
+
+</p><p>(If you would like to get a better idea, you may want read this 
+  <a href="https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html">article</a>. This is completely optional, you can do the assignment
+without reading the article.)
+
+</p><p>Use the following rules to reduce the words to their root form:
+</p><ol type="a">
+<li>Words ending with "ing": "flying" becomes "fly"
+</li><li>Words ending with "ly": "successfully" becomes "successful"
+</li><li>Words ending with "ment": "punishment" becomes "punish"
+</li></ol>
+<p>These rules are not expected to capture all the edge cases of Stemming in the 
+English language but are intended to give you a general idea of the preprocessing 
+steps in NLP (Natural Language Processing) tasks.
+</p></li></ol>
+
+<p class="func">After performing #1, #2, and #3 above for each input document,
+write the modified data to another text file with the prefix "preproc_". 
+For instance, if the input document is "doc1.txt", the output should be
+"preproc_doc1.txt".<br>
+<b><font color="red">If you do not print to a file, or your output file name is not
+exactly as required, you will get 0 points.</font></b>
+
+</p></li><li><b>Part 2: Computing TF-IDF Scores (30 pts)</b>
+
+<p>Once preprocessing is performed on all the documents, you need to 
+compute the Term Frequency(TF) — Inverse Document Frequency(IDF)
+score for each word.
+
+</p><div class="sidebar">
+<p>What is TF-IDF?
+
+</p><p>In information retrieval, tf–idf or TFIDF, short for term frequency–inverse 
+document frequency, is a numerical statistic that is intended to reflect how 
+important a word is to a document in a collection or corpus. 
+
+</p><p>Resources:
+</p><ul>
+<li><a href="https://towardsdatascience.com/natural-language-processing-feature-engineering-using-tf-idf-e8b9d00e7e76">TFIDF Python Example</a>
+</li><li><a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">tf-idf Wikipedia Page</a>
+</li><li><a href="https://medium.com/analytics-vidhya/tf-idf-term-frequency-technique-easiest-explanation-for-text-classification-in-nlp-with-code-8ca3912e58c3">
+TF-IDF/Term Frequency Technique</a>
+</li></ul>
+<p>
+</p></div>
+
+<p>Steps:
+</p><ol type="a">
+<li>For each preprocessed document that results from the preprocessing in Part 1, 
+compute frequencies of all the distinct words in that document only. So if
+you had 3 documents in the input set, you will compute 3 sets of word frequencies,
+one per document.
+<p></p></li><li>Compute the Term Frequency (TF) of each distinct word (also called term) 
+for each of the preprocessed documents:
+<b><pre>    TF(t) = (Number of times term t appears in a document) / (Total number of terms in the document)
+</pre></b>
+<p>Note: The denominator, total number of terms, is the sum total of
+all the words, not just unique instances. So if a word occurs 5 times,
+and the total number of words in a document is 100, then TF for that word is 5/100.
+</p><p></p></li><li>Compute the Inverse Document Frequency (IDF) of each distinct word for
+each of the preprocessed documents.
+<p>IDF is a measure of how common or rare a word is in a document set (a set of 
+preprocessd text files in this case).
+It is calculated by taking the logarithm of the following term:
+<b></b></p><pre><b>   IDF(t) = log((Total number of documents) / (Number of documents the word is found in)) + 1
+</b></pre>
+Note: The log here uses base e. And 1 is added after the log is taken, so that the IDF
+score is guaranteed to be non-zero.
+<p></p></li><li>Calculate TF-IDF score: TF * IDF for each distinct word in each 
+preprocessed document. Round the score to 2 decimal places. 
+<p></p></li><li>Print the top 5 most important words in each preprocessed document 
+according to their TF-IDF scores. The higher the TF-IDF score, the more important 
+the word. In case of ties in score, pick words in alphabetical order.
+You should print the result as a list of (word,TF-IDF score) tuples sorted
+in descending TF-IDF scores.
+
+<p class="func">Print to a file prefixed with "tfidf_". So if the initial
+input document was "doc1.txt", you should print the TF-IDF results to
+"tfidf_doc1.txt". <br>
+<b><font color="red">If you do not print to a file, or your output file name is not
+exactly as required, you will get 0 points.</font></b>
+
+</p></li></ol></li></ul>
+
+<p><b>Testing</b>:
+
+</p><ol>
+<li>You can begin with the following three sentences as separate 
+documents against which to test your code:
+<ul>
+<li>#d1 = "It is going to rain today."
+</li><li>#d2 = "Today I am not going outside."
+</li><li>#d3 = "I am going to watch the season premiere."
+</li></ul>
+
+<p>You can match values computed by your code with this same example in the
+<a href="https://medium.com/analytics-vidhya/tf-idf-term-frequency-technique-easiest-explanation-for-text-classification-in-nlp-with-code-8ca3912e58c3">
+TF-IDF/Term Frequency Technique</a> page referenced above. Look for it 
+under "Let's cover an example of 3 documents" on this page. (Note: We are adding 1
+to the log for our IDF computation.)
+
+</p><p></p></li><li>Next, you can test your code against <a href="https://www.cs.rutgers.edu/courses/210/classes/spring_2022_venugopal/hw2/test1.txt">test1.txt</a> and <a href="https://www.cs.rutgers.edu/courses/210/classes/spring_2022_venugopal/hw2/test2.txt">test2.txt</a>.
+Compare your resulting preprocessed documents with our results in
+<a href="https://www.cs.rutgers.edu/courses/210/classes/spring_2022_venugopal/hw2/preproc_test1.txt">preproc_test1.txt</a> and
+<a href="https://www.cs.rutgers.edu/courses/210/classes/spring_2022_venugopal/hw2/preproc_test2.txt">preproc_test2.txt</a>,
+and your TF-IDF results with our results in 
+<a href="https://www.cs.rutgers.edu/courses/210/classes/spring_2022_venugopal/hw2/tfidf_test1.txt">tfidf_test1.txt</a> and
+<a href="https://www.cs.rutgers.edu/courses/210/classes/spring_2022_venugopal/hw2/tfidf_test2.txt">tfidf_test2.txt</a>.
+
+<p></p></li><li>Finally, you can try your code on these files: 
+<a href="https://www.cs.rutgers.edu/courses/210/classes/spring_2022_venugopal/hw2/covid_doc1.txt">covid_doc1.txt</a>, and
+<a href="https://www.cs.rutgers.edu/courses/210/classes/spring_2022_venugopal/hw2/covid_doc2.txt">covid_doc2.txt</a>, and
+<a href="https://www.cs.rutgers.edu/courses/210/classes/spring_2022_venugopal/hw2/covid_doc3.txt">covid_doc3.txt</a>. Results for these are not provided, 
+however the files are small enough that you can identify the words that make the
+cut and manually compute TF-IDF.
+
+</li></ol>
+
+
+<p>&nbsp;</p><p>&nbsp;</p><p>
+
+</p></body></html>
