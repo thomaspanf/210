@@ -8,3 +8,8 @@ id,name,level,personality,type,weakness,atk,def,hp,stage
 137,Porygon,96,relaxed,NaN,fighting,68,50,127,1
 69,Bellsprout,84,lonely,grass,fire,NaN,NaN,NaN,1
 10,Caterpie,3,serious,NaN,flying,NaN,NaN,15,1
+12,Butterfree,12,hasty,NaN,flying,20,NaN,NaN,3
+35,Clefairy,18,impish,fairy,poison,33,NaN,NaN,1
+59,Arcanine,35,gentle,fire,water,45,60,80,2
+111,Rhyhorn,31,naughty,rock,water,40,NaN,175,1
+136,Flareon,75,bold,NaN,water,NaN,143,NaN,2
