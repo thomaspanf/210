@@ -1,4 +1,0 @@
-current todo
-
-q 3-1  If there are fewer than n movies, it should return all movies in order of top average ratings. < add this condition
-

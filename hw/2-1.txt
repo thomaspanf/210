@@ -1,1 +1,0 @@
-{'Toy Story (1995)': 'Adventure', 'Jumanji (1995)': 'Adventure', 'Tom and Huck (1995)': 'Adventure', 'Grumpier Old Men (1995)': 'Comedy', 'Waiting to Exhale (1995)': 'Comedy', 'Father of the Bride Part II (1995)': 'Comedy', 'Heat (1995)': 'Action', 'Sudden Death (1995)': 'Action', 'GoldenEye (1995)': 'Action'}

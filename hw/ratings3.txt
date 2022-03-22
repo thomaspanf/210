@@ -1,6 +1,0 @@
-TestMovie0 (1995)|99|26
-TestMovie1 (1995)|98|26
-TestMovie2 (1995)|97|26
-TestMovie3 (1995)|96|26
-TestMovie4 (1995)|95|26
-TestMovie5 (1995)|94|26
