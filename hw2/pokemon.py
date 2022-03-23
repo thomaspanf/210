@@ -133,7 +133,7 @@ def over40():
     with open('pokemon1.txt', 'w') as file:
         file.write(f"Percentage of fire type Pokemons at or above level 40 = {percent}")
 
-#1.1 and 1.2
+#1.2 and 1.3
 def generate_new_csv():
     water, fighting, flying, fire, poison, ground = calculate_weakness()
     atkover_40, atkleq_40 = calculate_atk()
@@ -194,6 +194,20 @@ def generate_new_csv():
         writer.writerows(reader)
         non_blank = (line for line in input if line.strip())
         f2.writelines(non_blank)
+
+#1.5
+def avg_hp_over3():
+    with open('pokemonResult', 'r') as f1:
+        next(f1)
+        reader = csv.reader(f1)
+        totalHp = 0
+        count = 0
+        for row in reader:
+            if int(float(row[9]))>=3:
+                totalHp+=int(float(row[8]))
+                count+=1
+        avg = round(totalHp/count)
+        print(avg)
 
 
 def main(): 
