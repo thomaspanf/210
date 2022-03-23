@@ -1,0 +1,1 @@
+setup for 1.2 and 1.3 complete, next thing to do would be to iterate through each line of the csv and then replace NaN values with the correct values
