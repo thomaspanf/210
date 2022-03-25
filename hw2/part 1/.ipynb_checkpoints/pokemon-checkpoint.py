@@ -1,6 +1,7 @@
 import csv
 from csv import reader, writer
 from collections import Counter
+from collections import defaultdict
 
 
 
@@ -12,50 +13,16 @@ def most_common(lst):
     data = Counter(lst)
     return max(lst, key=data.get)
 
-# copies csv and writes to new csv file, removing whitespaces
-def copy_csv(csv_string):
-    with open(csv_string) as input, open('pokemonResult.csv', 'w') as output:
-        non_blank = (line for line in input if line.strip())
-        output.writelines(non_blank)
-
-def calculate_weakness():
+def calculate_type(weakness):
     with open('pokemonTrain.csv', 'r') as file:
         next(file)
         reader = csv.reader(file)
-        
-        #calculate weakness weighting
-        waterweakness = []
-        fightingweakness = []
-        flyingweakness = []
-        fireweakness = []
-        poisonweakness = []
-        groundweakness = []
-        
-        for row in reader:
-            if row[5]=='water' and row[4]!='NaN':
-                 waterweakness.append(row[4])  
-            if row[5]=='fighting' and row[4]!='NaN':
-                fightingweakness.append(row[4])
-            if row[5]=='flying' and row[4]!='NaN':
-                flyingweakness.append(row[4])
-            if row[5]=='fire' and row[4]!='NaN':
-                fireweakness.append(row[4])
-            if row[5]=='poison' and row[4]!='NaN':
-                poisonweakness.append(row[4])
-            if row[5]=='ground' and row[4]!='NaN':
-                groundweakness.append(row[4])
-                
-                
-                
-        water = most_common(waterweakness)
-        fighting = most_common(fightingweakness)
-        flying = most_common(flyingweakness)
-        fire = most_common(fireweakness)
-        poison = most_common(poisonweakness)
-        ground = most_common(groundweakness)
-        
-    return water, fighting, flying, fire, poison, ground
-
+        type_lst = []
+        for row in reader: 
+            if row[5]==weakness and row[4]!='NaN':
+                type_lst.append(row[5])
+        return most_common(type_lst)
+    
 def calculate_atk():
      with open('pokemonTrain.csv', 'r') as file:
         next(file)
@@ -129,75 +96,88 @@ def over40():
             if float(row[2])>=40:
                 over40+=1
         percent = round(over40/total*100)
-        print(f"Percentage of fire type Pokemons at or above level 40 = {percent}")
+        print(f"Percentage of fire type Pokemons at or above level 40 = {percent}" + "\n")
     with open('pokemon1.txt', 'w') as file:
         file.write(f"Percentage of fire type Pokemons at or above level 40 = {percent}")
 
 #1.2 and 1.3
+
 def generate_new_csv():
-    water, fighting, flying, fire, poison, ground = calculate_weakness()
     atkover_40, atkleq_40 = calculate_atk()
     defover_40, defleq_40 = calculate_def()
     hpover_40, hpleq_40 = calculate_hp()
     
     
-    with open('pokemonTrain.csv', 'r') as f1, open('pokemonResult.csv', 'w') as f2:
+    with open('pokemonTrain.csv', 'r') as f1, open('pokemonResult.csv', 'w', newline='') as f2:
         #next(f1)
         reader = csv.reader(f1)
         writer = csv.writer(f2)
 
         for row in reader:
-            print(row)
-            if row[4]=='NaN' and row[5]=='water':
-                replaced = row[4].replace('NaN',water)  
-                row[4] = replaced
-            if row[4]=='NaN' and row[5]=='fighting':
-                replaced = row[4].replace('NaN',fighting)  
-                row[4] = replaced                 
-            if row[4]=='NaN' and row[5]=='flying':
-                replaced = row[4].replace('NaN',flying)  
-                row[4] = replaced                 
-            if row[4]=='NaN' and row[5]=='fire':
-                replaced = row[4].replace('NaN',fire)  
-                row[4] = replaced                 
-            if row[4]=='NaN' and row[5]=='poison':
-                replaced = row[4].replace('NaN',poison)  
-                row[4] = replaced                 
-                writer.writerow(row)
-            if row[4]=='NaN' and row[5]=='ground':
-                replaced = row[4].replace('NaN',ground)  
-                row[4] = replaced 
-            #
-            if row[6]=='NaN' and int(float(row[2]))>40:
-                replaced = row[6].replace('NaN', str(atkover_40))
-                row[6] = replaced
-            if row[6]=='NaN' and int(float(row[2]))<=40:
-                replaced = row[6].replace('NaN', str(atkleq_40))
-                row[6] = replaced
 
+            if row[4]=='NaN':
+                row[4] = row[4].replace('NaN', calculate_type(row[5]))
+            #    
+            if row[6]=='NaN' and int(float(row[2]))>40:
+                row[6] = row[6].replace('NaN', str(atkover_40))
+            if row[6]=='NaN' and int(float(row[2]))<=40:
+                row[6] = row[6].replace('NaN', str(atkleq_40))
             #    
             if row[7]=='NaN' and int(float(row[2]))>40:
-                replaced = row[7].replace('NaN', str(defover_40))
-                row[7] = replaced
+                row[7] = row[7].replace('NaN', str(defover_40))
             if row[7]=='NaN' and int(float(row[2]))<=40:
-                replaced = row[7].replace('NaN', str(defleq_40))       
-                row[7] = replaced            
+                row[7] = row[7].replace('NaN', str(defleq_40))                   
             if row[8]=='NaN' and int(float(row[2]))>40:
-                replaced = row[8].replace('NaN', str(hpover_40))
-                row[8] = replaced
+                row[8] = row[8].replace('NaN', str(hpover_40))
             if row[8]=='NaN' and int(float(row[2]))<=40:
-                replaced = row[8].replace('NaN', str(hpleq_40))                 
-                row[8] = replaced
+                row[8] = row[8].replace('NaN', str(hpleq_40))                 
                 writer.writerow(row)
             else:
                 writer.writerow(row)
         writer.writerows(reader)
-        non_blank = (line for line in input if line.strip())
-        f2.writelines(non_blank)
+        
+#1.4
+def type_to_personality():
+    with open('pokemonResult.csv', 'r') as f1:
+        next(f1)
+        reader = csv.reader(f1)
+        
+        dic = defaultdict(list)
+
+        dic['flying']
+        dic['ground']
+        dic['poison']
+        dic['water']
+        
+        dic['normal']
+        dic['grass']
+        dic['fairy']
+        dic['rock']
+        dic['fighting']
+        dic['fire']
+        
+        for row in reader:
+            dic[row[4]]
+            dic[row[4]].append(row[3])
+        
+        d = dict(dic)
+        
+        res = dict()
+        for key in sorted(d):
+            res[key] = sorted(d[key])
+            
+        res_keys = list(res.keys())
+        res_values = list(res.values())
+
+    with open('pokemon4.txt', 'w') as f2:
+        f2.write("Pokemon type to personality mapping: \n")
+        for ind in range(0, len(res_keys)):
+            print("      " + res_keys[ind] + ": " + " ".join(res_values[ind]) + "\n")
+            f2.write("      " + res_keys[ind] + ": " + " ".join(res_values[ind]) + "\n")
 
 #1.5
 def avg_hp_over3():
-    with open('pokemonResult', 'r') as f1:
+    with open('pokemonResult.csv', 'r') as f1:
         next(f1)
         reader = csv.reader(f1)
         totalHp = 0
@@ -207,14 +187,21 @@ def avg_hp_over3():
                 totalHp+=int(float(row[8]))
                 count+=1
         avg = round(totalHp/count)
-        print(avg)
+    with open('pokemon5.txt', 'w') as f2:
+        print("Average hit point for Pokemons of stage 3.0 = " + str(avg))
+        f2.write("Average hit point for Pokemons of stage 3.0 = ")
+        f2.write(str(avg))
 
 
 def main(): 
-    
-    print("testtt")
+    # print('1')
     over40()
+    # print('2')
     generate_new_csv()
+    # print('3')
+    type_to_personality()
+    # print('4')
+    avg_hp_over3()
     
     
 main()

@@ -1,0 +1,15 @@
+ID,age,sex,city,province,country,latitude,longitude,date_onset_symptoms,date_admission_hospital,date_confirmation,symptoms
+11816,40-49,female,NaN,Aichi Prefecture,Japan,35.18333,136.9,19.02.2020,21.02.2020,22.02.2020,fever
+11814,60-69,male,Nagoya City,Aichi Prefecture,Japan,35.18333,136.9,19.02.2020,21.02.2020,22.02.2020,fever
+11813,60-69,male,Nagoya City,Aichi Prefecture,Japan,35.18333,136.9,19.02.2020,21.02.2020,22.02.2020,fever
+8504,60-69,male,NaN,Aichi Prefecture,Japan,35.2188941,136.9996761,17.02.2020,18.02.2020,18.02.2020,NaN
+8501,60-60,female,Nagoya City,Aichi Prefecture,Japan,35.18333,136.9,13.02.2020,14.02.2020,15.02.2020,fever; headache
+11815,60-69,female,Nagoya City,Aichi Prefecture,Japan,35.18333,136.9,19.02.2020,21.02.2020,22.02.2020,fever
+889,46,female,NaN,Anhui,China,NaN,118.356,19.01.2020,22.01.2020,26.01.2020,fever
+888,47,female,Ma'anshan City,Anhui,China,31.62885,118.356,22.01.2020,24.01.2020,26.01.2020,NaN
+887,55,male,NaN,Anhui,China,31.62885,NaN,18.01.2020,24.01.2020,26.01.2020,fever
+886,47,male,Ma'anshan City,Anhui,China,31.62885,NaN,22.01.2020,23.01.2020,25.01.2020,fever
+885,54,female,Ma'anshan City,Anhui,China,NaN,NaN,18.01.2020,22.01.2020,25.01.2020,fever
+884,48,female,Ma'anshan City,Anhui,China,NaN,118.356,19.01.2020,23.01.2020,25.01.2020,fever
+479,25,female,Bozhou City,Anhui,China,33.43671,116.1808,21.01.2020,23.01.2020,25.01.2020,fever; pharyngalgia
+478,35,male,Bozhou City,Anhui,China,33.43671,116.1808,19.01.2020,22.01.2020,25.01.2020,fever
