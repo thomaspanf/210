@@ -89,16 +89,22 @@ def over40():
     with open('pokemonTrain.csv', 'r') as file:
         next(file)
         reader = csv.reader(file)
-        total = 0
-        over40 = 0
+        firetot = 0
+        over40fire = 0
         for row in reader:
-            total+=1
-            if float(row[2])>=40:
-                over40+=1
-        percent = round(over40/total*100)
-        print(f"Percentage of fire type Pokemons at or above level 40 = {percent}" + "\n")
+            if float(row[2])>=40 and row[4]=='fire':
+                over40fire+=1
+                firetot+=1
+            else:
+                if row[4]=='fire':
+                    firetot+=1
+        percent = round(over40fire/firetot*100)
+        print(firetot)
+        print(over40fire)
+        print(f"Percentage of fire type Pokemons at or above level 40 = {percent}")
     with open('pokemon1.txt', 'w') as file:
         file.write(f"Percentage of fire type Pokemons at or above level 40 = {percent}")
+
 
 #1.2 and 1.3
 
@@ -106,12 +112,12 @@ def generate_new_csv():
     atkover_40, atkleq_40 = calculate_atk()
     defover_40, defleq_40 = calculate_def()
     hpover_40, hpleq_40 = calculate_hp()
-    
-    
+   
     with open('pokemonTrain.csv', 'r') as f1, open('pokemonResult.csv', 'w', newline='') as f2:
         #next(f1)
         reader = csv.reader(f1)
         writer = csv.writer(f2)
+
 
         for row in reader:
 
@@ -142,25 +148,15 @@ def type_to_personality():
         next(f1)
         reader = csv.reader(f1)
         
-        dic = defaultdict(list)
-
-        dic['flying']
-        dic['ground']
-        dic['poison']
-        dic['water']
-        
-        dic['normal']
-        dic['grass']
-        dic['fairy']
-        dic['rock']
-        dic['fighting']
-        dic['fire']
+        d = {}
         
         for row in reader:
-            dic[row[4]]
-            dic[row[4]].append(row[3])
-        
-        d = dict(dic)
+            pokemon_personality = row[3]
+            pokemon_type = row[4]
+            try:
+                d[pokemon_type].append(pokemon_personality)
+            except:
+                d[pokemon_type]=[pokemon_personality]
         
         res = dict()
         for key in sorted(d):
@@ -170,10 +166,12 @@ def type_to_personality():
         res_values = list(res.values())
 
     with open('pokemon4.txt', 'w') as f2:
+        print("Pokemon type to personality mapping: \n")
         f2.write("Pokemon type to personality mapping: \n")
         for ind in range(0, len(res_keys)):
             print("      " + res_keys[ind] + ": " + " ".join(res_values[ind]) + "\n")
             f2.write("      " + res_keys[ind] + ": " + " ".join(res_values[ind]) + "\n")
+
 
 #1.5
 def avg_hp_over3():

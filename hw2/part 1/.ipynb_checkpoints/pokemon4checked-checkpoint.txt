@@ -8,5 +8,6 @@ Pokemon type to personality mapping:
       grass: adamant bashful bold calm docile gentle lonely naive quiet quiet sassy
       ground: bashful gentle hardy quiet
       normal: brave brave jolly mild naughty quiet
+      poison: 
       rock: bashful docile impish mild naughty
       water: bashful bold docile hardy hardy impish impish jolly naughty

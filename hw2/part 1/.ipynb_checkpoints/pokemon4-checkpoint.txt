@@ -2,12 +2,11 @@ Pokemon type to personality mapping:
       bug: careful
       electric: hardy
       fairy: impish naughty sassy
-      fighting: adamant careful hasty lonely serious
-      fire: bashful bold brave brave docile gentle hardy hardy impish impish impish jolly lax modest naughty naughty rash timid
-      flying: impish
-      grass: adamant bashful bold bold calm docile gentle impish lonely mild naive naive quiet quiet quiet rash sassy
+      fighting: adamant calm careful lax lonely relaxed serious
+      fire: bold brave brave gentle hardy impish impish lax mild modest naive naughty quiet rash rash timid
+      flying: hasty impish serious
+      grass: adamant bashful bold calm docile gentle lonely naive quiet quiet sassy
       ground: bashful gentle hardy quiet
-      normal: brave brave calm jolly lax mild naughty quiet relaxed serious
-      poison: 
+      normal: brave brave jolly mild naughty quiet
       rock: bashful docile impish mild naughty
-      water: hardy
+      water: bashful bold docile hardy hardy impish impish jolly naughty

@@ -99,8 +99,6 @@ def over40():
                 if row[4]=='fire':
                     firetot+=1
         percent = round(over40fire/firetot*100)
-        print(firetot)
-        print(over40fire)
         print(f"Percentage of fire type Pokemons at or above level 40 = {percent}")
     with open('pokemon1.txt', 'w') as file:
         file.write(f"Percentage of fire type Pokemons at or above level 40 = {percent}")
