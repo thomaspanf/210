@@ -1,0 +1,373 @@
+
+<!-- saved from url=(0081)https://www.cs.rutgers.edu/courses/210/classes/spring_2022_venugopal/hw3/hw3.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>
+            .flipX video::-webkit-media-text-track-display {
+                transform: matrix(-1, 0, 0, 1, 0, 0) !important;
+            }
+            .flipXY video::-webkit-media-text-track-display {
+                transform: matrix(-1, 0, 0, -1, 0, 0) !important;
+            }
+            .flipXYX video::-webkit-media-text-track-display {
+                transform: matrix(1, 0, 0, -1, 0, 0) !important;
+            }</style><style>
+            @keyframes blinkWarning {
+                0% { color: red; }
+                100% { color: white; }
+            }
+            @-webkit-keyframes blinkWarning {
+                0% { color: red; }
+                100% { color: white; }
+            }
+            .blinkWarning {
+                -webkit-animation: blinkWarning 1s linear infinite;
+                -moz-animation: blinkWarning 1s linear infinite;
+                animation: blinkWarning 1s linear infinite;
+            }</style></head><body>
+
+<link href="./hw3_files/css" rel="stylesheet" type="text/css">
+<style>
+body { width: 90%; margin-left: 5%;
+font: 14px sans-serif, Trebuchet MS, Arial}
+h2 {padding-top: 1.5em; }
+.task { font: 14px Verdana, Arial, sans-serif; margin-top: 2em; color:blue;}
+.func {font-weight: bold; color: brown;}
+.fnhdr { text-decoration: none; }
+a, a:hover, a:visited { color: blue; }
+.pts { color: red; }
+div.sidebar {width: 50%; margin-left: 10%; background:whitesmoke; border:1px solid grey;padding:5px;}
+tt { color: blue; }
+</style>
+
+<center>
+<h2>
+Homework Assignment 3
+<p>EU Cities Temperaturs, German Credit, Google Playstore Apps
+</p></h2>
+<h3>
+<p>Worth 190 points.
+</p><p>Posted Tuesday, March 29
+</p><p>Due Monday, April 18 at 11 PM in Canvas
+</p><p><font color="red">NO LATE SUBMISSIONS ACCEPTED</font></p>
+</h3>
+</center>
+Everyone will work on the assignment in pairs. You DO NOT have the option of
+working alone.
+
+<p>Make sure you abide by the <a href="https://www.cs.rutgers.edu/academics/undergraduate/academic-integrity-policy/programming-assignments">DCS Acadmic Integrity Policy for Programming Assignments.</a>
+</p><hr>
+<p>For the problems in this homework,
+write your code in Jupyter notebooks: <b>eucities_temps.ipynb</b>, <b>german_credit.ipynb</b>, and
+<b>google_apps.ipynb</b> respectively.
+
+</p><p><font color="red">You need to make your code work ONLY on the given input files. We will test your
+submission on these same files, and no other.</font><br>
+However, you will still need to write general code for all tasks that would work
+on any set of values in the input within the specified constraints, not just
+the exact values that appear in the given input files.
+
+</p><p>In each notebook, write approproate markdowns for
+each task (just copy the task description from the assignment) so we know which
+task you are doing in the cells following the markdown.
+
+</p><p>Zip all of these notebooks into a single file
+named <b>hw3.zip</b> and submit this to Canvas. Do not include any input or
+  output files, we only need your notebooks.
+  <br><b><font color="red">ONLY ONE SUBMISSON PER GROUP, PLEASE!</font></b>
+
+</p><p>You are allowed up to 3 submissions, <font color="red">only the last submission will be graded</font>.
+
+</p><hr>
+<h3>How to Structure Your Notebooks</h3>
+
+<p>The way to structure a Jupyter notebook for the assignment is to simply write code 
+for the tasks in a sequence of cells. Each (non-markdown) cell should be executable, 
+and may contain any kind of code, whether it is just "global" code or a function, 
+or a combination.  (This is the sort of thing we have been doing all along in 
+lectures and recitations.)
+
+</p><p>You can split a task in any number of sequential cells, but along the way, as we 
+keep executing the cells one after the other, we should be able to monitor the 
+progress for each task. Also, follow the sequence of tasks as assigned in the 
+homework so that we can see how results are progressively updated as the tasks build 
+on top of previous tasks.
+
+</p><p>You do NOT need to write a main function in a Jupiter notebook cell that calls 
+functions you write in other cells.
+
+</p><hr>
+
+<font color="red">For any of the problems in this assignment, you may only 
+import and use modules we have covered in lecture including NumPy, Pandas, and
+matplotlib. You may NOT use any other module, even for the visualization tasks
+(e.g. you may not use seaborn, plotly, or any other visualization library 
+instead of matplotlib).</font>
+
+<hr>
+<h2>Problem 1: EU Cities Temperatures Dataset (55 points)</h2>
+<p>Given a CSV data file as represented by the sample file
+<a href="https://www.cs.rutgers.edu/courses/210/classes/spring_2022_venugopal/hw3/EuCitiesTemperatures.csv">EuCitiesTemperatures.csv</a> (213 records),
+load it into a Pandas DataFrame and perform the
+following tasks on it.
+
+</p><h3>Preprocessing/Analysis (28 pts) </h3>
+
+<ol>
+<p></p><li><span class="pts">[9 pts]</span>
+Fill in the missing latitude and longitude values by calculating the average for
+that country. Round the average to 2 decimal places.
+
+<p></p></li><li><span class="pts">[9 pts]</span>
+Find out the subset of cities that lie between latitudes 40 to 60 (both inclusive)
+and longitudes 15 to 30 (both inclusive). Find out
+which countries have the maximum number of cities in this geographical band. (More than
+one country could have the maximum number of values.)
+
+<p></p></li><li><span class="pts">[10 pts]</span>
+Fill in the missing temperature values by the average temperature value of the similar
+region type. A region type would be a combinaton of
+whether it is in EU (yes/no) and whether it has a coastline (yes/no).
+
+<p>For example, if we have a missing temperature value for Bergen, Norway, which is not
+in the EU but lies on the coast, we will fill it with the average temperature of
+cities with EU='no' and coastline='yes')
+</p></li></ol>
+
+<h3>Visualization (27 pts) </h3>
+
+<p><b>For all plots, make sure to label the axes, and set appropriate tick labels.</b>
+</p><ol>
+<p></p><li><span class="pts">[6 pts]</span>
+Plot a bar chart for the number of cities belonging to each
+of the regions described in Preprocessing/Analysis #3 above.
+
+<p></p></li><li><span class="pts">[7 pts]</span>
+Plot a scatter plot of latitude (y-axis) v/s longitude (x-axis) values to get a
+map-like visual of the
+cities under consideration. All the cities in the same country should have the same
+color.
+
+<p></p></li><li><span class="pts">[6 pts]</span>
+The population column contains values unique to each country. So two cities of
+the same country will show the same population value. Plot a histogram of the
+number of countries belonging to each population group: split the population
+values into 5 bins (groups).
+
+<p></p></li><li><span class="pts">[8 pts]</span>
+Plot subplots (2, 2), with proper titles, one each for the region types described
+in Preprocessing/Analysis #3 above.
+
+<p>Each subplot should be a scatter plot of Latitude (y-axis) vs. City (x-axis), where
+the color of the plot points should be based on the temperature values: ‘red’ for temperatures
+above 10, ‘blue’ for temperatures below 6 and ‘orange for temperatures between 6 and 10 (both inclusive).
+For each subplot, set xticks to an array of numbers from 0 to n-1 (both inclusive), where n is
+the total number of cities in each region type. This represents each city as a number between 0 and n-1.
+
+</p></li></ol>
+
+<h2>Problem 2: German Credit Dataset (72 points)</h2>
+<p>Given a CSV data file as represented by the sample file
+<a href="https://www.cs.rutgers.edu/courses/210/classes/spring_2022_venugopal/hw3/GermanCredit.csv">GermanCredit.csv</a> (1000 records),
+load it into a Pandas DataFrame, and perform the following tasks on it.
+
+</p><h3>Preprocessing (31 pts) </h3>
+
+<ol>
+<p></p><li><span class="pts">[8 pts]</span>
+Drop the 3 columns that contribute the least to the dataset. These would
+be the columns with the highest number of non-zero 'none' values. Break ties by
+going left to right in columns. (Your code should be generalizable to drop
+<tt>n</tt> columns, but for the rest of the analysis, you can call your code
+for <tt>n=3</tt>.)
+
+<p></p></li><li><span class="pts">[4 pts]</span>
+Certain values in some of the columns contain unnecessary apostrophes (‘).
+Remove the apostrophes.
+
+<p></p></li><li><span class="pts">[5 pts]</span>
+The <tt>checking_status</tt> column has values in 4 categories: 'no checking',
+'&lt;0', '0&lt;=X&lt;200', and '&gt;=200'. Change these to 'No Checking',
+'Low', 'Medium', and 'High' respectively.
+
+<p></p></li><li><span class="pts">[5 pts]</span>
+The <tt>savings_status</tt> column has values in 4 categories: 'no known savings',
+'&lt;100', '100&lt;=X&lt;500', '500&lt;=X&lt;1000', and '&gt;=1000'.
+Change these to 'No Savings', 'Low', 'Medium', 'High', and 'High' respectively.
+(Yes, the last two are both 'High').
+
+<p></p></li><li><span class="pts">[4 pts]</span>
+Change class column values from 'good' to '1' and 'bad' to '0'.
+
+<p></p></li><li><span class="pts">[5 pts]</span>
+Change the employment column value 'unemployed' to 'Unemployed', and
+for the others, change to 'Amateur', 'Professional', 'Experienced'
+and 'Expert', depending on year range.
+
+</li></ol>
+
+<h3>Analysis (17 pts)</h3>
+
+<p>For the following tasks, do preprocessing or changing of data types
+in the data frame as required.
+
+</p><ol>
+<p>
+</p><li><span class="pts">[5 pts]</span>
+Often we need to find correlations between categorical attributes,
+i.e. attributes that have values that fall in one of several categories,
+such as "yes"/"no" for attr1, or "low","medium","high" for attr2.
+
+<p>One such correlation is to find counts in combinations of categorial values
+across attributes, as in how many instances are "yes" for attr1 and "low" for
+attr2. A good way to find such counts is to use the Pandas
+<a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.crosstab.html">crosstab</a> function. Do this for the following two counts.
+
+</p><ol type="a">
+<li><span class="pts">[3 pts]</span>
+Get the count of each category of foreign workers (yes and no) for each class
+of credit (good and bad).
+
+<p></p></li><li><span class="pts">[2 pts]</span>
+Similarly, get the count of each category of employment for each category of
+saving_status.
+</li></ol>
+
+<p></p></li><li><span class="pts">[4 pts]</span>
+Find the average credit_amount of single males that have 4&lt;=X&lt;7 years of employment.
+You can leave the raw result as is, no need for rounding.
+
+<p></p></li><li><span class="pts">[4 pts]</span>
+Find the average credit duration for each of the job types. You can leave
+the raw result as is, no need for rounding.
+
+<p></p></li><li><span class="pts">[4 pts]</span>
+For the purpose 'education', what is the most common checking_status and savings_status?
+Your code should print:
+<pre>    Most common checking status: ...
+    Most common savings status: ...
+</pre>
+</li></ol>
+
+<h3>Visualization (24 pts)</h3>
+
+<ol>
+<p></p><li><span class="pts">[9 pts]</span>
+Plot subplots of two histograms: one with savings_status on the x-axis
+and personal_status as different colors, and another with checking_status
+on the x-axis and personal_status as different colors.
+
+<p></p></li><li><span class="pts">[9 pts]</span>
+For people having credit_amount more than 4000, plot a bar graph which maps
+property_magnitude (x-axis) to the average customer age for that magnitude
+(y-axis).
+
+<p></p></li><li><span class="pts">[6 pts]</span>
+For people with a "High" savings_status and age above 40, use subplots to plot
+the following pie charts:
+<ol type="a">
+<li> Personal status
+</li><li> Credit history
+</li><li> Job
+</li></ol>
+
+</li></ol>
+
+<h2>Problem 3: Google Playstore Apps Dataset (63 points)</h2>
+<p>Given an Excel data file as represented by the sample file
+<a href="https://www.cs.rutgers.edu/courses/210/classes/spring_2022_venugopal/hw3/GooglePlaystore.xlsx">GooglePlaystore.xlsx</a> (10K records),
+load it into a Pandas DataFrame (use the Pandas <tt>read_excel</tt> method),
+and perform the following tasks on it.
+
+</p><h3>Preprocessing (28 pts)</h3>
+
+<ol>
+<p></p><li><span class="pts">[3 pts]</span>
+Often there are outliers which do not match the overall data type.
+There is one record in this data where the "Reviews" has value "3.0M"
+which does not match the rest of the data. Remove that record.
+
+<p></p></li><li><span class="pts">[4 pts]</span>
+Remove rows where <b>any</b> of the columns has the value "Varies with device".
+
+<p></p></li><li><span class="pts">[5 pts]</span>
+The values in the Android version column should be floats. Strip the
+trailing non-numeric characters from all values (ie. the words " and up"),
+so the result is a number. If there are multiple decimal places (eg. "x.y.z"),
+keep only the first two parts (eg "x.y"). For example, the value "4.1 and up"
+should be changed to "4.1". The value "4.5.6 and up" should be changed to "4.5".
+The value "5.6.7" should be changed to "5.6". 
+
+<p>If there is a range 
+(eg. 5.0 - 8.0), only consider the first number. For example, 
+the value "5.0 - 8.0" should be changed to "5.0". The value "4.0.3 - 7.1.1" 
+should be changed to "4.0".
+
+</p><p></p></li><li><span class="pts">[5 pts]</span>
+The "Installs" column must have integer values. For values that have commas,
+remove the commas. For values that have a '+' at the end, remove the '+'. Keep
+only those rows that have an integer value after these edits.
+
+<p></p></li><li><span class="pts">[5 pts]</span>
+For missing rating values, if the number of reviews is less than 100 and
+installations is less than 50000, remove the row. Else, fill the missing value
+with the average value (rounded to 2 decimal places) for the Category of that
+row.
+
+<p></p></li><li><span class="pts">[6 pts]</span>
+Preprocess the Size column to convert the "M" (millions) and "K" (thousands)
+values into integers. For instance, 8.7M should be converted to 8700000 and 2.4K
+should be converted to 2400.
+
+</li></ol>
+
+<h3>Analysis (19 pts)</h3>
+
+<p>For the following tasks, do preprocessing or changing of data types
+in the data frame as required.
+
+</p><ol>
+<p></p><li><span class="pts">[4 pts]</span>
+Describe (use DataFrame <tt>describe</tt> method) the category wise rating
+statistics. In other words, for each category, describe the statistics
+(count, mean, etc.) for ratings in that category.
+
+<p></p></li><li><span class="pts">[11 pts]</span>
+Extract all "Free" apps from the master data frame. Then
+write a function that, given a numeric column e.g 'Rating'), will create and
+return a dataframe for the top 3 free applications in each category based on that
+column. Call the function on each of these columns:
+<p></p><ol type="a">
+<li>Rating (gives top 3 most highly rated applications in each category)
+<p></p></li><li>Installs (gives top 3 most installed applications in each category)
+<p></p></li><li>Reviews (gives top 3 most reviewed applications in each category)
+</li></ol>
+<p>You don't need to do anything explicit to break ties.
+
+</p><p>Each of the returned dataframes have Category and App for the first two columns,
+and one of Rating (for a.), Installs (for b.), and Reviews (for c.) as the third
+column, as for instance:
+
+</p><p></p></li><li><span class="pts">[4 pts]</span>
+Find the average, maximum and minimum price of the paid applications.
+
+</li></ol>
+
+<h3>Visualization (16 pts)</h3>
+
+<ol>
+<p></p><li><span class="pts">[9 pts]</span>
+In the genre column, break the string of genres into a list.
+For example, ‘Art &amp; Design; Creativity’ should be [‘Art &amp; Design’, Creativity’].
+
+<p>Count the number of applications per genre and display it using a pie chart.<br>
+<b>Hint</b>: Read about <tt>DataFrame.explode()</tt>
+
+</p><p></p></li><li><span class="pts">[7 pts]</span>
+Display a box plot of ratings for "Business" and "Education" categories.
+The boxplots should be in the same plot.
+<ol>
+
+</ol>
+
+<p>&nbsp;</p><p>&nbsp;</p><p>
+
+</p></li></ol></body></html>

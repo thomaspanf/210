@@ -1,0 +1,1001 @@
+checking_status,duration,credit_history,purpose,credit_amount,savings_status,employment,installment_commitment,personal_status,residence_since,property_magnitude,age,housing,existing_credits,job,num_dependents,foreign_worker,class
+Low,6,critical/other existing credit,radio/tv,1169,No Savings,Expert,4,male single,4,real estate,67,own,2,skilled,1,yes,1
+Medium,48,existing paid,radio/tv,5951,Low,Professional,2,female div/dep/mar,2,real estate,22,own,1,skilled,1,yes,0
+No Checking,12,critical/other existing credit,education,2096,Low,Experienced,2,male single,3,real estate,49,own,1,unskilled resident,2,yes,1
+Low,42,existing paid,furniture/equipment,7882,Low,Experienced,2,male single,4,life insurance,45,for free,1,skilled,2,yes,1
+Low,24,delayed previously,new car,4870,Low,Professional,3,male single,4,no known property,53,for free,2,skilled,2,yes,0
+No Checking,36,existing paid,education,9055,No Savings,Professional,2,male single,4,no known property,35,for free,1,unskilled resident,2,yes,1
+No Checking,24,existing paid,furniture/equipment,2835,High,Expert,3,male single,4,life insurance,53,own,1,skilled,1,yes,1
+Medium,36,existing paid,used car,6948,Low,Professional,2,male single,2,car,35,rent,1,high qualif/self emp/mgmt,1,yes,1
+No Checking,12,existing paid,radio/tv,3059,High,Experienced,2,male div/sep,4,real estate,61,own,1,unskilled resident,1,yes,1
+Medium,30,critical/other existing credit,new car,5234,Low,Unemployed,4,male mar/wid,2,car,28,own,2,high qualif/self emp/mgmt,1,yes,0
+Medium,12,existing paid,new car,1295,Low,Amateur,3,female div/dep/mar,1,car,25,rent,1,skilled,1,yes,0
+Low,48,existing paid,business,4308,Low,Amateur,3,female div/dep/mar,4,life insurance,24,rent,1,skilled,1,yes,0
+Medium,12,existing paid,radio/tv,1567,Low,Professional,1,female div/dep/mar,1,car,22,own,1,skilled,1,yes,1
+Low,24,critical/other existing credit,new car,1199,Low,Expert,4,male single,4,car,60,own,2,unskilled resident,1,yes,0
+Low,15,existing paid,new car,1403,Low,Professional,2,female div/dep/mar,4,car,28,rent,1,skilled,1,yes,1
+Low,24,existing paid,radio/tv,1282,Medium,Professional,4,female div/dep/mar,2,car,32,own,1,unskilled resident,1,yes,0
+No Checking,24,critical/other existing credit,radio/tv,2424,No Savings,Expert,4,male single,4,life insurance,53,own,2,skilled,1,yes,1
+Low,30,no credits/all paid,business,8072,No Savings,Amateur,2,male single,3,car,25,own,3,skilled,1,yes,1
+Medium,24,existing paid,used car,12579,Low,Expert,4,female div/dep/mar,2,no known property,44,for free,1,high qualif/self emp/mgmt,1,yes,0
+No Checking,24,existing paid,radio/tv,3430,High,Expert,3,male single,2,car,31,own,1,skilled,2,yes,1
+No Checking,9,critical/other existing credit,new car,2134,Low,Professional,4,male single,4,car,48,own,3,skilled,1,yes,1
+Low,6,existing paid,radio/tv,2647,High,Professional,2,male single,3,real estate,44,rent,1,skilled,2,yes,1
+Low,10,critical/other existing credit,new car,2241,Low,Amateur,1,male single,3,real estate,48,rent,2,unskilled resident,2,no,1
+Medium,12,critical/other existing credit,used car,1804,Medium,Amateur,3,male single,4,life insurance,44,own,1,skilled,1,yes,1
+No Checking,10,critical/other existing credit,furniture/equipment,2069,No Savings,Professional,2,male mar/wid,1,car,26,own,2,skilled,1,no,1
+Low,6,existing paid,furniture/equipment,1374,Low,Professional,1,male single,2,real estate,36,own,1,unskilled resident,1,yes,1
+No Checking,6,no credits/all paid,radio/tv,426,Low,Expert,4,male mar/wid,4,car,39,own,1,unskilled resident,1,yes,1
+High,12,all paid,radio/tv,409,High,Professional,3,female div/dep/mar,3,real estate,42,rent,2,skilled,1,yes,1
+Medium,7,existing paid,radio/tv,2415,Low,Professional,3,male single,2,real estate,34,own,1,skilled,1,yes,1
+Low,60,delayed previously,business,6836,Low,Expert,3,male single,4,no known property,63,own,2,skilled,1,yes,0
+Medium,18,existing paid,business,1913,High,Amateur,3,male mar/wid,3,real estate,36,own,1,skilled,1,yes,1
+Low,24,existing paid,furniture/equipment,4020,Low,Professional,2,male single,2,car,27,own,1,skilled,1,yes,1
+Medium,18,existing paid,new car,5866,Medium,Professional,2,male single,2,car,30,own,2,skilled,1,yes,1
+No Checking,12,critical/other existing credit,business,1264,No Savings,Expert,4,male single,4,no known property,57,rent,1,unskilled resident,1,yes,1
+High,12,existing paid,furniture/equipment,1474,Low,Amateur,4,female div/dep/mar,1,life insurance,33,own,1,high qualif/self emp/mgmt,1,yes,1
+Medium,45,critical/other existing credit,radio/tv,4746,Low,Amateur,4,male single,2,life insurance,25,own,2,unskilled resident,1,yes,0
+No Checking,48,critical/other existing credit,education,6110,Low,Professional,1,male single,3,no known property,31,for free,1,skilled,1,yes,1
+High,18,existing paid,radio/tv,2100,Low,Professional,4,male single,2,real estate,37,own,1,skilled,1,yes,0
+High,10,existing paid,domestic appliance,1225,Low,Professional,2,male single,2,car,37,own,1,skilled,1,yes,1
+Medium,9,existing paid,radio/tv,458,Low,Professional,4,male single,3,real estate,24,own,1,skilled,1,yes,1
+No Checking,30,existing paid,radio/tv,2333,High,Expert,4,male single,2,car,30,own,1,high qualif/self emp/mgmt,1,yes,1
+Medium,12,existing paid,radio/tv,1158,High,Professional,3,male div/sep,1,car,26,own,1,skilled,1,yes,1
+Medium,18,delayed previously,repairs,6204,Low,Professional,2,male single,4,real estate,44,own,1,unskilled resident,2,yes,1
+Low,30,critical/other existing credit,used car,6187,Medium,Experienced,1,male mar/wid,4,car,24,rent,2,skilled,1,yes,1
+Low,48,critical/other existing credit,used car,6143,Low,Expert,4,female div/dep/mar,4,no known property,58,for free,2,unskilled resident,1,yes,0
+No Checking,11,critical/other existing credit,new car,1393,Low,Amateur,4,female div/dep/mar,4,car,35,own,2,high qualif/self emp/mgmt,1,yes,1
+No Checking,36,existing paid,radio/tv,2299,High,Expert,4,male single,4,car,39,own,1,skilled,1,yes,1
+Low,6,existing paid,used car,1352,High,Unemployed,1,female div/dep/mar,2,life insurance,23,rent,1,unemp/unskilled non res,1,yes,1
+No Checking,11,critical/other existing credit,new car,7228,Low,Professional,1,male single,4,life insurance,39,own,2,unskilled resident,1,yes,1
+No Checking,12,existing paid,radio/tv,2073,Medium,Professional,4,female div/dep/mar,2,real estate,28,own,1,skilled,1,yes,1
+Medium,24,delayed previously,furniture/equipment,2333,No Savings,Amateur,4,male single,2,life insurance,29,own,1,unskilled resident,1,yes,1
+Medium,27,delayed previously,used car,5965,Low,Expert,1,male single,2,car,30,own,2,high qualif/self emp/mgmt,1,yes,1
+No Checking,12,existing paid,radio/tv,1262,Low,Professional,3,male single,2,car,25,own,1,skilled,1,yes,1
+No Checking,18,existing paid,used car,3378,No Savings,Professional,2,male single,1,life insurance,31,own,1,skilled,1,yes,1
+Medium,36,delayed previously,new car,2225,Low,Expert,4,male single,4,no known property,57,for free,2,skilled,1,yes,0
+No Checking,6,all paid,new car,783,No Savings,Professional,1,male single,2,real estate,26,own,1,unskilled resident,2,yes,1
+Medium,12,existing paid,radio/tv,6468,No Savings,Unemployed,2,male single,1,no known property,52,own,1,high qualif/self emp/mgmt,1,yes,0
+No Checking,36,critical/other existing credit,radio/tv,9566,Low,Professional,2,female div/dep/mar,2,car,31,own,2,skilled,1,yes,1
+High,18,existing paid,new car,1961,Low,Expert,3,female div/dep/mar,2,car,23,own,1,high qualif/self emp/mgmt,1,yes,1
+Low,36,critical/other existing credit,furniture/equipment,6229,Low,Amateur,4,female div/dep/mar,4,no known property,23,rent,2,unskilled resident,1,yes,0
+Medium,9,existing paid,business,1391,Low,Professional,2,male mar/wid,1,real estate,27,own,1,skilled,1,yes,1
+Medium,15,critical/other existing credit,radio/tv,1537,No Savings,Expert,4,male single,4,real estate,50,own,2,skilled,1,yes,1
+Medium,36,no credits/all paid,business,1953,Low,Expert,4,male single,4,no known property,61,for free,1,high qualif/self emp/mgmt,1,yes,0
+Medium,48,no credits/all paid,business,14421,Low,Professional,2,male single,2,car,25,own,1,skilled,1,yes,0
+No Checking,24,existing paid,radio/tv,3181,Low,Amateur,4,female div/dep/mar,4,life insurance,26,own,1,skilled,1,yes,1
+No Checking,27,existing paid,repairs,5190,No Savings,Expert,4,male single,4,life insurance,48,own,4,skilled,2,yes,1
+No Checking,12,existing paid,radio/tv,2171,Low,Amateur,2,female div/dep/mar,2,car,29,own,1,skilled,1,yes,1
+Medium,12,existing paid,new car,1007,High,Professional,4,male mar/wid,1,real estate,22,own,1,skilled,1,yes,1
+No Checking,36,existing paid,education,1819,Low,Professional,4,male single,4,no known property,37,for free,1,skilled,1,yes,0
+No Checking,36,existing paid,radio/tv,2394,No Savings,Professional,4,female div/dep/mar,4,car,25,own,1,skilled,1,yes,1
+No Checking,36,existing paid,used car,8133,Low,Professional,1,female div/dep/mar,2,life insurance,30,own,1,skilled,1,yes,1
+No Checking,7,critical/other existing credit,radio/tv,730,No Savings,Expert,4,male single,2,life insurance,46,rent,2,unskilled resident,1,yes,1
+Low,8,critical/other existing credit,other,1164,Low,Expert,3,male single,4,no known property,51,for free,2,high qualif/self emp/mgmt,2,yes,1
+Medium,42,critical/other existing credit,business,5954,Low,Experienced,2,female div/dep/mar,1,real estate,41,own,2,unskilled resident,1,yes,1
+Low,36,existing paid,education,1977,No Savings,Expert,4,male single,4,no known property,40,own,1,high qualif/self emp/mgmt,1,yes,0
+Low,12,critical/other existing credit,used car,1526,Low,Expert,4,male single,4,no known property,66,for free,2,high qualif/self emp/mgmt,1,yes,1
+Low,42,existing paid,radio/tv,3965,Low,Amateur,4,male single,3,car,34,own,1,skilled,1,yes,0
+Medium,11,delayed previously,radio/tv,4771,Low,Experienced,2,male single,4,life insurance,51,own,1,skilled,1,yes,1
+No Checking,54,no credits/all paid,used car,9436,No Savings,Professional,2,male single,2,life insurance,39,own,1,unskilled resident,2,yes,1
+Medium,30,existing paid,furniture/equipment,3832,Low,Amateur,2,male mar/wid,1,life insurance,22,own,1,skilled,1,yes,1
+No Checking,24,existing paid,radio/tv,5943,No Savings,Amateur,1,female div/dep/mar,1,car,44,own,2,skilled,1,yes,0
+No Checking,15,existing paid,radio/tv,1213,High,Expert,4,male single,3,life insurance,47,own,1,skilled,1,yes,1
+No Checking,18,existing paid,business,1568,Medium,Professional,3,female div/dep/mar,4,life insurance,24,rent,1,unskilled resident,1,yes,1
+Low,24,existing paid,other,1755,Low,Expert,4,female div/dep/mar,4,real estate,58,own,1,unskilled resident,1,yes,1
+Low,10,existing paid,radio/tv,2315,Low,Expert,3,male single,4,real estate,52,own,1,unskilled resident,1,yes,1
+No Checking,12,critical/other existing credit,business,1412,Low,Professional,4,female div/dep/mar,2,real estate,29,own,2,high qualif/self emp/mgmt,1,yes,1
+Medium,18,critical/other existing credit,furniture/equipment,1295,Low,Amateur,4,female div/dep/mar,1,life insurance,27,own,2,skilled,1,yes,1
+Medium,36,existing paid,education,12612,Medium,Professional,1,male single,4,no known property,47,for free,1,skilled,2,yes,0
+Low,18,existing paid,new car,2249,Medium,Experienced,4,male single,3,car,30,own,1,high qualif/self emp/mgmt,2,yes,1
+Low,12,no credits/all paid,repairs,1108,Low,Experienced,4,male single,3,real estate,28,own,2,skilled,1,yes,0
+No Checking,12,critical/other existing credit,radio/tv,618,Low,Expert,4,male single,4,real estate,56,own,1,skilled,1,yes,1
+Low,12,critical/other existing credit,used car,1409,Low,Expert,4,male single,3,real estate,54,own,1,skilled,1,yes,1
+No Checking,12,critical/other existing credit,radio/tv,797,No Savings,Expert,4,female div/dep/mar,3,life insurance,33,own,1,unskilled resident,2,yes,0
+High,24,critical/other existing credit,furniture/equipment,3617,No Savings,Expert,4,male single,4,no known property,20,rent,2,skilled,1,yes,1
+Medium,12,existing paid,new car,1318,High,Expert,4,male single,4,real estate,54,own,1,skilled,1,yes,1
+Medium,54,no credits/all paid,business,15945,Low,Amateur,3,male single,4,no known property,58,rent,1,skilled,1,yes,0
+No Checking,12,critical/other existing credit,education,2012,No Savings,Experienced,4,female div/dep/mar,2,car,61,own,1,skilled,1,yes,1
+Medium,18,existing paid,business,2622,Medium,Professional,4,male single,4,car,34,own,1,skilled,1,yes,1
+Medium,36,critical/other existing credit,radio/tv,2337,Low,Expert,4,male single,4,real estate,36,own,1,skilled,1,yes,1
+Medium,20,delayed previously,used car,7057,No Savings,Experienced,3,male single,4,life insurance,36,rent,2,high qualif/self emp/mgmt,2,yes,1
+No Checking,24,existing paid,new car,1469,Medium,Expert,4,male mar/wid,4,real estate,41,rent,1,unskilled resident,1,yes,1
+Medium,36,existing paid,radio/tv,2323,Low,Experienced,4,male single,4,car,24,rent,1,skilled,1,yes,1
+No Checking,6,delayed previously,radio/tv,932,Low,Professional,3,female div/dep/mar,2,real estate,24,own,1,skilled,1,yes,1
+Medium,9,critical/other existing credit,furniture/equipment,1919,Low,Experienced,4,male single,3,car,35,rent,1,skilled,1,yes,1
+No Checking,12,existing paid,used car,2445,No Savings,Amateur,2,male mar/wid,4,car,26,rent,1,skilled,1,yes,1
+Medium,24,critical/other existing credit,other,11938,Low,Professional,2,male single,3,car,39,own,2,high qualif/self emp/mgmt,2,yes,0
+No Checking,18,all paid,new car,6458,Low,Expert,2,male single,4,no known property,39,own,2,high qualif/self emp/mgmt,2,yes,0
+Medium,12,existing paid,new car,6078,Low,Experienced,2,male single,2,car,32,own,1,skilled,1,yes,1
+Low,24,existing paid,furniture/equipment,7721,No Savings,Amateur,1,female div/dep/mar,2,life insurance,30,own,1,skilled,1,no,1
+Medium,14,existing paid,business,1410,High,Expert,1,male mar/wid,2,real estate,35,own,1,skilled,1,yes,1
+Medium,6,delayed previously,business,1449,Medium,Expert,1,male div/sep,2,car,31,own,2,skilled,2,yes,1
+High,15,existing paid,education,392,Low,Amateur,4,female div/dep/mar,4,life insurance,23,rent,1,skilled,1,yes,1
+Medium,18,existing paid,new car,6260,Low,Experienced,3,male single,3,real estate,28,rent,1,unskilled resident,1,yes,1
+No Checking,36,critical/other existing credit,new car,7855,Low,Professional,4,female div/dep/mar,2,real estate,25,own,2,skilled,1,yes,0
+Low,12,existing paid,radio/tv,1680,High,Expert,3,male mar/wid,1,real estate,35,own,1,skilled,1,yes,1
+No Checking,48,critical/other existing credit,radio/tv,3578,No Savings,Expert,4,male single,1,real estate,47,own,1,skilled,1,yes,1
+Low,42,existing paid,radio/tv,7174,No Savings,Experienced,4,female div/dep/mar,3,car,30,own,1,high qualif/self emp/mgmt,1,yes,0
+Low,10,critical/other existing credit,furniture/equipment,2132,No Savings,Amateur,2,female div/dep/mar,3,real estate,27,rent,2,skilled,1,no,1
+Low,33,critical/other existing credit,furniture/equipment,4281,High,Professional,1,female div/dep/mar,4,car,23,own,2,skilled,1,yes,0
+Medium,12,critical/other existing credit,new car,2366,High,Experienced,3,male div/sep,3,car,36,own,1,high qualif/self emp/mgmt,1,yes,1
+Low,21,existing paid,radio/tv,1835,Low,Professional,3,female div/dep/mar,2,real estate,25,own,2,skilled,1,yes,0
+No Checking,24,critical/other existing credit,used car,3868,Low,Expert,4,female div/dep/mar,2,car,41,rent,2,high qualif/self emp/mgmt,1,yes,1
+No Checking,12,existing paid,furniture/equipment,1768,Low,Professional,3,male single,2,real estate,24,rent,1,unskilled resident,1,yes,1
+High,10,critical/other existing credit,new car,781,Low,Expert,4,male single,4,no known property,63,for free,2,skilled,1,yes,1
+Medium,18,existing paid,furniture/equipment,1924,No Savings,Amateur,4,female div/dep/mar,3,real estate,27,rent,1,skilled,1,yes,0
+Low,12,critical/other existing credit,new car,2121,Low,Professional,4,male single,2,life insurance,30,own,2,skilled,1,yes,1
+Low,12,existing paid,radio/tv,701,Low,Professional,4,male mar/wid,2,real estate,40,own,1,unskilled resident,1,yes,1
+Medium,12,existing paid,repairs,639,Low,Professional,4,male single,2,car,30,own,1,skilled,1,yes,0
+Medium,12,critical/other existing credit,used car,1860,Low,Unemployed,4,male single,2,car,34,own,2,high qualif/self emp/mgmt,1,yes,1
+Low,12,critical/other existing credit,new car,3499,Low,Professional,3,female div/dep/mar,2,real estate,29,own,2,skilled,1,yes,0
+Medium,48,existing paid,new car,8487,No Savings,Experienced,1,female div/dep/mar,2,car,24,own,1,skilled,1,yes,1
+Low,36,delayed previously,education,6887,Low,Professional,4,male single,3,life insurance,29,own,1,skilled,1,yes,0
+No Checking,15,existing paid,furniture/equipment,2708,Low,Amateur,2,male single,3,life insurance,27,own,2,unskilled resident,1,yes,1
+No Checking,18,existing paid,furniture/equipment,1984,Low,Professional,4,male single,4,no known property,47,for free,2,skilled,1,yes,1
+No Checking,60,existing paid,radio/tv,10144,Medium,Experienced,2,female div/dep/mar,4,real estate,21,own,1,skilled,1,yes,1
+No Checking,12,critical/other existing credit,radio/tv,1240,No Savings,Expert,4,female div/dep/mar,2,real estate,38,own,2,skilled,1,yes,1
+No Checking,27,delayed previously,used car,8613,High,Professional,2,male single,2,car,27,own,2,skilled,1,yes,1
+Medium,12,existing paid,radio/tv,766,High,Professional,4,male single,3,real estate,66,own,1,unskilled resident,1,yes,0
+Medium,15,critical/other existing credit,radio/tv,2728,No Savings,Experienced,4,male single,2,real estate,35,own,3,skilled,1,yes,1
+High,12,existing paid,radio/tv,1881,Low,Professional,2,female div/dep/mar,2,car,44,rent,1,unskilled resident,1,yes,1
+High,6,existing paid,new car,709,High,Amateur,2,male mar/wid,2,real estate,27,own,1,unemp/unskilled non res,1,no,1
+Medium,36,existing paid,radio/tv,4795,Low,Amateur,4,female div/dep/mar,1,no known property,30,own,1,high qualif/self emp/mgmt,1,yes,1
+Low,27,existing paid,radio/tv,3416,Low,Professional,3,male single,2,car,27,own,1,high qualif/self emp/mgmt,1,yes,1
+Low,18,existing paid,furniture/equipment,2462,Low,Professional,2,male single,2,car,22,own,1,skilled,1,yes,0
+No Checking,21,critical/other existing credit,furniture/equipment,2288,Low,Amateur,4,female div/dep/mar,4,life insurance,23,own,1,skilled,1,yes,1
+Medium,48,all paid,business,3566,Medium,Experienced,4,male single,2,car,30,own,1,skilled,1,yes,1
+Low,6,critical/other existing credit,new car,860,Low,Expert,1,female div/dep/mar,4,no known property,39,own,2,skilled,1,yes,1
+No Checking,12,critical/other existing credit,new car,682,Medium,Experienced,4,female div/dep/mar,3,car,51,own,2,skilled,1,yes,1
+Low,36,critical/other existing credit,furniture/equipment,5371,Low,Professional,3,male single,2,life insurance,28,own,2,skilled,1,yes,1
+No Checking,18,critical/other existing credit,radio/tv,1582,High,Expert,4,male single,4,car,46,own,2,skilled,1,yes,1
+No Checking,6,existing paid,radio/tv,1346,Medium,Expert,2,male single,4,no known property,42,for free,1,skilled,2,yes,1
+No Checking,10,existing paid,radio/tv,1924,Low,Professional,1,male single,4,life insurance,38,own,1,skilled,1,no,1
+High,36,existing paid,radio/tv,5848,Low,Professional,4,male single,1,car,24,own,1,skilled,1,yes,1
+Medium,24,critical/other existing credit,used car,7758,High,Expert,2,female div/dep/mar,4,no known property,29,rent,1,skilled,1,yes,1
+Medium,24,delayed previously,business,6967,Medium,Experienced,4,male single,4,car,36,rent,1,high qualif/self emp/mgmt,1,yes,1
+Low,12,existing paid,furniture/equipment,1282,Low,Professional,2,female div/dep/mar,4,car,20,rent,1,skilled,1,yes,0
+Low,9,critical/other existing credit,repairs,1288,Medium,Expert,3,male single,4,real estate,48,own,2,skilled,2,no,1
+Low,12,all paid,retraining,339,Low,Expert,4,male mar/wid,1,car,45,own,1,unskilled resident,1,yes,1
+Medium,24,existing paid,new car,3512,Medium,Experienced,2,male single,3,car,38,own,2,skilled,1,yes,1
+No Checking,6,critical/other existing credit,radio/tv,1898,No Savings,Professional,1,male single,2,real estate,34,own,2,unskilled resident,2,yes,1
+No Checking,24,critical/other existing credit,radio/tv,2872,Medium,Expert,3,male single,4,real estate,36,own,1,skilled,2,yes,1
+No Checking,18,critical/other existing credit,new car,1055,Low,Amateur,4,female div/dep/mar,1,life insurance,30,own,2,skilled,1,yes,1
+No Checking,15,existing paid,domestic appliance,1262,High,Experienced,4,male single,3,life insurance,36,own,2,skilled,1,yes,1
+Medium,10,existing paid,new car,7308,Low,Unemployed,2,male single,4,no known property,70,for free,1,high qualif/self emp/mgmt,1,yes,1
+No Checking,36,existing paid,new car,909,High,Expert,4,male single,4,life insurance,36,own,1,skilled,1,yes,1
+No Checking,6,existing paid,furniture/equipment,2978,High,Professional,1,male single,2,car,32,own,1,skilled,1,yes,1
+Low,18,existing paid,furniture/equipment,1131,Low,Unemployed,4,female div/dep/mar,2,car,33,own,1,skilled,1,yes,0
+Medium,11,existing paid,furniture/equipment,1577,High,Amateur,4,female div/dep/mar,1,real estate,20,own,1,skilled,1,yes,1
+No Checking,24,existing paid,furniture/equipment,3972,Low,Experienced,2,female div/dep/mar,4,life insurance,25,rent,1,skilled,1,yes,1
+Medium,24,critical/other existing credit,business,1935,Low,Expert,4,male div/sep,4,real estate,31,own,2,skilled,1,yes,0
+Low,15,no credits/all paid,new car,950,Low,Expert,4,male single,3,car,33,rent,2,skilled,2,yes,0
+No Checking,12,existing paid,furniture/equipment,763,Low,Professional,4,female div/dep/mar,1,real estate,26,own,1,skilled,1,yes,1
+Medium,24,delayed previously,furniture/equipment,2064,Low,Unemployed,3,female div/dep/mar,2,life insurance,34,own,1,high qualif/self emp/mgmt,1,yes,0
+Medium,8,existing paid,radio/tv,1414,Low,Professional,4,male single,2,real estate,33,own,1,skilled,1,no,1
+Low,21,delayed previously,education,3414,Low,Amateur,2,male single,1,life insurance,26,own,2,skilled,1,yes,0
+No Checking,30,all paid,used car,7485,No Savings,Unemployed,4,female div/dep/mar,1,real estate,53,own,1,high qualif/self emp/mgmt,1,yes,0
+Low,12,existing paid,furniture/equipment,2577,Low,Professional,2,male div/sep,1,car,42,own,1,skilled,1,yes,1
+Low,6,critical/other existing credit,radio/tv,338,High,Expert,4,male single,4,car,52,own,2,skilled,1,yes,1
+No Checking,12,existing paid,radio/tv,1963,Low,Experienced,4,male single,2,car,31,rent,2,high qualif/self emp/mgmt,2,yes,1
+Low,21,critical/other existing credit,new car,571,Low,Expert,4,male single,4,real estate,65,own,2,skilled,1,yes,1
+No Checking,36,delayed previously,business,9572,Low,Amateur,1,male div/sep,1,car,28,own,2,skilled,1,yes,0
+Medium,36,delayed previously,business,4455,Low,Professional,2,male div/sep,2,real estate,30,own,2,high qualif/self emp/mgmt,1,yes,0
+Low,21,all paid,new car,1647,No Savings,Professional,4,male single,2,life insurance,40,own,2,unskilled resident,2,yes,0
+No Checking,24,critical/other existing credit,furniture/equipment,3777,High,Professional,4,male single,4,real estate,50,own,1,skilled,1,yes,1
+Medium,18,critical/other existing credit,new car,884,Low,Expert,4,male single,4,car,36,own,1,skilled,2,yes,0
+No Checking,15,critical/other existing credit,radio/tv,1360,Low,Professional,4,male single,2,life insurance,31,own,2,skilled,1,yes,1
+Medium,9,all paid,used car,5129,Low,Expert,2,female div/dep/mar,4,no known property,74,for free,1,high qualif/self emp/mgmt,2,yes,0
+Medium,16,critical/other existing credit,new car,1175,Low,Unemployed,2,male single,3,car,68,for free,3,unemp/unskilled non res,1,yes,1
+Low,12,existing paid,radio/tv,674,Medium,Experienced,4,male mar/wid,1,life insurance,20,own,1,skilled,1,yes,0
+Medium,18,no credits/all paid,furniture/equipment,3244,Low,Professional,1,female div/dep/mar,4,car,33,own,2,skilled,1,yes,1
+No Checking,24,existing paid,business,4591,High,Professional,2,male single,3,life insurance,54,own,3,high qualif/self emp/mgmt,1,yes,0
+Medium,48,no credits/all paid,business,3844,Medium,Experienced,4,male single,4,no known property,34,for free,1,unskilled resident,2,yes,0
+Medium,27,existing paid,business,3915,Low,Professional,4,male single,2,car,36,own,1,skilled,2,yes,0
+No Checking,6,existing paid,radio/tv,2108,Low,Experienced,2,male mar/wid,2,real estate,29,rent,1,skilled,1,yes,1
+Medium,45,existing paid,radio/tv,3031,Medium,Professional,4,male single,4,life insurance,21,rent,1,skilled,1,yes,0
+Medium,9,critical/other existing credit,education,1501,Low,Expert,2,female div/dep/mar,3,car,34,own,2,high qualif/self emp/mgmt,1,yes,0
+No Checking,6,critical/other existing credit,radio/tv,1382,Low,Professional,1,female div/dep/mar,1,car,28,own,2,skilled,1,yes,1
+Medium,12,existing paid,furniture/equipment,951,Medium,Amateur,4,female div/dep/mar,4,car,27,rent,4,skilled,1,yes,0
+Medium,24,existing paid,used car,2760,No Savings,Expert,4,male single,4,no known property,36,for free,1,skilled,1,yes,1
+Medium,18,delayed previously,furniture/equipment,4297,Low,Expert,4,male div/sep,3,no known property,40,own,1,high qualif/self emp/mgmt,1,yes,0
+No Checking,9,critical/other existing credit,education,936,High,Expert,4,male single,2,car,52,own,2,skilled,1,yes,1
+Low,12,existing paid,new car,1168,Low,Professional,4,male mar/wid,3,real estate,27,own,1,unskilled resident,1,yes,1
+No Checking,27,delayed previously,business,5117,Low,Experienced,3,male single,4,car,26,own,2,skilled,1,yes,1
+Low,12,existing paid,retraining,902,Low,Experienced,4,male mar/wid,4,life insurance,21,rent,1,skilled,1,yes,0
+No Checking,12,critical/other existing credit,new car,1495,Low,Expert,4,male single,1,real estate,38,own,2,unskilled resident,2,yes,1
+Low,30,critical/other existing credit,used car,10623,Low,Expert,3,male single,4,no known property,38,for free,3,high qualif/self emp/mgmt,2,yes,1
+No Checking,12,critical/other existing credit,furniture/equipment,1935,Low,Expert,4,male single,4,real estate,43,own,3,skilled,1,yes,1
+Medium,12,critical/other existing credit,domestic appliance,1424,Low,Experienced,4,male single,3,life insurance,26,own,1,skilled,1,yes,1
+Low,24,existing paid,business,6568,Low,Professional,2,male mar/wid,2,car,21,own,1,unskilled resident,1,yes,1
+No Checking,12,existing paid,used car,1413,High,Experienced,3,male single,2,life insurance,55,own,1,skilled,1,no,1
+No Checking,9,critical/other existing credit,radio/tv,3074,No Savings,Professional,1,male single,2,real estate,33,own,2,skilled,2,yes,1
+No Checking,36,existing paid,radio/tv,3835,No Savings,Expert,2,female div/dep/mar,4,real estate,45,own,1,unskilled resident,1,yes,1
+Low,27,no credits/all paid,business,5293,Low,Unemployed,2,male single,4,life insurance,50,own,2,skilled,1,yes,0
+High,30,delayed previously,business,1908,Low,Expert,4,male single,4,real estate,66,own,1,high qualif/self emp/mgmt,1,yes,0
+No Checking,36,critical/other existing credit,radio/tv,3342,No Savings,Expert,4,male single,2,car,51,own,1,skilled,1,yes,1
+Medium,6,critical/other existing credit,retraining,932,No Savings,Experienced,1,female div/dep/mar,3,life insurance,39,own,2,unskilled resident,1,yes,1
+Low,18,no credits/all paid,business,3104,Low,Experienced,3,male single,1,life insurance,31,own,1,skilled,1,yes,1
+High,36,existing paid,radio/tv,3913,Low,Professional,2,male single,2,real estate,23,own,1,skilled,1,yes,1
+Low,24,existing paid,furniture/equipment,3021,Low,Professional,2,male div/sep,2,real estate,24,rent,1,unskilled resident,1,yes,1
+No Checking,10,existing paid,new car,1364,Low,Professional,2,female div/dep/mar,4,car,64,own,1,skilled,1,yes,1
+Medium,12,existing paid,radio/tv,625,Low,Amateur,4,male mar/wid,1,real estate,26,own,1,unskilled resident,1,yes,1
+Low,12,existing paid,education,1200,No Savings,Professional,4,female div/dep/mar,4,life insurance,23,rent,1,skilled,1,yes,1
+No Checking,12,existing paid,radio/tv,707,Low,Professional,4,male single,2,real estate,30,own,2,skilled,1,yes,1
+No Checking,24,delayed previously,business,2978,No Savings,Professional,4,male single,4,real estate,32,own,2,skilled,2,yes,1
+No Checking,15,existing paid,used car,4657,Low,Professional,3,male single,2,car,30,own,1,skilled,1,yes,1
+No Checking,36,no credits/all paid,repairs,2613,Low,Professional,4,male single,2,car,27,own,2,skilled,1,yes,1
+Medium,48,existing paid,radio/tv,10961,High,Experienced,1,male single,2,no known property,27,own,2,skilled,1,yes,0
+Low,12,existing paid,furniture/equipment,7865,Low,Expert,4,male single,4,no known property,53,for free,1,high qualif/self emp/mgmt,1,yes,0
+No Checking,9,existing paid,radio/tv,1478,Low,Experienced,4,male single,2,car,22,own,1,skilled,1,yes,0
+Low,24,existing paid,furniture/equipment,3149,Low,Amateur,4,male single,1,no known property,22,for free,1,skilled,1,yes,1
+High,36,existing paid,radio/tv,4210,Low,Professional,4,male single,2,car,26,own,1,skilled,1,yes,0
+No Checking,9,existing paid,new car,2507,High,Expert,2,male single,4,no known property,51,for free,1,unskilled resident,1,yes,1
+No Checking,12,existing paid,radio/tv,2141,Medium,Experienced,3,male single,1,no known property,35,own,1,skilled,1,yes,1
+Medium,18,existing paid,radio/tv,866,Low,Professional,4,male mar/wid,2,real estate,25,own,1,unskilled resident,1,yes,1
+No Checking,4,critical/other existing credit,radio/tv,1544,Low,Experienced,2,male single,1,real estate,42,own,3,unskilled resident,2,yes,1
+Low,24,existing paid,radio/tv,1823,Low,Unemployed,4,male single,2,car,30,own,1,high qualif/self emp/mgmt,2,yes,0
+Medium,6,existing paid,new car,14555,No Savings,Unemployed,1,male single,2,life insurance,23,own,1,unemp/unskilled non res,1,yes,0
+Medium,21,existing paid,business,2767,Medium,Expert,4,male div/sep,2,car,61,rent,2,unskilled resident,1,yes,0
+No Checking,12,critical/other existing credit,radio/tv,1291,Low,Professional,4,female div/dep/mar,2,life insurance,35,own,2,skilled,1,yes,1
+Low,30,existing paid,radio/tv,2522,Low,Expert,1,male single,3,life insurance,39,own,1,skilled,2,yes,1
+Low,24,existing paid,new car,915,No Savings,Expert,4,female div/dep/mar,2,car,29,own,1,skilled,1,yes,0
+No Checking,6,existing paid,radio/tv,1595,Low,Experienced,3,male single,2,life insurance,51,own,1,skilled,2,yes,1
+Low,48,no credits/all paid,used car,4605,Low,Expert,3,male single,4,no known property,24,for free,2,skilled,2,yes,0
+No Checking,12,critical/other existing credit,business,1185,Low,Professional,3,female div/dep/mar,2,real estate,27,own,2,skilled,1,yes,1
+No Checking,12,all paid,retraining,3447,High,Professional,4,female div/dep/mar,3,real estate,35,own,1,unskilled resident,2,yes,1
+No Checking,24,existing paid,business,1258,Low,Experienced,4,male single,1,real estate,25,own,1,skilled,1,yes,1
+No Checking,12,critical/other existing credit,radio/tv,717,Low,Expert,4,male single,4,real estate,52,own,3,skilled,1,yes,1
+No Checking,6,no credits/all paid,new car,1204,Medium,Professional,4,male single,1,no known property,35,rent,1,skilled,1,no,1
+High,24,existing paid,furniture/equipment,1925,Low,Professional,2,male single,2,real estate,26,own,1,skilled,1,yes,1
+No Checking,18,existing paid,radio/tv,433,Low,Unemployed,3,female div/dep/mar,4,real estate,22,rent,1,skilled,1,yes,0
+Low,6,critical/other existing credit,new car,666,High,Experienced,3,female div/dep/mar,4,real estate,39,own,2,unskilled resident,1,yes,1
+High,12,existing paid,furniture/equipment,2251,Low,Professional,1,female div/dep/mar,2,car,46,own,1,unskilled resident,1,yes,1
+Medium,30,existing paid,new car,2150,Low,Professional,4,female div/dep/mar,2,no known property,24,own,1,skilled,1,yes,0
+No Checking,24,delayed previously,furniture/equipment,4151,Medium,Professional,2,male single,3,life insurance,35,own,2,skilled,1,yes,1
+Medium,9,existing paid,furniture/equipment,2030,No Savings,Experienced,2,male single,1,car,24,own,1,skilled,1,yes,1
+Medium,60,delayed previously,radio/tv,7418,No Savings,Professional,1,male single,1,real estate,27,own,1,unskilled resident,1,yes,1
+No Checking,24,critical/other existing credit,radio/tv,2684,Low,Professional,4,male single,2,real estate,35,own,2,unskilled resident,1,yes,1
+Low,12,all paid,radio/tv,2149,Low,Professional,4,male div/sep,1,no known property,29,for free,1,skilled,1,yes,0
+No Checking,15,existing paid,used car,3812,Medium,Amateur,1,female div/dep/mar,4,car,23,own,1,skilled,1,yes,1
+No Checking,11,critical/other existing credit,radio/tv,1154,Medium,Unemployed,4,female div/dep/mar,4,real estate,57,own,3,unskilled resident,1,yes,1
+Low,12,existing paid,furniture/equipment,1657,Low,Professional,2,male single,2,real estate,27,own,1,skilled,1,yes,1
+Low,24,existing paid,radio/tv,1603,Low,Expert,4,female div/dep/mar,4,car,55,own,1,skilled,1,yes,1
+Low,18,critical/other existing credit,new car,5302,Low,Expert,2,male single,4,no known property,36,for free,3,high qualif/self emp/mgmt,1,yes,1
+No Checking,12,critical/other existing credit,education,2748,Low,Expert,2,female div/dep/mar,4,no known property,57,for free,3,unskilled resident,1,yes,1
+No Checking,10,critical/other existing credit,new car,1231,Low,Expert,3,male single,4,real estate,32,own,2,unskilled resident,2,no,1
+Medium,15,existing paid,radio/tv,802,Low,Expert,4,male single,3,car,37,own,1,skilled,2,yes,0
+No Checking,36,critical/other existing credit,business,6304,No Savings,Expert,4,male single,4,real estate,36,own,2,skilled,1,yes,1
+No Checking,24,existing paid,radio/tv,1533,Low,Amateur,4,female div/dep/mar,3,car,38,own,1,skilled,1,yes,1
+Low,14,existing paid,new car,8978,Low,Expert,1,male div/sep,4,life insurance,45,own,1,high qualif/self emp/mgmt,1,no,0
+No Checking,24,existing paid,radio/tv,999,No Savings,Expert,4,male single,2,car,25,own,2,skilled,1,yes,1
+No Checking,18,existing paid,new car,2662,No Savings,Experienced,4,male single,3,life insurance,32,own,1,skilled,1,no,1
+No Checking,12,critical/other existing credit,furniture/equipment,1402,High,Experienced,3,female div/dep/mar,4,car,37,rent,1,skilled,1,yes,1
+Medium,48,all paid,new car,12169,No Savings,Unemployed,4,male single,4,no known property,36,for free,1,high qualif/self emp/mgmt,1,yes,1
+Medium,48,existing paid,radio/tv,3060,Low,Experienced,4,male single,4,real estate,28,own,2,skilled,1,yes,0
+Low,30,existing paid,repairs,11998,Low,Amateur,1,male div/sep,1,no known property,34,own,1,unskilled resident,1,yes,0
+No Checking,9,existing paid,radio/tv,2697,Low,Professional,1,male single,2,real estate,32,own,1,skilled,2,yes,1
+No Checking,18,critical/other existing credit,radio/tv,2404,Low,Professional,2,female div/dep/mar,2,car,26,own,2,skilled,1,yes,1
+Low,12,existing paid,furniture/equipment,1262,No Savings,Expert,2,male div/sep,4,life insurance,49,own,1,unskilled resident,1,yes,1
+No Checking,6,existing paid,furniture/equipment,4611,Low,Amateur,1,female div/dep/mar,4,life insurance,32,own,1,skilled,1,yes,0
+No Checking,24,existing paid,radio/tv,1901,Medium,Professional,4,male single,4,car,29,rent,1,high qualif/self emp/mgmt,1,yes,1
+No Checking,15,critical/other existing credit,used car,3368,High,Expert,3,male single,4,no known property,23,rent,2,skilled,1,yes,1
+No Checking,12,existing paid,furniture/equipment,1574,Low,Professional,4,male single,2,real estate,50,own,1,skilled,1,yes,1
+High,18,all paid,radio/tv,1445,No Savings,Experienced,4,male single,4,car,49,own,1,unskilled resident,1,yes,1
+No Checking,15,critical/other existing credit,furniture/equipment,1520,No Savings,Expert,4,male single,4,life insurance,63,own,1,skilled,1,yes,1
+Medium,24,critical/other existing credit,new car,3878,Medium,Amateur,4,male div/sep,2,car,37,own,1,skilled,1,yes,1
+Low,47,existing paid,new car,10722,Low,Amateur,1,female div/dep/mar,1,real estate,35,own,1,unskilled resident,1,yes,1
+Low,48,existing paid,used car,4788,Low,Experienced,4,male single,3,life insurance,26,own,1,skilled,2,yes,1
+Medium,48,delayed previously,other,7582,Medium,Unemployed,2,male single,4,no known property,31,for free,1,high qualif/self emp/mgmt,1,yes,1
+Medium,12,existing paid,radio/tv,1092,Low,Professional,4,female div/dep/mar,4,real estate,49,own,2,skilled,1,yes,1
+Low,24,delayed previously,radio/tv,1024,Low,Amateur,4,male mar/wid,4,real estate,48,own,1,skilled,1,yes,0
+No Checking,12,existing paid,business,1076,Low,Professional,2,male mar/wid,2,real estate,26,own,1,skilled,1,no,1
+Medium,36,existing paid,used car,9398,Low,Amateur,1,male mar/wid,4,car,28,rent,1,high qualif/self emp/mgmt,1,yes,0
+Low,24,critical/other existing credit,used car,6419,Low,Expert,2,female div/dep/mar,4,no known property,44,for free,2,high qualif/self emp/mgmt,2,yes,1
+High,42,critical/other existing credit,used car,4796,Low,Expert,4,male single,4,no known property,56,for free,1,skilled,1,yes,1
+No Checking,48,critical/other existing credit,business,7629,No Savings,Expert,4,male div/sep,2,car,46,own,2,high qualif/self emp/mgmt,2,yes,1
+Medium,48,existing paid,furniture/equipment,9960,Low,Amateur,1,female div/dep/mar,2,car,26,own,1,skilled,1,yes,0
+No Checking,12,existing paid,used car,4675,No Savings,Amateur,1,female div/dep/mar,4,car,20,rent,1,skilled,1,yes,1
+No Checking,10,existing paid,new car,1287,No Savings,Expert,4,male single,2,life insurance,45,own,1,unskilled resident,1,no,1
+No Checking,18,existing paid,furniture/equipment,2515,Low,Professional,3,male single,4,real estate,43,own,1,skilled,1,yes,1
+Medium,21,critical/other existing credit,furniture/equipment,2745,High,Experienced,3,male single,2,car,32,own,2,skilled,1,yes,1
+No Checking,6,existing paid,new car,672,Low,Unemployed,1,female div/dep/mar,4,real estate,54,own,1,unemp/unskilled non res,1,yes,1
+Medium,36,no credits/all paid,radio/tv,3804,Low,Professional,4,female div/dep/mar,1,car,42,own,1,skilled,1,yes,0
+High,24,critical/other existing credit,new car,1344,No Savings,Experienced,4,male single,2,real estate,37,own,2,unskilled resident,2,yes,0
+Low,10,critical/other existing credit,new car,1038,Low,Experienced,4,male single,3,life insurance,49,own,2,skilled,1,yes,1
+No Checking,48,critical/other existing credit,new car,10127,High,Professional,2,male single,2,no known property,44,for free,1,skilled,1,yes,0
+No Checking,6,existing paid,furniture/equipment,1543,High,Professional,4,male div/sep,2,real estate,33,own,1,skilled,1,yes,1
+No Checking,30,existing paid,used car,4811,No Savings,Experienced,2,female div/dep/mar,4,life insurance,24,rent,1,unskilled resident,1,yes,1
+Low,12,existing paid,radio/tv,727,Medium,Amateur,4,male mar/wid,3,no known property,33,own,1,unskilled resident,1,yes,0
+Medium,8,existing paid,furniture/equipment,1237,Low,Professional,3,female div/dep/mar,4,real estate,24,own,1,skilled,1,yes,0
+Medium,9,existing paid,new car,276,Low,Professional,4,male mar/wid,4,real estate,22,rent,1,unskilled resident,1,yes,1
+Medium,48,existing paid,other,5381,No Savings,Unemployed,3,male single,4,no known property,40,for free,1,unemp/unskilled non res,1,yes,1
+No Checking,24,existing paid,furniture/equipment,5511,Medium,Professional,4,male single,1,car,25,own,1,skilled,1,yes,1
+High,24,existing paid,furniture/equipment,3749,Low,Amateur,2,female div/dep/mar,4,car,26,own,1,skilled,1,yes,1
+Medium,12,existing paid,new car,685,Low,Experienced,2,male mar/wid,3,car,25,own,1,unskilled resident,1,yes,0
+High,4,existing paid,new car,1494,No Savings,Amateur,1,male single,2,real estate,29,own,1,unskilled resident,2,no,1
+Low,36,all paid,furniture/equipment,2746,Low,Expert,4,male single,4,car,31,own,1,skilled,1,yes,0
+Low,12,existing paid,furniture/equipment,708,Low,Professional,2,male single,3,life insurance,38,own,1,unskilled resident,2,yes,1
+Medium,24,existing paid,furniture/equipment,4351,No Savings,Professional,1,female div/dep/mar,4,life insurance,48,own,1,unskilled resident,1,yes,1
+No Checking,12,critical/other existing credit,education,701,Low,Professional,4,male single,2,car,32,own,2,skilled,1,yes,1
+Low,15,delayed previously,furniture/equipment,3643,Low,Expert,1,female div/dep/mar,4,life insurance,27,own,2,unskilled resident,1,yes,1
+Medium,30,critical/other existing credit,new car,4249,Low,Unemployed,4,male mar/wid,2,car,28,own,2,high qualif/self emp/mgmt,1,yes,0
+Low,24,existing paid,radio/tv,1938,Low,Amateur,4,male div/sep,3,life insurance,32,own,1,skilled,1,yes,0
+Low,24,existing paid,used car,2910,Low,Experienced,2,male single,1,no known property,34,for free,1,high qualif/self emp/mgmt,1,yes,1
+Low,18,existing paid,furniture/equipment,2659,High,Professional,4,male single,2,car,28,own,1,skilled,1,yes,1
+No Checking,18,critical/other existing credit,new car,1028,Low,Professional,4,female div/dep/mar,3,real estate,36,own,2,skilled,1,yes,1
+Low,8,critical/other existing credit,new car,3398,Low,Experienced,1,male single,4,real estate,39,own,2,unskilled resident,1,no,1
+No Checking,12,critical/other existing credit,furniture/equipment,5801,No Savings,Expert,2,male single,4,life insurance,49,rent,1,skilled,1,yes,1
+No Checking,24,existing paid,new car,1525,High,Experienced,4,female div/dep/mar,3,car,34,own,1,skilled,2,yes,1
+High,36,existing paid,radio/tv,4473,Low,Expert,4,male single,2,car,31,own,1,skilled,1,yes,1
+Medium,6,existing paid,radio/tv,1068,Low,Expert,4,male single,4,car,28,own,1,skilled,2,yes,1
+Low,24,critical/other existing credit,used car,6615,Low,Unemployed,2,male single,4,no known property,75,for free,2,high qualif/self emp/mgmt,1,yes,1
+No Checking,18,critical/other existing credit,education,1864,Medium,Professional,4,female div/dep/mar,2,real estate,30,own,2,skilled,1,yes,0
+Medium,60,existing paid,new car,7408,Medium,Amateur,4,female div/dep/mar,2,life insurance,24,own,1,high qualif/self emp/mgmt,1,yes,0
+No Checking,48,critical/other existing credit,used car,11590,Medium,Professional,2,female div/dep/mar,4,car,24,rent,2,unskilled resident,1,yes,0
+Low,24,no credits/all paid,furniture/equipment,4110,Low,Expert,3,male single,4,no known property,23,rent,2,skilled,2,yes,0
+Low,6,critical/other existing credit,furniture/equipment,3384,Low,Professional,1,male div/sep,4,real estate,44,rent,1,high qualif/self emp/mgmt,1,yes,0
+Medium,13,existing paid,radio/tv,2101,Low,Amateur,2,female div/dep/mar,4,life insurance,23,own,1,unskilled resident,1,yes,1
+Low,15,existing paid,domestic appliance,1275,No Savings,Professional,4,female div/dep/mar,2,car,24,rent,1,skilled,1,yes,0
+Low,24,existing paid,furniture/equipment,4169,Low,Professional,4,male single,4,life insurance,28,own,1,skilled,1,yes,1
+Medium,10,existing paid,furniture/equipment,1521,Low,Professional,4,male div/sep,2,car,31,own,1,unskilled resident,1,yes,1
+Medium,24,critical/other existing credit,education,5743,Low,Amateur,2,female div/dep/mar,4,no known property,24,for free,2,skilled,1,yes,1
+Low,21,existing paid,furniture/equipment,3599,Low,Experienced,1,female div/dep/mar,4,car,26,rent,1,unskilled resident,1,yes,1
+Medium,18,existing paid,radio/tv,3213,High,Amateur,1,male mar/wid,3,real estate,25,rent,1,skilled,1,yes,1
+Medium,18,existing paid,business,4439,Low,Expert,1,male single,1,real estate,33,own,1,high qualif/self emp/mgmt,1,yes,1
+High,10,existing paid,new car,3949,Low,Amateur,1,male single,1,life insurance,37,own,1,unskilled resident,2,yes,1
+No Checking,15,critical/other existing credit,radio/tv,1459,Low,Professional,4,female div/dep/mar,2,car,43,own,1,unskilled resident,1,yes,1
+Medium,13,critical/other existing credit,radio/tv,882,Low,Amateur,4,male single,4,real estate,23,own,2,skilled,1,yes,1
+Medium,24,existing paid,radio/tv,3758,High,Unemployed,1,female div/dep/mar,4,no known property,23,rent,1,unemp/unskilled non res,1,yes,1
+No Checking,6,delayed previously,business,1743,Medium,Professional,1,male single,2,real estate,34,own,2,unskilled resident,1,yes,1
+Medium,9,critical/other existing credit,education,1136,High,Expert,4,male single,3,no known property,32,for free,2,skilled,2,yes,0
+No Checking,9,existing paid,domestic appliance,1236,Low,Amateur,1,female div/dep/mar,4,real estate,23,rent,1,skilled,1,yes,1
+Medium,9,existing paid,furniture/equipment,959,Low,Professional,1,female div/dep/mar,2,car,29,own,1,skilled,1,no,0
+No Checking,18,critical/other existing credit,used car,3229,No Savings,Unemployed,2,male single,4,no known property,38,own,1,high qualif/self emp/mgmt,1,yes,1
+Low,12,no credits/all paid,radio/tv,6199,Low,Professional,4,male single,2,life insurance,28,rent,2,skilled,1,yes,0
+No Checking,10,existing paid,education,727,High,Expert,4,male single,4,no known property,46,for free,1,skilled,1,yes,1
+Medium,24,existing paid,new car,1246,Low,Amateur,4,male single,2,real estate,23,own,1,unskilled resident,1,yes,0
+No Checking,12,critical/other existing credit,radio/tv,2331,No Savings,Expert,1,male single,4,real estate,49,own,1,skilled,1,yes,1
+No Checking,36,delayed previously,radio/tv,4463,Low,Professional,4,male single,2,car,26,own,2,high qualif/self emp/mgmt,1,yes,0
+No Checking,12,existing paid,radio/tv,776,Low,Professional,4,male mar/wid,2,real estate,28,own,1,skilled,1,yes,1
+Low,30,existing paid,furniture/equipment,2406,Low,Experienced,4,female div/dep/mar,4,real estate,23,rent,1,skilled,1,yes,0
+Medium,18,existing paid,education,1239,No Savings,Professional,4,male single,4,no known property,61,for free,1,skilled,1,yes,1
+High,12,existing paid,radio/tv,3399,No Savings,Expert,2,male single,3,car,37,own,1,high qualif/self emp/mgmt,1,yes,1
+High,12,delayed previously,new car,2247,Low,Professional,2,female div/dep/mar,2,car,36,own,2,skilled,1,yes,1
+No Checking,6,existing paid,furniture/equipment,1766,Low,Professional,1,male mar/wid,2,life insurance,21,rent,1,skilled,1,yes,1
+Low,18,existing paid,furniture/equipment,2473,Low,Unemployed,4,male single,1,car,25,own,1,unemp/unskilled non res,1,yes,0
+No Checking,12,existing paid,business,1542,Low,Experienced,2,male single,4,car,36,own,1,skilled,1,yes,1
+No Checking,18,critical/other existing credit,used car,3850,Low,Experienced,3,male single,1,car,27,own,2,skilled,1,yes,1
+Low,18,existing paid,furniture/equipment,3650,Low,Amateur,1,female div/dep/mar,4,car,22,rent,1,skilled,1,yes,1
+Low,36,existing paid,furniture/equipment,3446,Low,Expert,4,male single,2,car,42,own,1,skilled,2,yes,0
+Medium,18,existing paid,furniture/equipment,3001,Low,Experienced,2,female div/dep/mar,4,real estate,40,rent,1,skilled,1,yes,1
+No Checking,36,existing paid,new car,3079,No Savings,Professional,4,male single,4,real estate,36,own,1,skilled,1,yes,1
+No Checking,18,critical/other existing credit,radio/tv,6070,Low,Expert,3,male single,4,car,33,own,2,skilled,1,yes,1
+No Checking,10,critical/other existing credit,furniture/equipment,2146,Low,Amateur,1,female div/dep/mar,3,real estate,23,rent,2,skilled,1,yes,1
+No Checking,60,critical/other existing credit,new car,13756,No Savings,Expert,2,male single,4,no known property,63,for free,1,high qualif/self emp/mgmt,1,yes,1
+Medium,60,all paid,other,14782,Medium,Expert,3,female div/dep/mar,4,no known property,60,for free,2,high qualif/self emp/mgmt,1,yes,0
+Low,48,all paid,business,7685,Low,Experienced,2,female div/dep/mar,4,car,37,rent,1,skilled,1,yes,0
+No Checking,18,delayed previously,radio/tv,2320,Low,Unemployed,2,male mar/wid,3,real estate,34,own,2,skilled,1,yes,1
+No Checking,7,delayed previously,radio/tv,846,No Savings,Expert,3,male single,4,no known property,36,for free,1,skilled,1,yes,1
+Medium,36,existing paid,new car,14318,Low,Expert,4,male single,2,no known property,57,for free,1,high qualif/self emp/mgmt,1,yes,0
+No Checking,6,critical/other existing credit,new car,362,Medium,Professional,4,female div/dep/mar,4,car,52,own,2,unskilled resident,1,yes,1
+Low,20,existing paid,furniture/equipment,2212,No Savings,Experienced,4,male single,4,car,39,own,1,skilled,1,yes,1
+Medium,18,existing paid,used car,12976,Low,Unemployed,3,female div/dep/mar,4,no known property,38,for free,1,high qualif/self emp/mgmt,1,yes,0
+No Checking,22,existing paid,new car,1283,No Savings,Experienced,4,female div/dep/mar,4,life insurance,25,rent,1,skilled,1,yes,1
+High,12,existing paid,new car,1330,Low,Amateur,4,male single,1,real estate,26,own,1,skilled,1,yes,1
+No Checking,30,delayed previously,business,4272,Medium,Professional,2,male single,2,life insurance,26,own,2,unskilled resident,1,yes,1
+No Checking,18,critical/other existing credit,radio/tv,2238,Low,Professional,2,female div/dep/mar,1,car,25,own,2,skilled,1,yes,1
+No Checking,18,existing paid,radio/tv,1126,No Savings,Amateur,4,female div/dep/mar,2,real estate,21,rent,1,skilled,1,yes,1
+Medium,18,critical/other existing credit,furniture/equipment,7374,Low,Unemployed,4,male single,4,life insurance,40,own,2,high qualif/self emp/mgmt,1,yes,1
+Medium,15,critical/other existing credit,business,2326,High,Professional,2,male single,4,car,27,own,1,skilled,1,yes,1
+No Checking,9,existing paid,business,1449,Low,Experienced,3,female div/dep/mar,2,car,27,own,2,skilled,1,yes,1
+No Checking,18,existing paid,new car,1820,Low,Professional,2,male mar/wid,2,life insurance,30,own,1,high qualif/self emp/mgmt,1,yes,1
+Medium,12,existing paid,furniture/equipment,983,High,Amateur,1,female div/dep/mar,4,real estate,19,rent,1,unskilled resident,1,yes,1
+Low,36,existing paid,new car,3249,Low,Experienced,2,male single,4,no known property,39,for free,1,high qualif/self emp/mgmt,2,yes,1
+Low,6,critical/other existing credit,radio/tv,1957,Low,Experienced,1,female div/dep/mar,4,car,31,own,1,skilled,1,yes,1
+No Checking,9,critical/other existing credit,furniture/equipment,2406,Low,Unemployed,2,male single,3,car,31,own,1,high qualif/self emp/mgmt,1,yes,1
+Medium,39,delayed previously,education,11760,Medium,Experienced,2,male single,3,no known property,32,rent,1,skilled,1,yes,1
+Low,12,existing paid,furniture/equipment,2578,Low,Unemployed,3,female div/dep/mar,4,no known property,55,for free,1,high qualif/self emp/mgmt,1,yes,1
+Low,36,critical/other existing credit,furniture/equipment,2348,Low,Professional,3,male mar/wid,2,life insurance,46,own,2,skilled,1,yes,1
+Medium,12,existing paid,new car,1223,Low,Expert,1,male div/sep,1,real estate,46,rent,2,skilled,1,yes,0
+No Checking,24,critical/other existing credit,radio/tv,1516,High,Professional,4,female div/dep/mar,1,real estate,43,own,2,unskilled resident,1,yes,1
+No Checking,18,existing paid,radio/tv,1473,Low,Amateur,3,male mar/wid,4,real estate,39,own,1,skilled,1,yes,1
+Medium,18,critical/other existing credit,business,1887,No Savings,Professional,4,male mar/wid,4,real estate,28,own,2,skilled,1,yes,1
+No Checking,24,delayed previously,business,8648,Low,Amateur,2,male single,2,car,27,own,2,skilled,1,yes,0
+No Checking,14,delayed previously,new car,802,Low,Professional,4,male single,2,car,27,own,2,unskilled resident,1,yes,1
+Medium,18,delayed previously,new car,2899,No Savings,Expert,4,male single,4,car,43,own,1,skilled,2,yes,1
+Medium,24,existing paid,radio/tv,2039,Low,Amateur,1,male mar/wid,1,life insurance,22,own,1,skilled,1,yes,0
+No Checking,24,critical/other existing credit,used car,2197,No Savings,Experienced,4,male single,4,car,43,own,2,skilled,2,yes,1
+Low,15,existing paid,radio/tv,1053,Low,Amateur,4,male mar/wid,2,real estate,27,own,1,skilled,1,no,1
+No Checking,24,existing paid,radio/tv,3235,High,Expert,3,male div/sep,2,car,26,own,1,high qualif/self emp/mgmt,1,yes,1
+High,12,critical/other existing credit,new car,939,High,Experienced,4,male mar/wid,2,real estate,28,own,3,skilled,1,yes,0
+Medium,24,existing paid,radio/tv,1967,Low,Expert,4,female div/dep/mar,4,car,20,own,1,skilled,1,yes,1
+No Checking,33,critical/other existing credit,used car,7253,Low,Experienced,3,male single,2,car,35,own,2,high qualif/self emp/mgmt,1,yes,1
+No Checking,12,critical/other existing credit,business,2292,Low,Unemployed,4,male single,2,car,42,own,2,high qualif/self emp/mgmt,1,yes,0
+No Checking,10,existing paid,new car,1597,High,Professional,3,male single,2,no known property,40,rent,1,unskilled resident,2,no,1
+Low,24,existing paid,new car,1381,No Savings,Professional,4,female div/dep/mar,2,life insurance,35,own,1,skilled,1,yes,0
+No Checking,36,critical/other existing credit,used car,5842,Low,Expert,2,male single,2,life insurance,35,own,2,skilled,2,yes,1
+Low,12,existing paid,new car,2579,Low,Amateur,4,male single,1,real estate,33,own,1,unskilled resident,2,yes,0
+Low,18,delayed previously,education,8471,No Savings,Professional,1,female div/dep/mar,2,car,23,rent,2,skilled,1,yes,1
+No Checking,21,existing paid,new car,2782,High,Experienced,1,female div/dep/mar,2,car,31,own,1,high qualif/self emp/mgmt,1,yes,1
+Medium,18,existing paid,new car,1042,No Savings,Professional,4,female div/dep/mar,2,life insurance,33,own,1,skilled,1,yes,0
+No Checking,15,existing paid,new car,3186,High,Experienced,2,female div/dep/mar,3,car,20,rent,1,skilled,1,yes,1
+Medium,12,existing paid,used car,2028,No Savings,Professional,4,male single,2,car,30,own,1,skilled,1,yes,1
+Medium,12,critical/other existing credit,new car,958,Low,Experienced,2,male single,3,real estate,47,own,2,unskilled resident,2,yes,1
+No Checking,21,delayed previously,furniture/equipment,1591,Medium,Experienced,4,male single,3,real estate,34,own,2,high qualif/self emp/mgmt,1,yes,1
+Medium,12,existing paid,furniture/equipment,2762,No Savings,Expert,1,female div/dep/mar,2,life insurance,25,own,1,skilled,1,yes,0
+Medium,18,existing paid,used car,2779,Low,Professional,1,male mar/wid,3,car,21,rent,1,skilled,1,yes,1
+No Checking,28,critical/other existing credit,radio/tv,2743,Low,Expert,4,male single,2,car,29,own,2,skilled,1,yes,1
+No Checking,18,critical/other existing credit,radio/tv,1149,High,Professional,4,male single,3,real estate,46,own,2,skilled,1,yes,1
+No Checking,9,existing paid,furniture/equipment,1313,Low,Expert,1,male single,4,car,20,own,1,skilled,1,yes,1
+Low,18,critical/other existing credit,repairs,1190,Low,Unemployed,2,female div/dep/mar,4,no known property,55,for free,3,unemp/unskilled non res,2,yes,0
+No Checking,5,existing paid,business,3448,Low,Experienced,1,male single,4,real estate,74,own,1,unskilled resident,1,yes,1
+Medium,24,existing paid,other,11328,Low,Professional,2,male single,3,car,29,own,2,high qualif/self emp/mgmt,1,yes,0
+Low,6,critical/other existing credit,furniture/equipment,1872,Low,Unemployed,4,male single,4,no known property,36,for free,3,high qualif/self emp/mgmt,1,yes,1
+No Checking,24,critical/other existing credit,repairs,2058,Low,Professional,4,male div/sep,2,real estate,33,own,2,skilled,1,yes,1
+Low,9,existing paid,furniture/equipment,2136,Low,Professional,3,male single,2,real estate,25,own,1,skilled,1,yes,1
+Medium,12,existing paid,radio/tv,1484,No Savings,Professional,2,male mar/wid,1,real estate,25,own,1,skilled,1,yes,0
+No Checking,6,existing paid,repairs,660,High,Experienced,2,male mar/wid,4,real estate,23,rent,1,unskilled resident,1,yes,1
+No Checking,24,critical/other existing credit,new car,1287,High,Expert,4,female div/dep/mar,4,real estate,37,own,2,skilled,1,yes,1
+Low,42,critical/other existing credit,repairs,3394,Low,Unemployed,4,male single,4,car,65,own,2,unemp/unskilled non res,1,yes,1
+High,12,all paid,business,609,Low,Amateur,4,female div/dep/mar,1,real estate,26,own,1,unemp/unskilled non res,1,yes,0
+No Checking,12,existing paid,new car,1884,Low,Expert,4,male single,4,car,39,own,1,high qualif/self emp/mgmt,1,yes,1
+Low,12,existing paid,furniture/equipment,1620,Low,Professional,2,female div/dep/mar,3,life insurance,30,own,1,skilled,1,yes,1
+Medium,20,delayed previously,other,2629,Low,Professional,2,male single,3,car,29,own,2,skilled,1,yes,1
+No Checking,12,existing paid,education,719,Low,Expert,4,male single,4,car,41,own,1,unskilled resident,2,yes,0
+Medium,48,critical/other existing credit,furniture/equipment,5096,Low,Professional,2,female div/dep/mar,3,car,30,own,1,high qualif/self emp/mgmt,1,yes,0
+No Checking,9,critical/other existing credit,education,1244,No Savings,Expert,4,female div/dep/mar,4,life insurance,41,rent,2,unskilled resident,1,yes,1
+Low,36,existing paid,new car,1842,Low,Amateur,4,female div/dep/mar,4,car,34,own,1,skilled,1,yes,0
+Medium,7,existing paid,radio/tv,2576,Low,Professional,2,male single,2,real estate,35,own,1,skilled,1,yes,1
+High,12,existing paid,furniture/equipment,1424,No Savings,Expert,3,female div/dep/mar,4,real estate,55,own,1,high qualif/self emp/mgmt,1,yes,1
+Medium,15,delayed previously,repairs,1512,High,Professional,3,male mar/wid,3,life insurance,61,own,2,skilled,1,yes,0
+No Checking,36,critical/other existing credit,used car,11054,No Savings,Professional,4,male single,2,car,30,own,1,high qualif/self emp/mgmt,1,yes,1
+No Checking,6,existing paid,radio/tv,518,Low,Professional,3,female div/dep/mar,1,real estate,29,own,1,skilled,1,yes,1
+No Checking,12,no credits/all paid,furniture/equipment,2759,Low,Expert,2,male single,4,life insurance,34,own,2,skilled,1,yes,1
+No Checking,24,existing paid,used car,2670,Low,Expert,4,male single,4,car,35,own,1,high qualif/self emp/mgmt,1,yes,1
+Low,24,existing paid,new car,4817,Low,Experienced,2,male single,3,life insurance,31,own,1,skilled,1,yes,0
+No Checking,24,existing paid,used car,2679,Low,Amateur,4,female div/dep/mar,1,no known property,29,own,1,high qualif/self emp/mgmt,1,yes,1
+Low,11,critical/other existing credit,new car,3905,Low,Professional,2,male single,2,real estate,36,rent,2,skilled,2,yes,1
+Low,12,existing paid,used car,3386,Low,Expert,3,male single,4,no known property,35,for free,1,skilled,1,yes,0
+Low,6,existing paid,domestic appliance,343,Low,Amateur,4,female div/dep/mar,1,real estate,27,own,1,skilled,1,yes,1
+No Checking,18,existing paid,radio/tv,4594,Low,Amateur,3,male single,2,car,32,own,1,skilled,1,yes,1
+Low,36,existing paid,furniture/equipment,3620,Low,Professional,1,male single,2,life insurance,37,own,1,skilled,2,yes,1
+Low,15,existing paid,new car,1721,Low,Amateur,2,male single,3,real estate,36,own,1,skilled,1,yes,1
+Medium,12,existing paid,furniture/equipment,3017,Low,Amateur,3,female div/dep/mar,1,real estate,34,rent,1,high qualif/self emp/mgmt,1,yes,1
+Medium,12,existing paid,retraining,754,No Savings,Expert,4,male single,4,life insurance,38,own,2,skilled,1,yes,1
+No Checking,18,existing paid,business,1950,Low,Experienced,4,male single,1,car,34,own,2,skilled,1,yes,1
+Low,24,existing paid,used car,2924,Low,Professional,3,male single,4,no known property,63,own,1,skilled,2,yes,1
+Low,24,delayed previously,radio/tv,1659,Low,Amateur,4,female div/dep/mar,2,car,29,rent,1,unskilled resident,1,yes,0
+No Checking,48,delayed previously,radio/tv,7238,No Savings,Expert,3,male single,3,car,32,own,2,skilled,2,yes,1
+No Checking,33,delayed previously,business,2764,Low,Professional,2,female div/dep/mar,2,car,26,own,2,skilled,1,yes,1
+No Checking,24,delayed previously,used car,4679,Low,Experienced,3,male single,3,car,35,own,2,unskilled resident,1,yes,1
+Medium,24,existing paid,radio/tv,3092,Medium,Amateur,3,male mar/wid,2,car,22,rent,1,skilled,1,yes,0
+Low,6,existing paid,education,448,Low,Amateur,4,female div/dep/mar,4,life insurance,23,own,1,skilled,1,yes,0
+Low,9,existing paid,new car,654,Low,Professional,4,male single,3,car,28,own,1,unskilled resident,1,yes,0
+No Checking,6,existing paid,retraining,1238,No Savings,Unemployed,4,male single,4,life insurance,36,own,1,high qualif/self emp/mgmt,2,yes,1
+Medium,18,critical/other existing credit,radio/tv,1245,Low,Professional,4,male mar/wid,2,car,33,own,1,skilled,1,yes,0
+Low,18,no credits/all paid,furniture/equipment,3114,Low,Amateur,1,female div/dep/mar,4,life insurance,26,rent,1,skilled,1,yes,0
+No Checking,39,existing paid,used car,2569,High,Professional,4,male single,4,car,24,own,1,skilled,1,yes,1
+High,24,existing paid,radio/tv,5152,Low,Experienced,4,male single,2,car,25,own,1,skilled,1,yes,1
+Medium,12,existing paid,business,1037,Medium,Experienced,3,male single,4,real estate,39,own,1,unskilled resident,1,yes,1
+Low,15,critical/other existing credit,furniture/equipment,1478,Low,Expert,4,male single,4,car,44,own,2,skilled,2,yes,1
+Medium,12,critical/other existing credit,radio/tv,3573,Low,Professional,1,female div/dep/mar,1,real estate,23,own,1,unskilled resident,1,yes,1
+Medium,24,existing paid,new car,1201,Low,Amateur,4,male single,1,life insurance,26,own,1,skilled,1,yes,1
+Low,30,existing paid,furniture/equipment,3622,High,Expert,4,female div/dep/mar,4,life insurance,57,rent,2,skilled,1,yes,1
+No Checking,15,delayed previously,furniture/equipment,960,High,Experienced,3,female div/dep/mar,2,life insurance,30,own,2,skilled,1,yes,1
+No Checking,12,critical/other existing credit,new car,1163,High,Professional,4,male single,4,real estate,44,own,1,skilled,1,yes,1
+Medium,6,delayed previously,new car,1209,Low,Unemployed,4,male single,4,life insurance,47,own,1,high qualif/self emp/mgmt,1,yes,0
+No Checking,12,existing paid,radio/tv,3077,Low,Professional,2,male single,4,car,52,own,1,skilled,1,yes,1
+No Checking,24,existing paid,new car,3757,Low,Expert,4,female div/dep/mar,4,no known property,62,for free,1,skilled,1,yes,1
+No Checking,10,existing paid,new car,1418,Medium,Professional,3,male single,2,real estate,35,rent,1,unskilled resident,1,no,1
+No Checking,6,existing paid,new car,3518,Low,Professional,2,male single,3,life insurance,26,rent,1,skilled,1,yes,1
+No Checking,12,critical/other existing credit,radio/tv,1934,Low,Expert,2,male single,2,no known property,26,own,2,skilled,1,yes,1
+Medium,27,no credits/all paid,business,8318,Low,Expert,2,female div/dep/mar,4,no known property,42,for free,2,high qualif/self emp/mgmt,1,yes,0
+No Checking,6,critical/other existing credit,radio/tv,1237,Medium,Professional,1,female div/dep/mar,1,life insurance,27,own,2,skilled,1,yes,1
+Medium,6,existing paid,radio/tv,368,No Savings,Expert,4,male single,4,life insurance,38,own,1,skilled,1,yes,1
+Low,12,critical/other existing credit,new car,2122,Low,Professional,3,male single,2,real estate,39,rent,2,unskilled resident,2,no,1
+Low,24,existing paid,furniture/equipment,2996,No Savings,Professional,2,male mar/wid,4,car,20,own,1,skilled,1,yes,0
+Medium,36,existing paid,furniture/equipment,9034,Medium,Amateur,4,male single,1,no known property,29,rent,1,high qualif/self emp/mgmt,1,yes,0
+No Checking,24,critical/other existing credit,furniture/equipment,1585,Low,Experienced,4,male single,3,life insurance,40,own,2,skilled,1,yes,1
+Medium,18,existing paid,radio/tv,1301,Low,Expert,4,male mar/wid,2,real estate,32,own,1,unskilled resident,1,yes,1
+High,6,critical/other existing credit,new car,1323,Medium,Expert,2,male div/sep,4,car,28,own,2,skilled,2,yes,1
+Low,24,existing paid,new car,3123,Low,Amateur,4,female div/dep/mar,1,life insurance,27,own,1,skilled,1,yes,0
+Low,36,existing paid,used car,5493,Low,Expert,2,male single,4,no known property,42,for free,1,skilled,2,yes,1
+High,9,existing paid,radio/tv,1126,Medium,Expert,2,male div/sep,4,real estate,49,own,1,skilled,1,yes,1
+Medium,24,critical/other existing credit,radio/tv,1216,Medium,Amateur,4,male single,4,no known property,38,own,2,skilled,2,yes,0
+Low,24,existing paid,new car,1207,Low,Amateur,4,female div/dep/mar,4,life insurance,24,rent,1,skilled,1,yes,0
+No Checking,10,existing paid,new car,1309,No Savings,Professional,4,male single,4,life insurance,27,own,1,unskilled resident,1,yes,0
+High,15,critical/other existing credit,used car,2360,High,Professional,2,male single,2,car,36,own,1,skilled,1,yes,1
+Medium,15,all paid,new car,6850,Medium,Unemployed,1,male single,2,life insurance,34,own,1,high qualif/self emp/mgmt,2,yes,0
+No Checking,24,existing paid,radio/tv,1413,Low,Professional,4,male mar/wid,2,life insurance,28,own,1,skilled,1,yes,1
+No Checking,39,existing paid,used car,8588,Medium,Expert,4,male single,2,car,45,own,1,high qualif/self emp/mgmt,1,yes,1
+Low,12,existing paid,new car,759,Low,Experienced,4,male single,2,real estate,26,own,1,skilled,1,yes,0
+No Checking,36,existing paid,used car,4686,Low,Professional,2,male single,2,no known property,32,for free,1,high qualif/self emp/mgmt,1,yes,1
+High,15,existing paid,business,2687,Low,Experienced,2,male single,4,life insurance,26,rent,1,skilled,1,yes,1
+Medium,12,delayed previously,radio/tv,585,Low,Professional,4,male mar/wid,4,real estate,20,rent,2,skilled,1,yes,1
+No Checking,24,existing paid,new car,2255,No Savings,Amateur,4,male single,1,life insurance,54,own,1,skilled,1,yes,1
+Low,6,critical/other existing credit,new car,609,Low,Experienced,4,female div/dep/mar,3,life insurance,37,own,2,skilled,1,no,1
+Low,6,critical/other existing credit,new car,1361,Low,Amateur,2,male single,4,real estate,40,own,1,unskilled resident,2,no,1
+No Checking,36,critical/other existing credit,furniture/equipment,7127,Low,Amateur,2,female div/dep/mar,4,life insurance,23,rent,2,skilled,1,yes,0
+Low,6,existing paid,new car,1203,Medium,Expert,3,male single,2,life insurance,43,own,1,skilled,1,yes,1
+No Checking,6,critical/other existing credit,radio/tv,700,No Savings,Expert,4,male single,4,no known property,36,for free,2,skilled,1,yes,1
+No Checking,24,critical/other existing credit,repairs,5507,Low,Expert,3,male single,4,no known property,44,for free,2,skilled,1,yes,1
+Low,18,existing paid,radio/tv,3190,Low,Professional,2,female div/dep/mar,2,real estate,24,own,1,skilled,1,yes,0
+Low,48,no credits/all paid,furniture/equipment,7119,Low,Professional,3,male single,4,no known property,53,for free,2,skilled,2,yes,0
+No Checking,24,existing paid,used car,3488,Medium,Experienced,3,female div/dep/mar,4,car,23,own,1,skilled,1,yes,1
+Medium,18,existing paid,radio/tv,1113,Low,Professional,4,female div/dep/mar,4,real estate,26,own,1,unskilled resident,2,yes,1
+Medium,26,existing paid,used car,7966,Low,Amateur,2,male single,3,car,30,own,2,skilled,1,yes,1
+No Checking,15,critical/other existing credit,education,1532,Medium,Professional,4,female div/dep/mar,3,car,31,own,1,skilled,1,yes,1
+No Checking,4,critical/other existing credit,radio/tv,1503,Low,Experienced,2,male single,1,real estate,42,own,2,unskilled resident,2,yes,1
+Low,36,existing paid,radio/tv,2302,Low,Professional,4,male div/sep,4,car,31,rent,1,skilled,1,yes,0
+Low,6,existing paid,new car,662,Low,Amateur,3,male single,4,real estate,41,own,1,unskilled resident,2,yes,1
+Medium,36,existing paid,education,2273,Low,Experienced,3,male single,1,car,32,own,2,skilled,2,yes,1
+Medium,15,existing paid,new car,2631,Medium,Professional,2,female div/dep/mar,4,car,28,rent,2,skilled,1,yes,0
+No Checking,12,delayed previously,used car,1503,Low,Professional,4,male mar/wid,4,real estate,41,rent,1,skilled,1,yes,1
+No Checking,24,existing paid,radio/tv,1311,Medium,Experienced,4,male mar/wid,3,life insurance,26,own,1,skilled,1,yes,1
+No Checking,24,existing paid,radio/tv,3105,No Savings,Amateur,4,male single,2,car,25,own,2,skilled,1,yes,1
+High,21,critical/other existing credit,education,2319,Low,Amateur,2,male div/sep,1,car,33,rent,1,skilled,1,yes,0
+Low,6,existing paid,new car,1374,No Savings,Unemployed,4,female div/dep/mar,3,life insurance,75,own,1,high qualif/self emp/mgmt,1,yes,1
+Medium,18,critical/other existing credit,furniture/equipment,3612,Low,Expert,3,female div/dep/mar,4,life insurance,37,own,1,skilled,1,yes,1
+Low,48,existing paid,new car,7763,Low,Expert,4,male single,4,no known property,42,for free,1,high qualif/self emp/mgmt,1,yes,0
+High,18,existing paid,furniture/equipment,3049,Low,Amateur,1,female div/dep/mar,1,life insurance,45,own,1,unskilled resident,1,yes,1
+Medium,12,existing paid,radio/tv,1534,Low,Amateur,1,male mar/wid,1,real estate,23,rent,1,skilled,1,yes,0
+No Checking,24,delayed previously,new car,2032,Low,Expert,4,male single,4,no known property,60,for free,2,skilled,1,yes,1
+Low,30,existing paid,furniture/equipment,6350,No Savings,Expert,4,male single,4,life insurance,31,own,1,skilled,1,yes,0
+High,18,existing paid,furniture/equipment,2864,Low,Professional,2,male single,1,real estate,34,own,1,unskilled resident,2,yes,0
+No Checking,12,critical/other existing credit,new car,1255,Low,Expert,4,male single,4,real estate,61,own,2,unskilled resident,1,yes,1
+Low,24,delayed previously,new car,1333,Low,Unemployed,4,male single,2,real estate,43,for free,2,skilled,2,yes,0
+No Checking,24,critical/other existing credit,new car,2022,Low,Professional,4,female div/dep/mar,4,car,37,own,1,skilled,1,yes,1
+No Checking,24,existing paid,radio/tv,1552,Low,Experienced,3,male single,1,car,32,own,1,skilled,2,yes,1
+Low,12,all paid,radio/tv,626,Low,Professional,4,female div/dep/mar,4,real estate,24,own,1,unskilled resident,1,yes,0
+No Checking,48,critical/other existing credit,used car,8858,No Savings,Experienced,2,male single,1,no known property,35,for free,2,skilled,1,yes,1
+No Checking,12,critical/other existing credit,repairs,996,No Savings,Experienced,4,female div/dep/mar,4,real estate,23,own,2,skilled,1,yes,1
+No Checking,6,all paid,radio/tv,1750,High,Expert,2,male single,4,life insurance,45,own,1,unskilled resident,2,yes,1
+Low,48,existing paid,radio/tv,6999,Low,Experienced,1,male mar/wid,1,real estate,34,own,2,skilled,1,yes,0
+Medium,12,critical/other existing credit,new car,1995,Medium,Amateur,4,male single,1,car,27,own,1,skilled,1,yes,1
+Medium,9,existing paid,education,1199,Low,Experienced,4,female div/dep/mar,4,life insurance,67,own,2,high qualif/self emp/mgmt,1,yes,1
+Medium,12,existing paid,radio/tv,1331,Low,Amateur,2,male single,1,car,22,own,1,skilled,1,yes,0
+Medium,18,no credits/all paid,new car,2278,Medium,Amateur,3,female div/dep/mar,3,car,28,own,2,skilled,1,yes,0
+No Checking,21,no credits/all paid,new car,5003,No Savings,Professional,1,female div/dep/mar,4,life insurance,29,own,2,skilled,1,yes,0
+Low,24,all paid,furniture/equipment,3552,Low,Experienced,3,male single,4,car,27,own,1,skilled,1,yes,0
+Medium,18,critical/other existing credit,furniture/equipment,1928,Low,Amateur,2,male single,2,real estate,31,own,2,unskilled resident,1,yes,0
+Low,24,existing paid,used car,2964,No Savings,Expert,4,male single,4,no known property,49,for free,1,skilled,2,yes,1
+Low,24,all paid,radio/tv,1546,Low,Experienced,4,male single,4,car,24,rent,1,unskilled resident,1,yes,0
+High,6,delayed previously,radio/tv,683,Low,Amateur,2,female div/dep/mar,1,life insurance,29,own,1,skilled,1,yes,1
+Medium,36,existing paid,new car,12389,No Savings,Professional,1,male single,4,no known property,37,for free,1,skilled,1,yes,0
+Medium,24,delayed previously,business,4712,No Savings,Professional,4,male single,2,life insurance,37,own,2,high qualif/self emp/mgmt,1,yes,1
+Medium,24,delayed previously,radio/tv,1553,Medium,Experienced,3,female div/dep/mar,2,life insurance,23,rent,2,skilled,1,yes,1
+Low,12,existing paid,new car,1372,Low,Experienced,2,male div/sep,3,car,36,own,1,skilled,1,yes,0
+No Checking,24,critical/other existing credit,radio/tv,2578,High,Expert,2,male single,2,car,34,own,1,skilled,1,yes,1
+Medium,48,existing paid,radio/tv,3979,No Savings,Experienced,4,male single,1,car,41,own,2,skilled,2,yes,1
+Low,48,existing paid,radio/tv,6758,Low,Professional,3,female div/dep/mar,2,car,31,own,1,skilled,1,yes,0
+Low,24,existing paid,furniture/equipment,3234,Low,Amateur,4,female div/dep/mar,4,real estate,23,rent,1,unskilled resident,1,yes,0
+No Checking,30,critical/other existing credit,radio/tv,5954,Low,Experienced,3,male single,2,car,38,own,1,skilled,1,yes,1
+No Checking,24,existing paid,used car,5433,No Savings,Unemployed,2,female div/dep/mar,4,life insurance,26,rent,1,high qualif/self emp/mgmt,1,yes,1
+Low,15,existing paid,business,806,Low,Professional,4,female div/dep/mar,4,life insurance,22,own,1,unskilled resident,1,yes,1
+Medium,9,existing paid,radio/tv,1082,Low,Expert,4,male single,4,car,27,own,2,unskilled resident,1,yes,1
+No Checking,15,critical/other existing credit,furniture/equipment,2788,Low,Experienced,2,female div/dep/mar,3,car,24,own,2,skilled,1,yes,1
+Medium,12,existing paid,radio/tv,2930,Low,Experienced,2,female div/dep/mar,1,real estate,27,own,1,skilled,1,yes,1
+No Checking,24,critical/other existing credit,education,1927,No Savings,Professional,3,female div/dep/mar,2,car,33,own,2,skilled,1,yes,1
+Medium,36,critical/other existing credit,new car,2820,Low,Amateur,4,male div/sep,4,car,27,own,2,skilled,1,yes,0
+No Checking,24,existing paid,retraining,937,Low,Amateur,4,male mar/wid,3,car,27,own,2,unskilled resident,1,yes,1
+Medium,18,critical/other existing credit,new car,1056,Low,Expert,3,male single,3,real estate,30,own,2,skilled,1,yes,0
+Medium,12,critical/other existing credit,new car,3124,Low,Amateur,1,male single,3,real estate,49,own,2,unskilled resident,2,yes,1
+No Checking,9,existing paid,furniture/equipment,1388,Low,Professional,4,female div/dep/mar,2,real estate,26,rent,1,skilled,1,yes,1
+Medium,36,existing paid,repairs,2384,Low,Amateur,4,male single,1,no known property,33,rent,1,unskilled resident,1,yes,0
+No Checking,12,existing paid,new car,2133,No Savings,Expert,4,female div/dep/mar,4,no known property,52,for free,1,high qualif/self emp/mgmt,1,yes,1
+Low,18,existing paid,furniture/equipment,2039,Low,Professional,1,female div/dep/mar,4,real estate,20,rent,1,skilled,1,yes,0
+Low,9,critical/other existing credit,new car,2799,Low,Professional,2,male single,2,real estate,36,rent,2,skilled,2,yes,1
+Low,12,existing paid,furniture/equipment,1289,Low,Professional,4,male single,1,life insurance,21,own,1,unskilled resident,1,yes,1
+Low,18,existing paid,domestic appliance,1217,Low,Professional,4,male mar/wid,3,real estate,47,own,1,unskilled resident,1,yes,0
+Low,12,critical/other existing credit,furniture/equipment,2246,Low,Expert,3,male single,3,life insurance,60,own,2,skilled,1,yes,0
+Low,12,critical/other existing credit,radio/tv,385,Low,Experienced,4,female div/dep/mar,3,real estate,58,own,4,unskilled resident,1,yes,1
+Medium,24,delayed previously,new car,1965,No Savings,Professional,4,female div/dep/mar,4,car,42,rent,2,skilled,1,yes,1
+No Checking,21,existing paid,business,1572,High,Expert,4,female div/dep/mar,4,real estate,36,own,1,unskilled resident,1,yes,1
+Medium,24,existing paid,new car,2718,Low,Professional,3,female div/dep/mar,4,life insurance,20,rent,1,unskilled resident,1,yes,0
+Low,24,all paid,other,1358,No Savings,Expert,4,male single,3,car,40,own,1,high qualif/self emp/mgmt,1,yes,0
+Medium,6,all paid,new car,931,Medium,Amateur,1,female div/dep/mar,1,life insurance,32,own,1,unskilled resident,1,yes,0
+Low,24,existing paid,new car,1442,Low,Experienced,4,female div/dep/mar,4,car,23,rent,2,skilled,1,yes,0
+Medium,24,no credits/all paid,business,4241,Low,Professional,1,male single,4,real estate,36,own,3,unskilled resident,1,yes,0
+No Checking,18,critical/other existing credit,new car,2775,Low,Experienced,2,male single,2,life insurance,31,own,2,skilled,1,yes,0
+No Checking,24,delayed previously,business,3863,Low,Professional,1,male single,2,no known property,32,for free,1,skilled,1,yes,1
+Medium,7,existing paid,radio/tv,2329,Low,Amateur,1,female div/dep/mar,1,real estate,45,own,1,skilled,1,yes,1
+Medium,9,existing paid,furniture/equipment,918,Low,Professional,4,female div/dep/mar,1,life insurance,30,own,1,skilled,1,yes,0
+Medium,24,all paid,education,1837,Low,Experienced,4,female div/dep/mar,4,no known property,34,for free,1,unskilled resident,1,yes,0
+No Checking,36,existing paid,furniture/equipment,3349,Low,Professional,4,female div/dep/mar,2,car,28,own,1,high qualif/self emp/mgmt,1,yes,0
+High,10,existing paid,furniture/equipment,1275,Low,Amateur,4,female div/dep/mar,2,life insurance,23,own,1,skilled,1,yes,1
+Low,24,all paid,furniture/equipment,2828,High,Professional,4,male single,4,real estate,22,own,1,skilled,1,yes,1
+No Checking,24,critical/other existing credit,business,4526,Low,Professional,3,male single,2,real estate,74,own,1,high qualif/self emp/mgmt,1,yes,1
+Medium,36,existing paid,radio/tv,2671,Medium,Professional,4,female div/dep/mar,4,no known property,50,for free,1,skilled,1,yes,0
+No Checking,18,existing paid,radio/tv,2051,Low,Amateur,4,male single,1,real estate,33,own,1,skilled,1,yes,1
+No Checking,15,existing paid,used car,1300,No Savings,Expert,4,male single,4,no known property,45,for free,1,skilled,2,yes,1
+Low,12,existing paid,domestic appliance,741,Medium,Unemployed,4,female div/dep/mar,3,life insurance,22,own,1,skilled,1,yes,0
+High,10,existing paid,new car,1240,Medium,Expert,1,female div/dep/mar,4,no known property,48,for free,1,unskilled resident,2,yes,0
+Low,21,existing paid,radio/tv,3357,High,Amateur,4,female div/dep/mar,2,car,29,own,1,skilled,1,yes,1
+Low,24,all paid,used car,3632,Low,Professional,1,female div/dep/mar,4,car,22,rent,1,skilled,1,no,1
+No Checking,18,delayed previously,furniture/equipment,1808,Low,Experienced,4,female div/dep/mar,1,real estate,22,own,1,skilled,1,yes,0
+Medium,48,no credits/all paid,business,12204,No Savings,Professional,2,male single,2,car,48,own,1,high qualif/self emp/mgmt,1,yes,1
+Medium,60,delayed previously,radio/tv,9157,No Savings,Professional,2,male single,2,no known property,27,for free,1,high qualif/self emp/mgmt,1,yes,1
+Low,6,critical/other existing credit,new car,3676,Low,Professional,1,male single,3,real estate,37,rent,3,skilled,2,yes,1
+Medium,30,existing paid,furniture/equipment,3441,Medium,Professional,2,female div/dep/mar,4,car,21,rent,1,skilled,1,yes,0
+No Checking,12,existing paid,new car,640,Low,Professional,4,male div/sep,2,real estate,49,own,1,unskilled resident,1,yes,1
+Medium,21,critical/other existing credit,business,3652,Low,Experienced,2,male single,3,life insurance,27,own,2,skilled,1,yes,1
+No Checking,18,critical/other existing credit,new car,1530,Low,Professional,3,male single,2,life insurance,32,own,2,skilled,1,yes,0
+No Checking,48,existing paid,business,3914,No Savings,Professional,4,male div/sep,2,real estate,38,own,1,skilled,1,yes,0
+Low,12,existing paid,furniture/equipment,1858,Low,Amateur,4,female div/dep/mar,1,car,22,rent,1,skilled,1,yes,1
+Low,18,existing paid,radio/tv,2600,Low,Professional,4,male single,4,no known property,65,for free,2,skilled,1,yes,0
+No Checking,15,existing paid,radio/tv,1979,No Savings,Expert,4,male single,2,car,35,own,1,skilled,1,yes,1
+High,6,existing paid,furniture/equipment,2116,Low,Professional,2,male single,2,real estate,41,own,1,skilled,1,yes,1
+Medium,9,all paid,new car,1437,Medium,Experienced,2,male single,3,no known property,29,own,1,skilled,1,yes,0
+No Checking,42,critical/other existing credit,furniture/equipment,4042,High,Professional,4,male single,4,real estate,36,own,2,skilled,1,yes,1
+No Checking,9,existing paid,education,3832,No Savings,Expert,1,male single,4,real estate,64,own,1,unskilled resident,1,yes,1
+Low,24,existing paid,radio/tv,3660,Low,Professional,2,female div/dep/mar,4,car,28,own,1,skilled,1,yes,1
+Low,18,all paid,furniture/equipment,1553,Low,Professional,4,male single,3,car,44,own,1,skilled,1,yes,0
+Medium,15,existing paid,radio/tv,1444,No Savings,Amateur,4,male single,1,life insurance,23,own,1,skilled,1,yes,1
+No Checking,9,existing paid,furniture/equipment,1980,Low,Amateur,2,female div/dep/mar,2,car,19,rent,2,skilled,1,yes,0
+Medium,24,existing paid,new car,1355,Low,Amateur,3,female div/dep/mar,4,car,25,own,1,unskilled resident,1,yes,0
+No Checking,12,existing paid,education,1393,Low,Expert,4,male single,4,life insurance,47,own,3,skilled,2,yes,1
+No Checking,24,existing paid,radio/tv,1376,High,Experienced,4,female div/dep/mar,1,car,28,own,1,skilled,1,yes,1
+No Checking,60,delayed previously,radio/tv,15653,Low,Experienced,2,male single,4,car,21,own,2,skilled,1,yes,1
+No Checking,12,existing paid,radio/tv,1493,Low,Amateur,4,female div/dep/mar,3,car,34,own,1,skilled,2,yes,1
+Low,42,delayed previously,radio/tv,4370,Low,Experienced,3,male single,2,life insurance,26,own,2,skilled,2,yes,0
+Low,18,existing paid,education,750,Low,Unemployed,4,female div/dep/mar,1,real estate,27,own,1,unemp/unskilled non res,1,yes,0
+Medium,15,existing paid,repairs,1308,Low,Expert,4,male single,4,car,38,own,2,unskilled resident,1,yes,1
+No Checking,15,existing paid,education,4623,Medium,Professional,3,male single,2,life insurance,40,own,1,high qualif/self emp/mgmt,1,yes,0
+No Checking,24,critical/other existing credit,radio/tv,1851,Low,Experienced,4,male mar/wid,2,car,33,own,2,skilled,1,yes,1
+Low,18,critical/other existing credit,radio/tv,1880,Low,Experienced,4,male mar/wid,1,life insurance,32,own,2,high qualif/self emp/mgmt,1,yes,1
+No Checking,36,delayed previously,business,7980,No Savings,Amateur,4,male single,4,car,27,rent,2,skilled,1,yes,0
+Low,30,no credits/all paid,furniture/equipment,4583,Low,Professional,2,male div/sep,2,real estate,32,own,2,skilled,1,yes,1
+No Checking,12,existing paid,new car,1386,High,Professional,2,female div/dep/mar,2,life insurance,26,own,1,skilled,1,yes,0
+High,24,existing paid,new car,947,Low,Experienced,4,male single,3,no known property,38,for free,1,skilled,2,yes,0
+Low,12,existing paid,education,684,Low,Professional,4,male single,4,car,40,rent,1,unskilled resident,2,yes,0
+Low,48,existing paid,education,7476,Low,Experienced,4,male single,1,no known property,50,for free,1,high qualif/self emp/mgmt,1,yes,1
+Medium,12,existing paid,furniture/equipment,1922,Low,Professional,4,male single,2,life insurance,37,own,1,unskilled resident,1,yes,0
+Low,24,existing paid,new car,2303,Low,Expert,4,male single,1,real estate,45,own,1,skilled,1,yes,0
+Medium,36,delayed previously,new car,8086,Medium,Expert,2,male single,4,car,42,own,4,high qualif/self emp/mgmt,1,yes,0
+No Checking,24,critical/other existing credit,used car,2346,Low,Experienced,4,male single,3,car,35,own,2,skilled,1,yes,1
+Low,14,existing paid,new car,3973,Low,Unemployed,1,male single,4,no known property,22,for free,1,skilled,1,yes,1
+Medium,12,existing paid,new car,888,Low,Expert,4,male single,4,car,41,own,1,unskilled resident,2,yes,0
+No Checking,48,existing paid,radio/tv,10222,No Savings,Experienced,4,male single,3,car,37,own,1,skilled,1,yes,1
+Medium,30,no credits/all paid,business,4221,Low,Professional,2,female div/dep/mar,1,car,28,own,2,skilled,1,yes,1
+Medium,18,critical/other existing credit,furniture/equipment,6361,Low,Expert,2,male single,1,no known property,41,own,1,skilled,1,yes,1
+High,12,existing paid,radio/tv,1297,Low,Professional,3,male mar/wid,4,real estate,23,rent,1,skilled,1,yes,1
+Low,12,existing paid,new car,900,No Savings,Professional,4,male mar/wid,2,car,23,own,1,skilled,1,yes,0
+No Checking,21,existing paid,furniture/equipment,2241,Low,Expert,4,male single,2,real estate,50,own,2,skilled,1,yes,1
+Medium,6,delayed previously,furniture/equipment,1050,Low,Unemployed,4,male single,1,life insurance,35,own,2,high qualif/self emp/mgmt,1,yes,1
+High,6,critical/other existing credit,education,1047,Low,Professional,2,female div/dep/mar,4,life insurance,50,own,1,unskilled resident,1,yes,1
+No Checking,24,critical/other existing credit,other,6314,Low,Unemployed,4,male single,2,no known property,27,own,2,high qualif/self emp/mgmt,1,yes,1
+Medium,30,all paid,furniture/equipment,3496,High,Professional,4,male single,2,car,34,own,1,skilled,2,yes,1
+No Checking,48,all paid,business,3609,Low,Professional,1,female div/dep/mar,1,real estate,27,own,1,skilled,1,yes,1
+Low,12,critical/other existing credit,new car,4843,Low,Expert,3,male single,4,life insurance,43,rent,2,skilled,1,yes,0
+High,30,critical/other existing credit,radio/tv,3017,Low,Expert,4,male single,4,life insurance,47,own,1,skilled,1,yes,1
+No Checking,24,critical/other existing credit,business,4139,Medium,Professional,3,male single,3,life insurance,27,own,2,unskilled resident,1,yes,1
+No Checking,36,existing paid,business,5742,Medium,Experienced,2,male single,2,car,31,own,2,skilled,1,yes,1
+No Checking,60,existing paid,new car,10366,Low,Expert,2,male single,4,life insurance,42,own,1,high qualif/self emp/mgmt,1,yes,1
+No Checking,6,critical/other existing credit,new car,2080,High,Professional,1,male mar/wid,2,car,24,own,1,skilled,1,yes,1
+No Checking,21,delayed previously,business,2580,High,Amateur,4,male single,2,real estate,41,own,1,unskilled resident,2,yes,0
+No Checking,30,critical/other existing credit,radio/tv,4530,Low,Experienced,4,female div/dep/mar,4,car,26,rent,1,high qualif/self emp/mgmt,1,yes,1
+No Checking,24,critical/other existing credit,furniture/equipment,5150,Low,Expert,4,male single,4,car,33,own,1,skilled,1,yes,1
+Medium,72,existing paid,radio/tv,5595,Medium,Professional,2,male mar/wid,2,car,24,own,1,skilled,1,yes,0
+Low,24,existing paid,radio/tv,2384,Low,Expert,4,male single,4,real estate,64,rent,1,unskilled resident,1,yes,1
+No Checking,18,existing paid,radio/tv,1453,Low,Amateur,3,female div/dep/mar,1,real estate,26,own,1,skilled,1,yes,1
+No Checking,6,existing paid,education,1538,Low,Amateur,1,female div/dep/mar,2,no known property,56,own,1,skilled,1,yes,1
+No Checking,12,existing paid,radio/tv,2279,No Savings,Professional,4,male single,4,no known property,37,for free,1,skilled,1,yes,1
+No Checking,15,delayed previously,radio/tv,1478,Low,Professional,4,male mar/wid,3,real estate,33,own,2,skilled,1,yes,1
+No Checking,24,critical/other existing credit,radio/tv,5103,Low,Amateur,3,male mar/wid,3,no known property,47,for free,3,skilled,1,yes,1
+Medium,36,delayed previously,business,9857,Medium,Experienced,1,male single,3,life insurance,31,own,2,unskilled resident,2,yes,1
+No Checking,60,existing paid,new car,6527,No Savings,Professional,4,male single,4,no known property,34,for free,1,skilled,2,yes,1
+High,10,critical/other existing credit,radio/tv,1347,No Savings,Experienced,4,male single,2,life insurance,27,own,2,skilled,1,yes,1
+Medium,36,delayed previously,new car,2862,Medium,Expert,4,male single,3,no known property,30,for free,1,skilled,1,yes,1
+No Checking,9,existing paid,radio/tv,2753,Medium,Expert,3,male single,4,car,35,own,1,skilled,1,yes,1
+Low,12,existing paid,new car,3651,High,Professional,1,male single,3,life insurance,31,own,1,skilled,2,yes,1
+Low,15,critical/other existing credit,furniture/equipment,975,Low,Professional,2,male div/sep,3,life insurance,25,own,2,skilled,1,yes,1
+Medium,15,existing paid,repairs,2631,Medium,Professional,3,female div/dep/mar,2,real estate,25,own,1,unskilled resident,1,yes,1
+Medium,24,existing paid,radio/tv,2896,Medium,Amateur,2,male single,1,car,29,own,1,skilled,1,yes,1
+Low,6,critical/other existing credit,new car,4716,No Savings,Amateur,1,male single,3,real estate,44,own,2,unskilled resident,2,yes,1
+No Checking,24,existing paid,radio/tv,2284,Low,Experienced,4,male single,2,car,28,own,1,skilled,1,yes,1
+No Checking,6,existing paid,used car,1236,High,Professional,2,male single,4,life insurance,50,rent,1,skilled,1,yes,1
+Medium,12,existing paid,radio/tv,1103,Low,Experienced,4,male single,3,real estate,29,own,2,skilled,1,no,1
+No Checking,12,critical/other existing credit,new car,926,Low,Unemployed,1,female div/dep/mar,2,life insurance,38,own,1,unemp/unskilled non res,1,yes,1
+No Checking,18,critical/other existing credit,radio/tv,1800,Low,Professional,4,male single,2,car,24,own,2,skilled,1,yes,1
+High,15,existing paid,education,1905,Low,Expert,4,male single,4,car,40,rent,1,high qualif/self emp/mgmt,1,yes,1
+No Checking,12,existing paid,furniture/equipment,1123,High,Professional,4,female div/dep/mar,4,car,29,rent,1,unskilled resident,1,yes,0
+Low,48,critical/other existing credit,used car,6331,Low,Expert,4,male single,4,no known property,46,for free,2,skilled,1,yes,0
+High,24,existing paid,radio/tv,1377,Medium,Expert,4,female div/dep/mar,2,no known property,47,for free,1,skilled,1,yes,1
+Medium,30,delayed previously,business,2503,Medium,Expert,4,male single,2,life insurance,41,own,2,skilled,1,yes,1
+Medium,27,existing paid,business,2528,Low,Amateur,4,female div/dep/mar,1,life insurance,32,own,1,skilled,2,yes,1
+No Checking,15,existing paid,new car,5324,High,Expert,1,female div/dep/mar,4,no known property,35,for free,1,skilled,1,yes,1
+Medium,48,existing paid,new car,6560,Medium,Experienced,3,male single,2,life insurance,24,own,1,skilled,1,yes,0
+Medium,12,no credits/all paid,furniture/equipment,2969,Low,Amateur,4,female div/dep/mar,3,life insurance,25,rent,2,skilled,1,yes,0
+Medium,9,existing paid,radio/tv,1206,Low,Expert,4,female div/dep/mar,4,real estate,25,own,1,skilled,1,yes,1
+Medium,9,existing paid,radio/tv,2118,Low,Professional,2,male single,2,real estate,37,own,1,unskilled resident,2,yes,1
+No Checking,18,critical/other existing credit,radio/tv,629,High,Expert,4,male single,3,life insurance,32,own,2,high qualif/self emp/mgmt,1,yes,1
+Low,6,all paid,education,1198,Low,Expert,4,female div/dep/mar,4,no known property,35,for free,1,skilled,1,yes,0
+No Checking,21,existing paid,used car,2476,No Savings,Expert,4,male single,4,real estate,46,own,1,high qualif/self emp/mgmt,1,yes,1
+Low,9,critical/other existing credit,radio/tv,1138,Low,Professional,4,male single,4,real estate,25,own,2,unskilled resident,1,yes,1
+Medium,60,existing paid,new car,14027,Low,Experienced,4,male single,2,no known property,27,own,1,high qualif/self emp/mgmt,1,yes,0
+No Checking,30,critical/other existing credit,used car,7596,No Savings,Expert,1,male single,4,car,63,own,2,skilled,1,yes,1
+No Checking,30,critical/other existing credit,radio/tv,3077,No Savings,Expert,3,male single,2,car,40,own,2,skilled,2,yes,1
+No Checking,18,existing paid,radio/tv,1505,Low,Professional,4,male single,2,no known property,32,for free,1,high qualif/self emp/mgmt,1,yes,1
+High,24,critical/other existing credit,radio/tv,3148,No Savings,Professional,3,male single,2,car,31,own,2,skilled,1,yes,1
+Medium,20,no credits/all paid,used car,6148,Medium,Expert,3,male mar/wid,4,car,31,own,2,skilled,1,yes,1
+High,9,no credits/all paid,radio/tv,1337,Low,Amateur,4,male single,2,car,34,own,2,high qualif/self emp/mgmt,1,yes,0
+Medium,6,all paid,education,433,High,Amateur,4,female div/dep/mar,2,life insurance,24,rent,1,skilled,2,yes,0
+Low,12,existing paid,new car,1228,Low,Professional,4,female div/dep/mar,2,real estate,24,own,1,unskilled resident,1,yes,0
+Medium,9,existing paid,radio/tv,790,High,Professional,4,female div/dep/mar,3,real estate,66,own,1,unskilled resident,1,yes,1
+No Checking,27,existing paid,new car,2570,Low,Professional,3,female div/dep/mar,3,real estate,21,rent,1,skilled,1,yes,0
+No Checking,6,critical/other existing credit,new car,250,High,Professional,2,female div/dep/mar,2,real estate,41,own,2,unskilled resident,1,yes,1
+No Checking,15,critical/other existing credit,radio/tv,1316,High,Professional,2,male mar/wid,2,life insurance,47,own,2,unskilled resident,1,yes,1
+Low,18,existing paid,radio/tv,1882,Low,Professional,4,female div/dep/mar,4,car,25,rent,2,skilled,1,yes,0
+Medium,48,all paid,business,6416,Low,Expert,4,female div/dep/mar,3,no known property,59,rent,1,skilled,1,yes,0
+High,24,critical/other existing credit,business,1275,High,Professional,2,male div/sep,4,real estate,36,own,2,skilled,1,yes,1
+Medium,24,delayed previously,radio/tv,6403,Low,Amateur,1,male single,2,car,33,own,1,skilled,1,yes,1
+Low,24,existing paid,radio/tv,1987,Low,Professional,2,male single,4,real estate,21,rent,1,unskilled resident,2,yes,0
+Medium,8,existing paid,radio/tv,760,Low,Experienced,4,female div/dep/mar,2,real estate,44,own,1,unskilled resident,1,yes,1
+No Checking,24,existing paid,used car,2603,High,Professional,2,female div/dep/mar,4,car,28,rent,1,skilled,1,yes,1
+No Checking,4,critical/other existing credit,new car,3380,Low,Experienced,1,female div/dep/mar,1,real estate,37,own,1,skilled,2,yes,1
+Medium,36,all paid,domestic appliance,3990,No Savings,Amateur,3,female div/dep/mar,2,no known property,29,own,1,unemp/unskilled non res,1,yes,1
+Medium,24,existing paid,used car,11560,Low,Professional,1,female div/dep/mar,4,car,23,rent,2,high qualif/self emp/mgmt,1,yes,0
+Low,18,existing paid,new car,4380,Medium,Professional,3,male single,4,car,35,own,1,unskilled resident,2,yes,1
+No Checking,6,critical/other existing credit,new car,6761,Low,Experienced,1,male single,3,no known property,45,own,2,high qualif/self emp/mgmt,2,yes,1
+Medium,30,no credits/all paid,business,4280,Medium,Professional,4,female div/dep/mar,4,car,26,rent,2,unskilled resident,1,yes,0
+Low,24,all paid,new car,2325,Medium,Experienced,2,male single,3,car,32,own,1,skilled,1,yes,1
+Medium,10,all paid,radio/tv,1048,Low,Professional,4,male single,4,real estate,23,own,1,unskilled resident,1,yes,1
+No Checking,21,existing paid,radio/tv,3160,No Savings,Expert,4,male single,3,life insurance,41,own,1,skilled,1,yes,1
+Low,24,all paid,furniture/equipment,2483,High,Professional,4,male single,4,real estate,22,own,1,skilled,1,yes,1
+Low,39,critical/other existing credit,furniture/equipment,14179,No Savings,Experienced,4,male single,4,life insurance,30,own,2,high qualif/self emp/mgmt,1,yes,1
+Low,13,critical/other existing credit,business,1797,Low,Amateur,3,male single,1,life insurance,28,own,2,unskilled resident,1,yes,1
+Low,15,existing paid,new car,2511,Low,Unemployed,1,female div/dep/mar,4,car,23,rent,1,skilled,1,yes,1
+Low,12,existing paid,new car,1274,Low,Amateur,3,female div/dep/mar,1,real estate,37,own,1,unskilled resident,1,yes,0
+No Checking,21,existing paid,used car,5248,No Savings,Professional,1,male single,3,car,26,own,1,skilled,1,yes,1
+No Checking,15,existing paid,used car,3029,Low,Experienced,2,male single,2,car,33,own,1,skilled,1,yes,1
+Low,6,existing paid,furniture/equipment,428,Low,Expert,2,female div/dep/mar,1,life insurance,49,own,1,skilled,1,yes,1
+Low,18,existing paid,new car,976,Low,Amateur,1,female div/dep/mar,2,car,23,own,1,unskilled resident,1,yes,0
+Medium,12,existing paid,business,841,Medium,Experienced,2,female div/dep/mar,4,real estate,23,rent,1,unskilled resident,1,yes,1
+No Checking,30,critical/other existing credit,radio/tv,5771,Low,Experienced,4,female div/dep/mar,2,car,25,own,2,skilled,1,yes,1
+No Checking,12,delayed previously,repairs,1555,High,Expert,4,male single,4,no known property,55,for free,2,skilled,2,yes,0
+Low,24,existing paid,new car,1285,No Savings,Experienced,4,female div/dep/mar,4,no known property,32,rent,1,skilled,1,yes,0
+High,6,critical/other existing credit,new car,1299,Low,Professional,1,male single,1,real estate,74,own,3,unemp/unskilled non res,2,no,1
+High,15,critical/other existing credit,radio/tv,1271,No Savings,Professional,3,male single,4,no known property,39,for free,2,skilled,1,yes,0
+No Checking,24,existing paid,new car,1393,Low,Professional,2,male single,2,real estate,31,own,1,skilled,1,yes,1
+Low,12,critical/other existing credit,new car,691,Low,Expert,4,male single,3,life insurance,35,own,2,skilled,1,yes,0
+No Checking,15,critical/other existing credit,new car,5045,No Savings,Expert,1,female div/dep/mar,4,car,59,own,1,skilled,1,yes,1
+Low,18,critical/other existing credit,furniture/equipment,2124,Low,Professional,4,female div/dep/mar,4,real estate,24,rent,2,skilled,1,yes,0
+Low,12,existing paid,radio/tv,2214,Low,Professional,4,male single,3,life insurance,24,own,1,unskilled resident,1,yes,1
+No Checking,21,critical/other existing credit,new car,12680,No Savings,Expert,4,male single,4,no known property,30,for free,1,high qualif/self emp/mgmt,1,yes,0
+No Checking,24,critical/other existing credit,new car,2463,Medium,Experienced,4,male mar/wid,3,life insurance,27,own,2,skilled,1,yes,1
+Medium,12,existing paid,radio/tv,1155,Low,Expert,3,male mar/wid,3,real estate,40,own,2,unskilled resident,1,yes,1
+Low,30,existing paid,furniture/equipment,3108,Low,Amateur,2,male div/sep,4,life insurance,31,own,1,unskilled resident,1,yes,0
+No Checking,10,existing paid,used car,2901,No Savings,Amateur,1,female div/dep/mar,4,real estate,31,rent,1,skilled,1,yes,1
+Medium,12,critical/other existing credit,furniture/equipment,3617,Low,Expert,1,male single,4,car,28,rent,3,skilled,1,yes,1
+No Checking,12,critical/other existing credit,radio/tv,1655,Low,Expert,2,male single,4,real estate,63,own,2,unskilled resident,1,yes,1
+Low,24,existing paid,used car,2812,No Savings,Expert,2,female div/dep/mar,4,real estate,26,rent,1,skilled,1,yes,1
+Low,36,critical/other existing credit,education,8065,Low,Professional,3,female div/dep/mar,2,no known property,25,own,2,high qualif/self emp/mgmt,1,yes,0
+No Checking,21,critical/other existing credit,used car,3275,Low,Expert,1,male single,4,car,36,own,1,high qualif/self emp/mgmt,1,yes,1
+No Checking,24,critical/other existing credit,radio/tv,2223,Medium,Expert,4,male single,4,life insurance,52,own,2,skilled,1,yes,1
+High,12,critical/other existing credit,new car,1480,High,Unemployed,2,male single,4,no known property,66,for free,3,unemp/unskilled non res,1,yes,1
+Low,24,existing paid,new car,1371,No Savings,Professional,4,female div/dep/mar,4,real estate,25,rent,1,skilled,1,yes,0
+No Checking,36,critical/other existing credit,new car,3535,Low,Experienced,4,male single,4,car,37,own,2,skilled,1,yes,1
+Low,18,existing paid,radio/tv,3509,Low,Experienced,4,female div/dep/mar,1,real estate,25,own,1,skilled,1,yes,1
+No Checking,36,critical/other existing credit,used car,5711,High,Expert,4,male single,2,car,38,own,2,high qualif/self emp/mgmt,1,yes,1
+Medium,18,existing paid,repairs,3872,Low,Unemployed,2,female div/dep/mar,4,car,67,own,1,skilled,1,yes,1
+Medium,39,critical/other existing credit,radio/tv,4933,Low,Experienced,2,male single,2,real estate,25,own,2,skilled,1,yes,0
+No Checking,24,critical/other existing credit,new car,1940,High,Expert,4,male single,4,real estate,60,own,1,skilled,1,yes,1
+Medium,12,no credits/all paid,retraining,1410,Low,Professional,2,male single,2,real estate,31,own,1,unskilled resident,1,yes,1
+Medium,12,existing paid,new car,836,Medium,Amateur,4,female div/dep/mar,2,life insurance,23,own,1,unskilled resident,1,yes,0
+Medium,20,existing paid,used car,6468,No Savings,Unemployed,1,male div/sep,4,real estate,60,own,1,high qualif/self emp/mgmt,1,yes,1
+Medium,18,existing paid,business,1941,High,Professional,4,male single,2,life insurance,35,own,1,unskilled resident,1,yes,1
+No Checking,22,existing paid,radio/tv,2675,High,Expert,3,male single,4,car,40,own,1,skilled,1,yes,1
+No Checking,48,critical/other existing credit,used car,2751,No Savings,Expert,4,male single,3,car,38,own,2,skilled,2,yes,1
+Medium,48,delayed previously,education,6224,Low,Expert,4,male single,4,no known property,50,for free,1,skilled,1,yes,0
+Low,40,critical/other existing credit,education,5998,Low,Professional,4,male single,3,no known property,27,own,1,skilled,1,yes,0
+Medium,21,existing paid,business,1188,Low,Expert,2,female div/dep/mar,4,life insurance,39,own,1,skilled,2,yes,0
+No Checking,24,existing paid,used car,6313,No Savings,Expert,3,male single,4,car,41,own,1,high qualif/self emp/mgmt,2,yes,1
+No Checking,6,critical/other existing credit,furniture/equipment,1221,No Savings,Professional,1,male mar/wid,2,life insurance,27,own,2,skilled,1,yes,1
+High,24,existing paid,furniture/equipment,2892,Low,Expert,3,male div/sep,4,no known property,51,for free,1,skilled,1,yes,1
+No Checking,24,existing paid,furniture/equipment,3062,High,Expert,4,male single,3,no known property,32,rent,1,skilled,1,yes,1
+No Checking,9,existing paid,furniture/equipment,2301,Medium,Amateur,2,female div/dep/mar,4,life insurance,22,rent,1,skilled,1,yes,1
+Low,18,existing paid,used car,7511,No Savings,Expert,1,male single,4,life insurance,51,for free,1,skilled,2,yes,0
+No Checking,12,critical/other existing credit,furniture/equipment,1258,Low,Amateur,2,female div/dep/mar,4,life insurance,22,rent,2,unskilled resident,1,yes,1
+No Checking,24,delayed previously,new car,717,No Savings,Expert,4,male mar/wid,4,car,54,own,2,skilled,1,yes,1
+Medium,9,existing paid,new car,1549,No Savings,Amateur,4,male single,2,real estate,35,own,1,unemp/unskilled non res,1,yes,1
+No Checking,24,critical/other existing credit,education,1597,Low,Expert,4,male single,4,no known property,54,for free,2,skilled,2,yes,1
+Medium,18,critical/other existing credit,radio/tv,1795,Low,Expert,3,female div/dep/mar,4,real estate,48,rent,2,unskilled resident,1,yes,1
+Low,20,critical/other existing credit,furniture/equipment,4272,Low,Expert,1,female div/dep/mar,4,life insurance,24,own,2,skilled,1,yes,1
+No Checking,12,critical/other existing credit,radio/tv,976,No Savings,Expert,4,male single,4,car,35,own,2,skilled,1,yes,1
+Medium,12,existing paid,new car,7472,No Savings,Unemployed,1,female div/dep/mar,2,real estate,24,rent,1,unemp/unskilled non res,1,yes,1
+Low,36,existing paid,new car,9271,Low,Experienced,2,male single,1,car,24,own,1,skilled,1,yes,0
+Medium,6,existing paid,radio/tv,590,Low,Amateur,3,male mar/wid,3,real estate,26,own,1,unskilled resident,1,no,1
+No Checking,12,critical/other existing credit,radio/tv,930,No Savings,Expert,4,male single,4,real estate,65,own,4,skilled,1,yes,1
+Medium,42,all paid,used car,9283,Low,Unemployed,1,male single,2,no known property,55,for free,1,high qualif/self emp/mgmt,1,yes,1
+Medium,15,no credits/all paid,new car,1778,Low,Amateur,2,female div/dep/mar,1,real estate,26,rent,2,unemp/unskilled non res,1,yes,0
+Medium,8,existing paid,business,907,Low,Amateur,3,male mar/wid,2,real estate,26,own,1,skilled,1,yes,1
+Medium,6,existing paid,radio/tv,484,Low,Experienced,3,male mar/wid,3,real estate,28,own,1,unskilled resident,1,yes,1
+Low,36,critical/other existing credit,used car,9629,Low,Experienced,4,male single,4,car,24,own,2,skilled,1,yes,0
+Low,48,existing paid,domestic appliance,3051,Low,Professional,3,male single,4,car,54,own,1,skilled,1,yes,0
+Low,48,existing paid,new car,3931,Low,Experienced,4,male single,4,no known property,46,for free,1,skilled,2,yes,0
+Medium,36,delayed previously,new car,7432,Low,Professional,2,female div/dep/mar,2,life insurance,54,rent,1,skilled,1,yes,1
+No Checking,6,existing paid,domestic appliance,1338,High,Professional,1,male div/sep,4,real estate,62,own,1,skilled,1,yes,1
+No Checking,6,critical/other existing credit,radio/tv,1554,Low,Experienced,1,female div/dep/mar,2,car,24,rent,2,skilled,1,yes,1
+Low,36,existing paid,other,15857,Low,Unemployed,2,male div/sep,3,car,43,own,1,high qualif/self emp/mgmt,1,yes,1
+Low,18,existing paid,radio/tv,1345,Low,Professional,4,male mar/wid,3,real estate,26,own,1,skilled,1,yes,0
+No Checking,12,existing paid,new car,1101,Low,Professional,3,male mar/wid,2,real estate,27,own,2,skilled,1,yes,1
+High,12,existing paid,radio/tv,3016,Low,Professional,3,male mar/wid,1,car,24,own,1,skilled,1,yes,1
+Low,36,existing paid,furniture/equipment,2712,Low,Expert,2,male single,2,life insurance,41,own,1,skilled,2,yes,0
+Low,8,critical/other existing credit,new car,731,Low,Expert,4,male single,4,real estate,47,own,2,unskilled resident,1,yes,1
+No Checking,18,critical/other existing credit,furniture/equipment,3780,Low,Amateur,3,male div/sep,2,car,35,own,2,high qualif/self emp/mgmt,1,yes,1
+Low,21,critical/other existing credit,new car,1602,Low,Expert,4,male mar/wid,3,car,30,own,2,skilled,1,yes,1
+Low,18,critical/other existing credit,new car,3966,Low,Expert,1,female div/dep/mar,4,real estate,33,rent,3,skilled,1,yes,0
+No Checking,18,no credits/all paid,business,4165,Low,Professional,2,male single,2,car,36,own,2,skilled,2,yes,0
+Low,36,existing paid,used car,8335,No Savings,Expert,3,male single,4,no known property,47,for free,1,skilled,1,yes,0
+Medium,48,delayed previously,business,6681,No Savings,Professional,4,male single,4,no known property,38,for free,1,skilled,2,yes,1
+No Checking,24,delayed previously,business,2375,High,Professional,4,male single,2,car,44,own,2,skilled,2,yes,1
+Low,18,existing paid,new car,1216,Low,Amateur,4,female div/dep/mar,3,car,23,rent,1,skilled,1,yes,0
+Low,45,no credits/all paid,business,11816,Low,Expert,2,male single,4,car,29,rent,2,skilled,1,yes,0
+Medium,24,existing paid,radio/tv,5084,No Savings,Expert,2,female div/dep/mar,4,car,42,own,1,skilled,1,yes,1
+High,15,existing paid,radio/tv,2327,Low,Amateur,2,female div/dep/mar,3,real estate,25,own,1,unskilled resident,1,yes,0
+Low,12,no credits/all paid,new car,1082,Low,Professional,4,male single,4,car,48,own,2,skilled,1,yes,0
+No Checking,12,existing paid,radio/tv,886,No Savings,Professional,4,female div/dep/mar,2,car,21,own,1,skilled,1,yes,1
+No Checking,4,existing paid,furniture/equipment,601,Low,Amateur,1,female div/dep/mar,3,real estate,23,rent,1,unskilled resident,2,yes,1
+Low,24,critical/other existing credit,used car,2957,Low,Expert,4,male single,4,life insurance,63,own,2,skilled,1,yes,1
+No Checking,24,critical/other existing credit,radio/tv,2611,Low,Expert,4,male mar/wid,3,real estate,46,own,2,skilled,1,yes,1
+Low,36,existing paid,furniture/equipment,5179,Low,Experienced,4,male single,2,life insurance,29,own,1,skilled,1,yes,0
+No Checking,21,delayed previously,used car,2993,Low,Professional,3,male single,2,real estate,28,own,2,unskilled resident,1,yes,1
+No Checking,18,existing paid,repairs,1943,Low,Amateur,4,female div/dep/mar,4,real estate,23,own,1,skilled,1,yes,0
+No Checking,24,all paid,business,1559,Low,Experienced,4,male single,4,car,50,own,1,skilled,1,yes,1
+No Checking,18,existing paid,furniture/equipment,3422,Low,Expert,4,male single,4,life insurance,47,own,3,skilled,2,yes,1
+Medium,21,existing paid,furniture/equipment,3976,No Savings,Experienced,2,male single,3,car,35,own,1,skilled,1,yes,1
+No Checking,18,existing paid,new car,6761,No Savings,Professional,2,male single,4,car,68,rent,2,skilled,1,yes,0
+No Checking,24,existing paid,new car,1249,Low,Amateur,4,male mar/wid,2,real estate,28,own,1,skilled,1,yes,1
+Low,9,existing paid,radio/tv,1364,Low,Experienced,3,male single,4,real estate,59,own,1,skilled,1,yes,1
+Low,12,existing paid,radio/tv,709,Low,Expert,4,male single,4,real estate,57,own,1,unskilled resident,1,yes,0
+Low,20,critical/other existing credit,new car,2235,Low,Professional,4,male mar/wid,2,life insurance,33,rent,2,skilled,1,no,0
+No Checking,24,critical/other existing credit,used car,4042,No Savings,Experienced,3,male single,4,life insurance,43,own,2,skilled,1,yes,1
+No Checking,15,critical/other existing credit,radio/tv,1471,Low,Professional,4,male single,4,no known property,35,for free,2,skilled,1,yes,1
+Low,18,all paid,new car,1442,Low,Experienced,4,male single,4,no known property,32,for free,2,unskilled resident,2,yes,0
+No Checking,36,delayed previously,new car,10875,Low,Expert,2,male single,2,car,45,own,2,skilled,2,yes,1
+No Checking,24,existing paid,new car,1474,Medium,Amateur,4,male mar/wid,3,real estate,33,own,1,skilled,1,yes,1
+No Checking,10,existing paid,retraining,894,No Savings,Experienced,4,female div/dep/mar,3,life insurance,40,own,1,skilled,1,yes,1
+No Checking,15,critical/other existing credit,furniture/equipment,3343,Low,Professional,4,male single,2,no known property,28,for free,1,skilled,1,yes,1
+Low,15,existing paid,new car,3959,Low,Professional,3,female div/dep/mar,2,life insurance,29,own,1,skilled,1,yes,0
+No Checking,9,existing paid,new car,3577,Medium,Professional,1,male single,2,real estate,26,rent,1,skilled,2,no,1
+No Checking,24,critical/other existing credit,used car,5804,High,Professional,4,male single,2,real estate,27,own,2,skilled,1,yes,1
+No Checking,18,delayed previously,business,2169,Low,Professional,4,male mar/wid,2,car,28,own,1,skilled,1,yes,0
+Low,24,existing paid,radio/tv,2439,Low,Amateur,4,female div/dep/mar,4,real estate,35,own,1,skilled,1,yes,0
+No Checking,27,critical/other existing credit,furniture/equipment,4526,High,Amateur,4,male single,2,real estate,32,own,2,unskilled resident,2,yes,1
+No Checking,10,existing paid,furniture/equipment,2210,Low,Professional,2,male single,2,real estate,25,rent,1,unskilled resident,1,yes,0
+No Checking,15,existing paid,furniture/equipment,2221,High,Professional,2,female div/dep/mar,4,car,20,rent,1,skilled,1,yes,1
+Low,18,existing paid,radio/tv,2389,Low,Amateur,4,female div/dep/mar,1,car,27,own,1,skilled,1,yes,1
+No Checking,12,critical/other existing credit,furniture/equipment,3331,Low,Expert,2,male single,4,life insurance,42,own,1,skilled,1,yes,1
+No Checking,36,existing paid,business,7409,No Savings,Expert,3,male single,2,life insurance,37,own,2,skilled,1,yes,1
+Low,12,existing paid,furniture/equipment,652,Low,Expert,4,female div/dep/mar,4,life insurance,24,rent,1,skilled,1,yes,1
+No Checking,36,delayed previously,furniture/equipment,7678,High,Experienced,2,female div/dep/mar,4,car,40,own,2,skilled,1,yes,1
+High,6,critical/other existing credit,new car,1343,Low,Expert,1,male single,4,real estate,46,own,2,skilled,2,no,1
+Low,24,critical/other existing credit,business,1382,Medium,Experienced,4,male single,1,real estate,26,own,2,skilled,1,yes,1
+No Checking,15,existing paid,domestic appliance,874,No Savings,Amateur,4,female div/dep/mar,1,real estate,24,own,1,skilled,1,yes,1
+Low,12,existing paid,furniture/equipment,3590,Low,Professional,2,male single,2,life insurance,29,own,1,unskilled resident,2,yes,1
+Medium,11,critical/other existing credit,new car,1322,High,Professional,4,female div/dep/mar,4,car,40,own,2,skilled,1,yes,1
+Low,18,all paid,radio/tv,1940,Low,Amateur,3,male single,4,no known property,36,for free,1,high qualif/self emp/mgmt,1,yes,1
+No Checking,36,existing paid,radio/tv,3595,Low,Expert,4,male single,2,car,28,own,1,skilled,1,yes,1
+Low,9,existing paid,new car,1422,Low,Amateur,3,male single,2,no known property,27,for free,1,high qualif/self emp/mgmt,1,yes,0
+No Checking,30,critical/other existing credit,radio/tv,6742,No Savings,Experienced,2,male single,3,life insurance,36,own,2,skilled,1,yes,1
+No Checking,24,existing paid,used car,7814,Low,Experienced,3,male single,3,car,38,own,1,high qualif/self emp/mgmt,1,yes,1
+No Checking,24,existing paid,used car,9277,No Savings,Professional,2,male div/sep,4,no known property,48,for free,1,skilled,1,yes,1
+Medium,30,critical/other existing credit,new car,2181,No Savings,Expert,4,male single,4,real estate,36,own,2,skilled,1,yes,1
+No Checking,18,critical/other existing credit,radio/tv,1098,Low,Unemployed,4,female div/dep/mar,4,car,65,own,2,unemp/unskilled non res,1,yes,1
+Medium,24,existing paid,furniture/equipment,4057,Low,Experienced,3,male div/sep,3,car,43,own,1,skilled,1,yes,0
+Low,12,existing paid,education,795,Low,Amateur,4,female div/dep/mar,4,life insurance,53,own,1,skilled,1,yes,0
+Medium,24,critical/other existing credit,business,2825,No Savings,Experienced,4,male single,3,no known property,34,own,2,skilled,2,yes,1
+Medium,48,existing paid,business,15672,Low,Professional,2,male single,2,car,23,own,1,skilled,1,yes,0
+No Checking,36,critical/other existing credit,new car,6614,Low,Expert,4,male single,4,car,34,own,2,high qualif/self emp/mgmt,1,yes,1
+No Checking,28,all paid,used car,7824,No Savings,Amateur,3,male single,4,real estate,40,rent,2,skilled,2,yes,1
+Low,27,critical/other existing credit,business,2442,Low,Expert,4,male single,4,car,43,own,4,high qualif/self emp/mgmt,2,yes,1
+No Checking,15,critical/other existing credit,radio/tv,1829,Low,Expert,4,male single,4,car,46,own,2,skilled,1,yes,1
+Low,12,critical/other existing credit,new car,2171,Low,Professional,4,male single,4,life insurance,38,own,2,unskilled resident,1,no,1
+Medium,36,critical/other existing credit,used car,5800,Low,Professional,3,male single,4,car,34,own,2,skilled,1,yes,1
+No Checking,18,critical/other existing credit,radio/tv,1169,No Savings,Professional,4,male single,3,life insurance,29,own,2,skilled,1,yes,1
+No Checking,36,delayed previously,used car,8947,No Savings,Experienced,3,male single,2,car,31,own,1,high qualif/self emp/mgmt,2,yes,1
+Low,21,existing paid,radio/tv,2606,Low,Amateur,4,female div/dep/mar,4,life insurance,28,rent,1,high qualif/self emp/mgmt,1,yes,1
+No Checking,12,critical/other existing credit,furniture/equipment,1592,High,Experienced,3,female div/dep/mar,2,life insurance,35,own,1,skilled,1,no,1
+No Checking,15,existing paid,furniture/equipment,2186,No Savings,Experienced,1,female div/dep/mar,4,real estate,33,rent,1,unskilled resident,1,yes,1
+Low,18,existing paid,furniture/equipment,4153,Low,Professional,2,male single,3,car,42,own,1,skilled,1,yes,0
+Low,16,critical/other existing credit,new car,2625,Low,Expert,2,male single,4,life insurance,43,rent,1,skilled,1,yes,0
+No Checking,20,critical/other existing credit,new car,3485,No Savings,Amateur,2,male div/sep,4,real estate,44,own,2,skilled,1,yes,1
+No Checking,36,critical/other existing credit,used car,10477,No Savings,Expert,2,male single,4,no known property,42,for free,2,skilled,1,yes,1
+No Checking,15,existing paid,radio/tv,1386,No Savings,Professional,4,male mar/wid,2,real estate,40,rent,1,skilled,1,yes,1
+No Checking,24,existing paid,radio/tv,1278,Low,Expert,4,male single,1,real estate,36,own,1,high qualif/self emp/mgmt,1,yes,1
+Low,12,existing paid,radio/tv,1107,Low,Professional,2,male single,2,real estate,20,rent,1,high qualif/self emp/mgmt,2,yes,1
+Low,21,existing paid,new car,3763,No Savings,Experienced,2,male single,2,real estate,24,own,1,unskilled resident,1,no,1
+Medium,36,existing paid,education,3711,No Savings,Professional,2,male mar/wid,2,car,27,own,1,skilled,1,yes,1
+No Checking,15,delayed previously,used car,3594,Low,Amateur,1,female div/dep/mar,2,life insurance,46,own,2,unskilled resident,1,yes,1
+Medium,9,existing paid,new car,3195,No Savings,Professional,1,female div/dep/mar,2,real estate,33,own,1,unskilled resident,1,yes,1
+No Checking,36,delayed previously,radio/tv,4454,Low,Professional,4,female div/dep/mar,4,real estate,34,own,2,skilled,1,yes,1
+Medium,24,critical/other existing credit,furniture/equipment,4736,Low,Amateur,2,female div/dep/mar,4,car,25,own,1,unskilled resident,1,yes,0
+Medium,30,existing paid,radio/tv,2991,No Savings,Expert,2,female div/dep/mar,4,car,25,own,1,skilled,1,yes,1
+No Checking,11,existing paid,business,2142,High,Expert,1,male div/sep,2,real estate,28,own,1,skilled,1,yes,1
+Low,24,all paid,business,3161,Low,Professional,4,male single,2,life insurance,31,rent,1,skilled,1,yes,0
+Medium,48,no credits/all paid,other,18424,Low,Professional,1,female div/dep/mar,2,life insurance,32,own,1,high qualif/self emp/mgmt,1,no,0
+No Checking,10,existing paid,used car,2848,Medium,Professional,1,male single,2,real estate,32,own,1,skilled,2,yes,1
+Low,6,existing paid,new car,14896,Low,Expert,1,male single,4,no known property,68,own,1,high qualif/self emp/mgmt,1,yes,0
+Low,24,existing paid,furniture/equipment,2359,Medium,Unemployed,1,male div/sep,1,life insurance,33,own,1,skilled,1,yes,0
+Low,24,existing paid,furniture/equipment,3345,Low,Expert,4,male single,2,life insurance,39,rent,1,high qualif/self emp/mgmt,1,yes,0
+No Checking,18,critical/other existing credit,furniture/equipment,1817,Low,Professional,4,female div/dep/mar,2,no known property,28,own,2,skilled,1,yes,1
+No Checking,48,delayed previously,radio/tv,12749,High,Experienced,4,male single,1,car,37,own,1,high qualif/self emp/mgmt,1,yes,1
+Low,9,existing paid,radio/tv,1366,Low,Amateur,3,female div/dep/mar,4,life insurance,22,rent,1,skilled,1,yes,0
+Medium,12,existing paid,new car,2002,Low,Experienced,3,male single,4,life insurance,30,rent,1,skilled,2,yes,1
+Low,24,all paid,furniture/equipment,6872,Low,Amateur,2,male div/sep,1,life insurance,55,own,1,skilled,1,yes,0
+Low,12,all paid,new car,697,Low,Amateur,4,male single,2,car,46,own,2,skilled,1,yes,0
+Low,18,critical/other existing credit,furniture/equipment,1049,Low,Amateur,4,female div/dep/mar,4,life insurance,21,rent,1,skilled,1,yes,1
+Low,48,existing paid,used car,10297,Low,Experienced,4,male single,4,no known property,39,for free,3,skilled,2,yes,0
+No Checking,30,existing paid,radio/tv,1867,No Savings,Expert,4,male single,4,car,58,own,1,skilled,1,yes,1
+Low,12,delayed previously,new car,1344,Low,Professional,4,male single,2,real estate,43,own,2,unskilled resident,2,yes,1
+Low,24,existing paid,furniture/equipment,1747,Low,Amateur,4,male single,1,life insurance,24,own,1,unskilled resident,1,no,1
+Medium,9,existing paid,radio/tv,1670,Low,Amateur,4,female div/dep/mar,2,car,22,own,1,skilled,1,yes,0
+No Checking,9,critical/other existing credit,new car,1224,Low,Professional,3,male single,1,real estate,30,own,2,skilled,1,yes,1
+No Checking,12,critical/other existing credit,radio/tv,522,High,Expert,4,male single,4,life insurance,42,own,2,skilled,2,yes,1
+Low,12,existing paid,radio/tv,1498,Low,Professional,4,female div/dep/mar,1,car,23,own,1,skilled,1,yes,1
+Medium,30,delayed previously,radio/tv,1919,Medium,Amateur,4,male single,3,no known property,30,own,2,high qualif/self emp/mgmt,1,yes,0
+High,9,existing paid,radio/tv,745,Low,Professional,3,female div/dep/mar,2,real estate,28,own,1,unskilled resident,1,yes,0
+Medium,6,existing paid,radio/tv,2063,Low,Amateur,4,male mar/wid,3,car,30,rent,1,high qualif/self emp/mgmt,1,yes,1
+Medium,60,existing paid,education,6288,Low,Professional,4,male single,4,no known property,42,for free,1,skilled,1,yes,0
+No Checking,24,critical/other existing credit,used car,6842,No Savings,Professional,2,male single,4,life insurance,46,own,2,high qualif/self emp/mgmt,2,yes,1
+No Checking,12,existing paid,new car,3527,No Savings,Amateur,2,male single,3,life insurance,45,own,1,high qualif/self emp/mgmt,2,yes,1
+No Checking,10,existing paid,new car,1546,Low,Professional,3,male single,2,real estate,31,own,1,unskilled resident,2,no,1
+No Checking,24,existing paid,furniture/equipment,929,No Savings,Experienced,4,male single,2,car,31,own,1,skilled,1,yes,1
+No Checking,4,critical/other existing credit,new car,1455,Low,Experienced,2,male single,1,real estate,42,own,3,unskilled resident,2,yes,1
+Low,15,existing paid,furniture/equipment,1845,Low,Amateur,4,female div/dep/mar,1,life insurance,46,rent,1,skilled,1,yes,1
+Medium,48,no credits/all paid,new car,8358,High,Amateur,1,female div/dep/mar,1,car,30,own,2,skilled,1,yes,1
+Low,24,all paid,furniture/equipment,3349,High,Amateur,4,male single,4,no known property,30,for free,1,skilled,2,yes,0
+No Checking,12,existing paid,new car,2859,No Savings,Unemployed,4,male single,4,no known property,38,own,1,high qualif/self emp/mgmt,1,yes,1
+No Checking,18,existing paid,furniture/equipment,1533,Low,Amateur,4,male mar/wid,1,life insurance,43,own,1,unskilled resident,2,yes,0
+No Checking,24,existing paid,radio/tv,3621,Medium,Expert,2,male single,4,car,31,own,2,skilled,1,yes,0
+Medium,18,critical/other existing credit,business,3590,Low,Unemployed,3,male mar/wid,3,car,40,own,3,unemp/unskilled non res,2,yes,1
+Low,36,delayed previously,business,2145,Low,Experienced,2,male single,1,car,24,own,2,skilled,1,yes,0
+Medium,24,existing paid,used car,4113,High,Amateur,3,female div/dep/mar,4,car,28,rent,1,skilled,1,yes,0
+No Checking,36,existing paid,furniture/equipment,10974,Low,Unemployed,4,female div/dep/mar,2,car,26,own,2,high qualif/self emp/mgmt,1,yes,0
+Low,12,existing paid,new car,1893,Low,Professional,4,female div/dep/mar,4,life insurance,29,own,1,skilled,1,yes,1
+Low,24,critical/other existing credit,radio/tv,1231,High,Expert,4,female div/dep/mar,4,life insurance,57,rent,2,high qualif/self emp/mgmt,1,yes,1
+High,30,critical/other existing credit,radio/tv,3656,No Savings,Expert,4,male single,4,life insurance,49,own,2,unskilled resident,1,yes,1
+Medium,9,critical/other existing credit,radio/tv,1154,Low,Expert,2,male single,4,real estate,37,own,3,unskilled resident,1,yes,1
+Low,28,existing paid,new car,4006,Low,Professional,3,male single,2,car,45,own,1,unskilled resident,1,yes,0
+Medium,24,existing paid,furniture/equipment,3069,Medium,Expert,4,male single,4,no known property,30,for free,1,skilled,1,yes,1
+No Checking,6,critical/other existing credit,radio/tv,1740,Low,Expert,2,male mar/wid,2,real estate,30,rent,2,skilled,1,yes,1
+Medium,21,delayed previously,new car,2353,Low,Professional,1,male div/sep,4,life insurance,47,own,2,skilled,1,yes,1
+No Checking,15,existing paid,new car,3556,No Savings,Professional,3,male single,2,no known property,29,own,1,skilled,1,yes,1
+No Checking,24,existing paid,radio/tv,2397,High,Expert,3,male single,2,car,35,own,2,skilled,1,yes,0
+Medium,6,existing paid,repairs,454,Low,Amateur,3,male mar/wid,1,life insurance,22,own,1,unskilled resident,1,yes,1
+Medium,30,existing paid,radio/tv,1715,No Savings,Professional,4,female div/dep/mar,1,car,26,own,1,skilled,1,yes,1
+Medium,27,critical/other existing credit,radio/tv,2520,High,Professional,4,male single,2,life insurance,23,own,2,unskilled resident,1,yes,0
+No Checking,15,existing paid,radio/tv,3568,Low,Expert,4,female div/dep/mar,2,car,54,rent,1,high qualif/self emp/mgmt,1,yes,1
+No Checking,42,existing paid,radio/tv,7166,No Savings,Experienced,2,male mar/wid,4,life insurance,29,rent,1,skilled,1,yes,1
+Low,11,critical/other existing credit,new car,3939,Low,Professional,1,male single,2,real estate,40,own,2,unskilled resident,2,yes,1
+Medium,15,existing paid,repairs,1514,Medium,Professional,4,male single,2,real estate,22,own,1,skilled,1,yes,1
+No Checking,24,existing paid,new car,7393,Low,Professional,1,male single,4,life insurance,43,own,1,unskilled resident,2,yes,1
+Low,24,all paid,new car,1193,Low,Unemployed,1,female div/dep/mar,4,no known property,29,rent,2,unemp/unskilled non res,1,yes,0
+Low,60,existing paid,business,7297,Low,Expert,4,male single,4,no known property,36,rent,1,skilled,1,yes,0
+No Checking,30,critical/other existing credit,radio/tv,2831,Low,Professional,4,female div/dep/mar,2,car,33,own,1,skilled,1,yes,1
+High,24,existing paid,radio/tv,1258,High,Professional,3,female div/dep/mar,3,car,57,own,1,unskilled resident,1,yes,1
+Medium,6,existing paid,radio/tv,753,Low,Professional,2,female div/dep/mar,3,real estate,64,own,1,skilled,1,yes,1
+Medium,18,delayed previously,business,2427,No Savings,Expert,4,male single,2,life insurance,42,own,2,skilled,1,yes,1
+No Checking,24,delayed previously,new car,2538,Low,Expert,4,male single,4,car,47,own,2,unskilled resident,2,yes,0
+Medium,15,all paid,new car,1264,Medium,Professional,2,male mar/wid,2,life insurance,25,rent,1,skilled,1,yes,0
+Medium,30,critical/other existing credit,furniture/equipment,8386,Low,Experienced,2,male single,2,life insurance,49,own,1,skilled,1,yes,0
+No Checking,48,existing paid,business,4844,Low,Unemployed,3,male single,2,car,33,rent,1,high qualif/self emp/mgmt,1,yes,0
+High,21,existing paid,new car,2923,Medium,Professional,1,female div/dep/mar,1,car,28,own,1,high qualif/self emp/mgmt,1,yes,1
+Low,36,existing paid,used car,8229,Low,Professional,2,male single,2,life insurance,26,own,1,skilled,2,yes,0
+No Checking,24,critical/other existing credit,furniture/equipment,2028,Low,Experienced,2,male single,2,life insurance,30,own,2,unskilled resident,1,yes,1
+Low,15,critical/other existing credit,furniture/equipment,1433,Low,Professional,4,female div/dep/mar,3,life insurance,25,rent,2,skilled,1,yes,1
+High,42,no credits/all paid,business,6289,Low,Amateur,2,male div/sep,1,life insurance,33,own,2,skilled,1,yes,1
+No Checking,13,existing paid,radio/tv,1409,Medium,Unemployed,2,female div/dep/mar,4,real estate,64,own,1,skilled,1,yes,1
+Low,24,existing paid,used car,6579,Low,Unemployed,4,male single,2,no known property,29,for free,1,high qualif/self emp/mgmt,1,yes,1
+Medium,24,critical/other existing credit,radio/tv,1743,Low,Expert,4,male single,2,life insurance,48,own,2,unskilled resident,1,yes,1
+No Checking,12,critical/other existing credit,education,3565,No Savings,Amateur,2,male single,1,life insurance,37,own,2,unskilled resident,2,yes,1
+No Checking,15,all paid,radio/tv,1569,Medium,Expert,4,male single,4,car,34,own,1,unskilled resident,2,yes,1
+Low,18,existing paid,radio/tv,1936,No Savings,Experienced,2,male mar/wid,4,car,23,rent,2,unskilled resident,1,yes,1
+Low,36,existing paid,furniture/equipment,3959,Low,Unemployed,4,male single,3,life insurance,30,own,1,high qualif/self emp/mgmt,1,yes,1
+No Checking,12,existing paid,new car,2390,No Savings,Expert,4,male single,3,car,50,own,1,skilled,1,yes,1
+No Checking,12,existing paid,furniture/equipment,1736,Low,Experienced,3,female div/dep/mar,4,real estate,31,own,1,unskilled resident,1,yes,1
+Low,30,existing paid,used car,3857,Low,Professional,4,male div/sep,4,life insurance,40,own,1,high qualif/self emp/mgmt,1,yes,1
+No Checking,12,existing paid,radio/tv,804,Low,Expert,4,male single,4,car,38,own,1,skilled,1,yes,1
+Low,45,existing paid,radio/tv,1845,Low,Professional,4,male single,4,no known property,23,for free,1,skilled,1,yes,0
+Medium,45,critical/other existing credit,used car,4576,Medium,Unemployed,3,male single,4,car,27,own,1,skilled,1,yes,1
