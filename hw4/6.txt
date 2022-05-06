@@ -1,0 +1,100 @@
+6. Who are the top 5 most engaged users in terms of number of ratings that they have given to songs or albums? (In other words, they have given the most number of ratings to songs or albums combined.)
+The result must have 2 columns, named username and number_of_ratings.
+
+mysql> desc song_rating;
++--------------+------------------+------+-----+---------+-------+
+| Field        | Type             | Null | Key | Default | Extra |
++--------------+------------------+------+-----+---------+-------+
+| Username     | varchar(10)      | NO   | PRI | NULL    |       |
+| Song_ID      | int unsigned     | NO   | PRI | NULL    |       |
+| Rating_Score | tinyint unsigned | NO   |     | NULL    |       |
+| Rating_Date  | date             | NO   |     | NULL    |       |
++--------------+------------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+mysql> desc album_rating;
++--------------+------------------+------+-----+---------+-------+
+| Field        | Type             | Null | Key | Default | Extra |
++--------------+------------------+------+-----+---------+-------+
+| Username     | varchar(10)      | NO   | PRI | NULL    |       |
+| Album_ID     | int unsigned     | NO   | PRI | NULL    |       |
+| Rating_Score | tinyint unsigned | NO   |     | NULL    |       |
+| Rating_Date  | date             | NO   |     | NULL    |       |
++--------------+------------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+
+
+select user.username as 'username', count(distinct song_id, album_id) as 'number_of_ratings'
+    from user
+    join album_rating on album_rating.username = user.username
+    join song_rating on song_rating.username = user.username
+    group by username;
+
+
+select album_rating.username, count(distinct song_id, album_id) as 'number_of_ratings'
+    from album_rating
+    inner join song_rating on album_rating.username = song_rating.username
+    group by username;
+    
+    
+select album_rating.username, count(song_id) + count(album_id) as 'number_of_ratings'
+    from album_rating
+    inner join song_rating on album_rating.username = song_rating.username
+    group by username;
+    
+    
+    
+select song_rating.username, COUNT(*) as 'number_of_ratings'
+    from song_rating
+    group by username
+    UNION
+select album_rating.username, COUNT(*) as 'number_of_ratings'
+    from album_rating
+    group by username
+    
+    
+select song_rating.username, COUNT(*) as 'number_of_ratings'
+    from song_rating
+    group by username
+    UNION ALL
+select album_rating.username, COUNT(*) as 'number_of_ratings'
+    from album_rating
+    group by username;
+    
+    
+select song_rating.username, count(*) as 'number_of_ratings'
+    from (
+    select song_rating.username, count(*) from song_rating union all
+    select album_rating.username, count(*) from album_rating
+    )
+    group by username;
+    
+    
+    
+    
+    
+    
+select sum(tbl.number_of_ratings) as 'number_of_ratings'
+    from
+    (
+    select song_rating.username, count(*) as number_of_ratings from song_rating
+    UNION ALL
+    select album_rating.username, count(*) as number_of_ratings from album_rating
+    )tbl;
+    
+    
+    
+    
+    
+#6. 
+select username, sum(tbl.number_of_ratings) as 'number_of_ratings'
+    from
+    (
+    select song_rating.username, count() as number_of_ratings from song_rating GROUP BY song_rating.username
+    UNION ALL
+    select album_rating.username, count() as number_of_ratings from album_rating GROUP BY album_rating.username
+    )tbl
+    GROUP BY username
+    ORDER BY number_of_ratings DESC
+    LIMIT 5;

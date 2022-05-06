@@ -1,0 +1,42 @@
+insert into song_genre (Song_ID, Genre) values ('1', 'genre1');
+insert into song_genre (Song_ID, Genre) values ('2', 'genre1');
+insert into song_genre (Song_ID, Genre) values ('3', 'genre2');
+insert into song_genre (Song_ID, Genre) values ('4', 'genre2');
+insert into song_genre (Song_ID, Genre) values ('5', 'genre2');
+insert into song_genre (Song_ID, Genre) values ('6', 'genre3');
+insert into song_genre (Song_ID, Genre) values ('7', 'genre3');
+insert into song_genre (Song_ID, Genre) values ('8', 'genre3');
+insert into song_genre (Song_ID, Genre) values ('9', 'genre3');
+insert into song_genre (Song_ID, Genre) values ('10', 'genre4');
+
+
+mysql> select * from song_genre;
++---------+--------+
+| Song_ID | Genre  |
++---------+--------+
+|       1 | genre1 |
+|       2 | genre1 |
+|       3 | genre2 |
+|       4 | genre2 |
+|       5 | genre2 |
+|       6 | genre3 |
+|       7 | genre3 |
+|       8 | genre3 |
+|       9 | genre3 |
+|      10 | genre4 |
++---------+--------+
+10 rows in set (0.00 sec)
+
+SELECT genre, count(*) as 'number_of_songs'
+    FROM song_genre
+    GROUP by genre
+    ORDER by count(*) desc limit 3;
+    
++--------+-----------------+
+| genre  | number_of_songs |
++--------+-----------------+
+| genre3 |               4 |
+| genre2 |               3 |
+| genre1 |               2 |
++--------+-----------------+
+3 rows in set (0.00 sec)

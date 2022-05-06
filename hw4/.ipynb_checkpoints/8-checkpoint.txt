@@ -1,0 +1,57 @@
+8. Find the top 10 songs that are in most number of playlists. Break ties in alphabetical order of song titles.
+
+The result must have a 2 columns, named song_title and number_of_playlists.
+
+mysql>     desc song;
++--------------+--------------+------+-----+---------+----------------+
+| Field        | Type         | Null | Key | Default | Extra          |
++--------------+--------------+------+-----+---------+----------------+
+| Song_ID      | int unsigned | NO   | PRI | NULL    | auto_increment |
+| Title        | varchar(30)  | NO   | MUL | NULL    |                |
+| Artist       | varchar(30)  | NO   |     | NULL    |                |
+| Release_Date | date         | YES  |     | NULL    |                |
++--------------+--------------+------+-----+---------+----------------+
+4 rows in set (0.01 sec)
+
+mysql> desc playlist_song;
++-------------+--------------+------+-----+---------+-------+
+| Field       | Type         | Null | Key | Default | Extra |
++-------------+--------------+------+-----+---------+-------+
+| Playlist_ID | int unsigned | NO   | PRI | NULL    |       |
+| Song_ID     | int unsigned | NO   | PRI | NULL    |       |
++-------------+--------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+
+insert into playlist_song (Playlist_ID, Song_ID) values ('0', '1');
+insert into playlist_song (Playlist_ID, Song_ID) values ('1', '1');
+insert into playlist_song (Playlist_ID, Song_ID) values ('2', '1');
+insert into playlist_song (Playlist_ID, Song_ID) values ('3', '1');
+insert into playlist_song (Playlist_ID, Song_ID) values ('4', '1');
+insert into playlist_song (Playlist_ID, Song_ID) values ('5', '1');
+
+insert into playlist_song (Playlist_ID, Song_ID) values ('0', '4');
+insert into playlist_song (Playlist_ID, Song_ID) values ('1', '4');
+insert into playlist_song (Playlist_ID, Song_ID) values ('2', '4');
+insert into playlist_song (Playlist_ID, Song_ID) values ('3', '4');
+insert into playlist_song (Playlist_ID, Song_ID) values ('4', '4');
+
+insert into playlist_song (Playlist_ID, Song_ID) values ('0', '5');
+insert into playlist_song (Playlist_ID, Song_ID) values ('1', '5');
+insert into playlist_song (Playlist_ID, Song_ID) values ('2', '5');
+insert into playlist_song (Playlist_ID, Song_ID) values ('3', '5');
+
+insert into song (Song_ID, Title, Artist, Release_Date) values ('11', 'ayaya', 'artist5', '1993-01-01');
+
+insert into playlist_song (Playlist_ID, Song_ID) values ('0', '11');
+insert into playlist_song (Playlist_ID, Song_ID) values ('1', '11');
+insert into playlist_song (Playlist_ID, Song_ID) values ('2', '11');
+insert into playlist_song (Playlist_ID, Song_ID) values ('3', '11');
+
+
+SELECT song.title AS 'song_title', count(*) AS 'number_of_playlists'
+    FROM song
+    INNER JOIN playlist_song ON song.song_id = playlist_song.song_id
+    GROUP BY song.title
+    ORDER BY number_of_playlists DESC, title ASC
+    LIMIT 10; 

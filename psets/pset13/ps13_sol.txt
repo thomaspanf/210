@@ -1,0 +1,127 @@
+PS 13 - Relational Databases SOLUTION
+-------------------------------------
+
+COMPANY SCHEMA
+===============
+
+department(dno,dname)
+
+employee(ssn,fname,lname,dno,gender,salary,superssn)
+[dno is foreign key on department dno]
+[superssn is foreign key on employee(ssn)]
+[gender is enum ('m','f','x')]
+
+project(po,pname,plocation,dno)
+[dno is foreign key on department dno]
+
+works_on(essn,pno,hours)
+[essn is foreign key on employee(ssn)]
+[pno is foreign key on project(pno)]
+
+
+Queries
+-------
+
+1. List the fname, lname, and ssn of employees who earn between
+10000 and 30000, inclusive.
+
+select fname, lname, ssn
+from employee
+where salary >= 10000
+      and salary <= 30000
+
+OR
+
+select fname, lname, ssn
+from employee
+where salary between 10000 and 30000
+
+--
+2. Count the number of employees in (department 4 who earn more than 25000),
+or (in department 5 who earn more than 30000)
+
+select count(*)
+from employee
+where (dno = 4 and salary > 25000) or (dno = 5 and salary > 30000)
+
+--
+3. List the fname, lname, salary, and dname of the top 10 earners in department 3.
+
+select E.fname, E.lname, E.salary, D.dname
+from employee E, department D
+where E.dno = D.dno and E.dno=3
+order by salary desc
+limit 10
+
+--
+4. For each department, list the number of employees, and the maximum,
+minimum, average, total salary, and the dno. Give appropriate names to each
+aggregation.
+
+select count(*) as num_employees,
+         max(salary) as max_salary,
+         min(salary) as min_salary,
+         avg(salary) as average_salary,
+         sum(salary) as total_salary,
+         dno
+       from employee
+       group by dno
+
+--
+5. List the names of the employees who supervise more than 2 employees
+
+select fname, lname
+from employee
+where ssn in
+   (select superssn
+    from employee
+    group by superssn
+    having count(*) > 2);
+
+OR
+
+select fname, lname from employee E
+where exists
+   (select superssn from employee
+    where superssn = E.ssn
+    group by superssn
+    having count(*) > 2
+   )
+
+--
+6. List the names of employees who do not supervise anyone
+
+select fname, lname
+from employee
+where ssn not in (select superssn from employee)
+
+OR
+
+select fname, lname
+from employee E
+where not exists
+    (select superssn from employee where superssn = E.ssn)
+
+--
+7. List the names of employees (and project names) that are working on projects run by
+department 4.
+
+select fname, lname, pname
+from employee E, works_on W, project P
+where E.ssn = W.essn and
+      W.pno = P.dno and
+      P.dno = 4
+--
+8. List the name and salary of all female supervisors
+
+select fname, lname
+from employee
+where gender = 'f'
+      and ssn in (select superssn from employee)
+
+--
+9. Increase the salary for employees in department 2 by 10%
+
+update employee set salary = salary*1.1 where dno=2
+
+--

@@ -1,0 +1,53 @@
+4. Which were the top 3 most rated genres (this is the number of ratings of songs in genres, not the actual rating scores) in the years 1991-1995? (Years refers to the rating date, NOT the date of release).
+
+The result must have two columns, named genre_name and number_of_song_ratings.
+
+
+insert into genre (Genre_Name) values ('genre1');
+insert into genre (Genre_Name) values ('genre2');
+insert into genre (Genre_Name) values ('genre3');
+insert into genre (Genre_Name) values ('genre4');
+
+mysql> desc song_genre;
++---------+--------------+------+-----+---------+-------+
+| Field   | Type         | Null | Key | Default | Extra |
++---------+--------------+------+-----+---------+-------+
+| Song_ID | int unsigned | NO   | PRI | NULL    |       |
+| Genre   | varchar(10)  | NO   | PRI | NULL    |       |
++---------+--------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+mysql> desc song_rating;
++--------------+------------------+------+-----+---------+-------+
+| Field        | Type             | Null | Key | Default | Extra |
++--------------+------------------+------+-----+---------+-------+
+| Username     | varchar(10)      | NO   | PRI | NULL    |       |
+| Song_ID      | int unsigned     | NO   | PRI | NULL    |       |
+| Rating_Score | tinyint unsigned | NO   |     | NULL    |       |
+| Rating_Date  | date             | NO   |     | NULL    |       |
++--------------+------------------+------+-----+---------+-------+
+4 rows in set (0.00 sec
+
+insert into song_rating (Username, Song_ID, Rating_Score, Rating_Date) values ('user0', '1', '5', '1992-01-01');
+insert into song_rating (Username, Song_ID, Rating_Score, Rating_Date) values ('user1', '1', '5', '1992-01-01');
+
+insert into song_rating (Username, Song_ID, Rating_Score, Rating_Date) values ('user0', '3', '5', '1992-01-01');
+insert into song_rating (Username, Song_ID, Rating_Score, Rating_Date) values ('user0', '4', '5', '1992-01-01');
+insert into song_rating (Username, Song_ID, Rating_Score, Rating_Date) values ('user0', '5', '5', '1992-01-01');
+
+insert into song_rating (Username, Song_ID, Rating_Score, Rating_Date) values ('user0', '6', '5', '1992-01-01');
+insert into song_rating (Username, Song_ID, Rating_Score, Rating_Date) values ('user0', '7', '5', '1992-01-01');
+insert into song_rating (Username, Song_ID, Rating_Score, Rating_Date) values ('user0', '8', '5', '1992-01-01');
+insert into song_rating (Username, Song_ID, Rating_Score, Rating_Date) values ('user0', '9', '5', '1992-01-01');
+insert into song_rating (Username, Song_ID, Rating_Score, Rating_Date) values ('user1', '9', '5', '1996-01-01');
+
+
+select song_genre.genre as 'genre_name', count(*) as 'number_of_song_ratings'
+     from song_genre
+     inner join song_rating on song_genre.song_id=song_rating.song_id
+     where year(rating_date) between 1991 and 1995
+     group by genre 
+     order by number_of_song_ratings desc
+     limit 3;
+    
+    

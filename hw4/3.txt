@@ -1,0 +1,116 @@
+3. What were the top 10 most highly rated albums (highest average user rating) in the period 1990-1999? Break ties using alphabetical order of album names. (Period refers to the rating date, NOT the date of release).
+
+The result must have two columns, named album_name and average_user_rating.
+
+mysql> desc album;
++--------------+--------------+------+-----+---------+----------------+
+| Field        | Type         | Null | Key | Default | Extra          |
++--------------+--------------+------+-----+---------+----------------+
+| Album_ID     | int unsigned | NO   | PRI | NULL    | auto_increment |
+| Album_Name   | varchar(30)  | NO   | MUL | NULL    |                |
+| Artist       | varchar(30)  | NO   |     | NULL    |                |
+| Release_Date | date         | YES  |     | NULL    |                |
++--------------+--------------+------+-----+---------+----------------+
+4 rows in set (0.00 sec)
+
+insert into album (Album_ID, Album_Name, Artist, Release_Date) values ('4', 'album4', 'artist4', '0000-00-00');
+insert into album (Album_ID, Album_Name, Artist, Release_Date) values ('5', 'album5', 'artist5', '0000-00-00');
+insert into album (Album_ID, Album_Name, Artist, Release_Date) values ('6', 'album6', 'artist6', '0000-00-00');
+insert into album (Album_ID, Album_Name, Artist, Release_Date) values ('7', 'album7', 'artist7', '0000-00-00');
+insert into album (Album_ID, Album_Name, Artist, Release_Date) values ('8', 'album8', 'artist8', '0000-00-00');
+insert into album (Album_ID, Album_Name, Artist, Release_Date) values ('9', 'album9', 'artist9', '0000-00-00');
+insert into album (Album_ID, Album_Name, Artist, Release_Date) values ('10', 'album10', 'artist10', '0000-00-00');
+insert into album (Album_ID, Album_Name, Artist, Release_Date) values ('11', 'album11', 'artist11', '0000-00-00');
+
+mysql> desc user;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| Username | varchar(10) | NO   | PRI | NULL    |       |
+| Password | varchar(10) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+insert into user (Username, Password) values ('user0', NULL);
+insert into user (Username, Password) values ('user1', NULL);
+
+mysql> desc album_rating;
++--------------+------------------+------+-----+---------+-------+
+| Field        | Type             | Null | Key | Default | Extra |
++--------------+------------------+------+-----+---------+-------+
+| Username     | varchar(10)      | NO   | PRI | NULL    |       |
+| Album_ID     | int unsigned     | NO   | PRI | NULL    |       |
+| Rating_Score | tinyint unsigned | NO   |     | NULL    |       |
+| Rating_Date  | date             | NO   |     | NULL    |       |
++--------------+------------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user0', '2', '5', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user0', '3', '5', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user0', '4', '5', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user0', '5', '5', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user0', '6', '5', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user0', '7', '5', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user0', '8', '5', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user0', '9', '5', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user0', '10', '5', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user0', '11', '5', '1991-01-01');
+
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user1', '1', '1', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user1', '2', '2', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user1', '3', '3', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user1', '4', '4', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user1', '5', '5', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user1', '6', '4', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user1', '7', '3', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user1', '8', '2', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user1', '9', '1', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user1', '10', '2', '1991-01-01');
+insert into album_rating (Username, Album_ID, Rating_Score, Rating_Date) values ('user1', '11', '3', '1991-01-01');
+
+
+select album_name, round(avg(rating_score),1) as 'average_user_rating'
+    from album, album_rating
+    where year(release_date) between 0000 and 0000 
+    group by album_name
+    order by average_user_rating desc, album_name asc
+    limit 5;
+    
+select album_name, round(avg(rating_score),1) as 'average_user_rating'
+    from album, album_rating
+    where year(release_date) between 0000 and 0000 
+    group by album_name
+    order by avg(album_rating.rating_score)
+    limit 5;
+    
+    
+select album_name, round(avg(rating_score),1) as 'average_user_rating'
+    from album, album_rating
+    where year(release_date) between 0000 and 0000 and
+    group by album_name
+    order by average_user_rating desc, album_name asc
+    limit 5;
+    
+    
+SELECT Album.album_name AS album_name, AVG(album_rating.rating_score) AS average_user_rating
+    FROM Album, Rating
+    WHERE album.album_id == album_rating.username
+    AND Rating.Date BETWEEN 0000 and 0000
+    GROUP BY Album_name
+    ORDER BY AVG(Rating.Rating) DESC
+    LIMIT 10;
+
+SELECT Album.album_name AS album_name, AVG(album_rating.rating_score) AS average_user_rating
+    FROM Album, album_rating
+    where year(release_date) between 0000 and 0000 
+    GROUP BY Album_name
+    ORDER BY AVG(album_rating.rating_score) DESC, album_name asc
+    LIMIT 10;
+
+
+SELECT Album.album_name AS album_name, AVG(album_rating.rating_score) AS average_user_rating
+    FROM Album, album_rating
+    where (year(album_rating.Rating_Date) between 1990 and 1999) AND (Album.Album_ID = album_rating.Album_ID)
+    GROUP BY Album.Album_ID
+    ORDER BY average_user_rating DESC, album_name asc
+    LIMIT 10

@@ -1,0 +1,211 @@
+Problem Set 12: Relational Databases - SOLUTION
+
+=============================================================================
+
+1. Design a Hospitals database for the following structure.
+
+HOSPITAL: Each hospital has an integer id that uniquely identfies it, name, 
+phone number, and address. The address is composed of a street address, city, 
+2-character state code, and zip code.
+
+DOCTOR: Each doctor has a unique integer id, first name, last name, and specialty. 
+Each doctor is associated with exactly one hospital.
+
+PATIENT: Each patient has a unique integer id, first name, last name, and age. 
+Each patient is associated with exactly one primary doctor, but may have other 
+additional doctors.
+
+A. Write the database schema as a set of CREATE TABLE statements. For each column
+in each table, be sure to choose the most appropriate/precise data type, and specify 
+whether it can be null or not. Be sure to specify primary key and unique columns 
+as appropriate.
+
+Your schema should be minimally redundant in storage of data, and should allow for 
+effective querying. 
+
+SCHEMA
+-------
+
+create table hopitals (
+    id int auto_increment primary key,
+    name varchar(50) not null,
+    phone_number char(10) not null,
+    street_address varchar(50) not null,
+    city varchar(30) not null,
+    state_code char(2) not null,
+    zip char(5) not null
+);
+
+create table doctors (
+    id int auto_increment primary key,
+    first_name varchar(20) not null,
+    last_name varchar(20) not null,
+    specialty varchar(50) not null,
+    hospital_id int not null,
+    foreign key(hospital_id) references hospitals(id)
+);
+
+create table patients (
+    id int auto_increment primary key,
+    first_name varchar(20) not null,
+    last_name varchar(20) not null,
+    age tinyint not null,
+    primary_doctor_id int not null,
+    foreign key(primary_doctor_id) references doctors(id)
+);
+
+create table patients_nonprimary_doctors (
+    patient_id id not null,
+    doctor_id id not null,
+    foreign key(patient_id) references patients(id),
+    foreign key(doctor_id) references doctors(id) 
+);
+
+B. For your schema, write SQL statements for the following queries:
+
+a. Find the names and phone numbers of all hospitals that are in the city 'New Brunswick'
+   
+   select name, phone_number 
+   from hospitals 
+   where city = 'New Brunswick'
+  
+b. Find the first and last names of doctors that specialize in 'Pediatrics'
+   
+   select first_name, last_name 
+   from doctors 
+   where specialty = 'Pediatrics'
+  
+c. Find the number of patients that are over 20 and under 60
+  
+   select count(*) as number_of_patients 
+   from patients 
+   where age > 20 AND age < 60
+  
+d. Find the number of primary doctors
+
+   select count(distinct(primary_doctor_id)) as number_of_primary_doctors
+   from patients
+   
+Note:
+ - The select statements have been broken up into multiple lines to draw attention to
+   the component 'phrases' (select, from, where) and for better readability. 
+   It is perfectly fine to write the entire statement in a single line.
+ - For queries that involve using the count function, an optional "as" part has been
+   added so that that resulting column has a meaningful header. 
+   Strictly speaking, the "as" part is not required for correctness.
+   
+==============================================================================
+
+2. Implement a Flights database with the following structure.
+
+FLIGHT:
+A flight has an origin and destination, and flies non-stop between them. Each of
+origin and destination are represented by a 3-character airport code, e.g. 'LAX',
+'EWR','JFK'. A flight has a time of departure, time of arrival, duration in hours 
+and minutes, and seating capacity. A flight is uniquely identified by a combination 
+of airline code (such as 'UA') and flight number (such as '1234'). For the purpose 
+of this exercise you may assume that the airline code is a maximum of 3 letters, 
+and the flight number is a maximum of 4 digits. (If a flight number is fewer 
+than 4 digits, it is padded  with leading zeros.) The airline code is unique to an airline.
+
+PASSENGER:
+A passenger is identified by their email address, and has a name, age, gender
+(male, female, other), and frequent flier info. The frequent flier info is a unique 
+combination of airline code (same as code  used in FLIGHT above) and number (
+2 letters + 6 digits). A passenger is a frequent flier on only one airline.
+
+TICKET:
+A ticket is issued for a passenger on a flight. It has a unique 10-digit ticket
+number, a date of departure, and a price in dollars and cents. 
+
+
+A. Write the database schema as a set of CREATE TABLE statements. For each column
+in each table, be sure to choose the most appropriate/precise data type, and specify 
+whether it can be null or not. Be sure to specify primary key and unique columns 
+as appropriate.
+
+Your schema should be minimally redundant in storage of data, and should allow for 
+effective querying. 
+
+SCHEMA
+------
+
+create table airline (
+    code char(3) primary key,
+    name varchar(30) not null
+);
+
+create table flight (
+    id int auto_increment primary key,
+    airline_code char(3) not null,
+    foreign key (airline_code) references airline(code), 
+    flight_number char(4) not null,
+    unique (airline_code, flight_number),
+    origin varchar(30) not null,
+    destination varchar(30) not null,
+    departure_time time not null,
+    arrival_time time not null,
+    duration_hours tinyint not null,
+    duration_minutes tinyint not null,
+    total_seats smallint not null
+);
+
+Note: An id is added here so that it can be referenced from ticket table,
+see below.
+
+create table passenger (
+    email varchar(40) primary key,
+    name varchar(50) not null,
+    age tinyint not null,
+    gender enum('m','f','x') not null,
+    freqflier_airline char(3) not null,
+    foreign key (freqflier_airline) references airline(code),
+    freqflier_number char(8) not null,
+    unique (freqflier_airline, freqflier_number)
+);
+
+create table ticket (
+    ticket_number char(10) primary key,
+    passenger_email varchar(40) not null,
+    foreign key (passenger_email) references passenger(email),
+    flight_id int not null,
+    foreign key (flight_id) references flight(id),
+    departure_date date not null,
+    price decmial(6,2) not null
+);
+
+
+B. For your schema, write SQL statements for the following queries:
+
+a. List the flights and prices for which passengers paid between $500 and $1000 on a ticket.
+   Your list should be in descending order of prices.
+
+   select airline_code, flight_number, price
+   from ticket
+   where price between 500 and 1000
+   order by price desc
+   
+b. Find the emails of the passengers who have tickets with departure dates
+of today, or upto 5 days earlier than today, or upto 5 days later than today.
+
+   select passenger_email 
+   from ticket
+   where departure_date >= CURRENT_DATE()-5 and departure_date <= CURRENT_DATE()+5
+   
+c. Find the number of female passengers under 30 who are frequent fliers on United Airlines,
+which has an airline code of 'UA'.
+
+   select count(*)
+   from passenger
+   where gender='f' and age < 30 and freqflier_airline='UA'
+   
+d. List, in chronological order of arrival times, all flights that arrive at EWR before noon.
+
+   select airline_code, flight_number, arrival_time
+   from flight
+   where arrival_time < '12'
+   order by arrival_time
+
+
+
+

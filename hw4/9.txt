@@ -1,0 +1,76 @@
+9. Find the top 20 most rated singles (songs that are not part of an album). Most rated meaning number of ratings, not actual rating scores. The result must have 3 columns, named song_title, artist_name, number_of_ratings.
+
+
+smysql> desc song;
++--------------+--------------+------+-----+---------+----------------+
+| Field        | Type         | Null | Key | Default | Extra          |
++--------------+--------------+------+-----+---------+----------------+
+| Song_ID      | int unsigned | NO   | PRI | NULL    | auto_increment |
+| Title        | varchar(30)  | NO   | MUL | NULL    |                |
+| Artist       | varchar(30)  | NO   |     | NULL    |                |
+| Release_Date | date         | YES  |     | NULL    |                |
++--------------+--------------+------+-----+---------+----------------+
+4 rows in set (0.00 sec)
+
+mysql> desc album_song;
++----------+--------------+------+-----+---------+-------+
+| Field    | Type         | Null | Key | Default | Extra |
++----------+--------------+------+-----+---------+-------+
+| Album_ID | int unsigned | NO   | PRI | NULL    |       |
+| Song_ID  | int unsigned | NO   | PRI | NULL    |       |
++----------+--------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+
+insert into album_song (Album_ID, Song_ID) values ('1', '11');
+
+mysql> desc song_rating;
++--------------+------------------+------+-----+---------+-------+
+| Field        | Type             | Null | Key | Default | Extra |
++--------------+------------------+------+-----+---------+-------+
+| Username     | varchar(10)      | NO   | PRI | NULL    |       |
+| Song_ID      | int unsigned     | NO   | PRI | NULL    |       |
+| Rating_Score | tinyint unsigned | NO   |     | NULL    |       |
+| Rating_Date  | date             | NO   |     | NULL    |       |
++--------------+------------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+select song.title as 'song_title', 
+    song.artist as 'artist_name', 
+    count(song_rating.song_id) as 'number_of_ratings'
+from song, album_song, song_rating
+where not exists (select song_id from album_song where song.song_id = album_song.songid)
+group by song.title
+limit 20;
+
+
+$#$$$
+select song.title as 'song_title', 
+    song.artist as 'artist_name', 
+    count(song_rating.song_id) as 'number_of_ratings'
+from song, album_song, song_rating
+where not exists (select * from album_song where album_song.song_id = song.song_id)
+group by song.song_id
+limit 20;
+
+
+where song.song_id not exists (select song_id from song_rating)
+group by song.title;
+
+
+FROM Song, Artist, Rating
+SELECT Song.Title AS song_title, Artist.Name AS artist_name, COUNT(Rating.Id) AS number_of_ratings
+WHERE Song.AlbumName IS NULL
+GROUP BY Song.Title
+ORDER BY COUNT(Rating.Id) DESC
+LIMIT 20;
+
+
+
+SELECT song.title AS 'song_title', 
+    song.artist AS 'artist_name', 
+    count(song_rating.song_id) AS 'number_of_ratings'
+FROM song, song_rating
+WHERE song.song_id NOT IN (select album_song.song_id FROM album_song) AND song_rating.song_id = song.song_id
+GROUP BY song_rating.song_id
+limit 20;

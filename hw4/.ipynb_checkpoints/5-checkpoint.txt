@@ -1,0 +1,88 @@
+
+Which users have a playlist that has an average song rating of 4.0 or more? (This is the average of the average song rating for each song in the playlist.) A user may appear multiple times in the result if more than one of their playlists make the cut
+
+The result must 3 columns named username, playlist_title, average_song_rating
+
+mysql> desc user;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| Username | varchar(10) | NO   | PRI | NULL    |       |
+| Password | varchar(10) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+mysql> desc playlist;
++----------------+--------------+------+-----+---------+----------------+
+| Field          | Type         | Null | Key | Default | Extra          |
++----------------+--------------+------+-----+---------+----------------+
+| Playlist_ID    | int unsigned | NO   | PRI | NULL    | auto_increment |
+| Username       | varchar(10)  | YES  | MUL | NULL    |                |
+| Playlist_Title | varchar(30)  | YES  |     | NULL    |                |
+| Creation_Date  | datetime     | YES  |     | NULL    |                |
++----------------+--------------+----  --+-----+---------+----------------+
+4 rows in set (0.00 sec)
+
+insert into playlist (Playlist_ID, Username, Playlist_title, Creation_date) values ('1', 'user0', 'list1', '1993-01-01');
+insert into playlist (Playlist_ID, Username, Playlist_title, Creation_date) values ('2', 'user1', 'list2', '1993-01-01');
+
+insert into playlist (Playlist_ID, Username, Playlist_title, Creation_date) values ('3', 'user0', 'list3', '1993-01-01');
+insert into playlist (Playlist_ID, Username, Playlist_title, Creation_date) values ('4', 'user1', 'list4', '1993-01-01');
+
+
+
+
+mysql> desc song_rating;
++--------------+------------------+------+-----+---------+-------+
+| Field        | Type             | Null | Key | Default | Extra |
++--------------+------------------+------+-----+---------+-------+
+| Username     | varchar(10)      | NO   | PRI | NULL    |       |
+| Song_ID      | int unsigned     | NO   | PRI | NULL    |       |
+| Rating_Score | tinyint unsigned | NO   |     | NULL    |       |
+| Rating_Date  | date             | NO   |     | NULL    |       |
++--------------+------------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+insert into song_rating (Username, Song_ID, Rating_Score, Rating_Date) values ('user1', '11', '1', '1994-01-01');
+
+FROM User, Playlist
+SELECT username, playlist_title 
+FROM Playlist, User, Rating
+WHERE User.UserRating == Rating.Id
+AND User.Playlist.Rating == Playlist.Id AND AVG(Rating.Rating) >= 4
+GROUP BY Playlist.Name;
+
+
+SELECT playlist.username as 'username' , playlist.playlist_title as 'playlist_title', AVG(song_rating.rating_score) AS 'average_song_rating'
+    FROM playlist
+    INNER JOIN song_rating ON playlist.username=song_rating.username
+    WHERE song_rating.username = playlist.username;
+
+
+SELECT playlist.username as 'username' , playlist.playlist_title as 'playlist_title', AVG(song_rating.rating_score) AS 'average_song_rating'
+    FROM playlist, song_rating
+    WHERE song_rating.username = playlist.username
+    GROUP BY playlist.username;
+
+SELECT playlist.username, playlist_title, song.song_id, average_song_rating
+FROM playlist, song, playlist_song, (SELECT song.song_id, AVG(song_rating.rating_score) AS 'average_song_rating'
+FROM song, song_rating
+WHERE song.song_id = song_rating.song_id 
+GROUP BY song_id 
+HAVING average_song_rating >= 4) high_avg
+WHERE playlist.playlist_id = playlist_song.playlist_id AND high_avg.song_id = song.song_id AND 
+        playlist_song.song_id IN (SELECT song.song_id
+FROM song, song_rating
+WHERE song.song_id = song_rating.song_id 
+GROUP BY song_id 
+HAVING average_song_rating >= 4)
+GROUP BY (select distinct playlist_title);
+
+
+SELECT playlist.username, playlist.playlist_title, AVG(average_song_rating) 'average_song_rating'
+FROM playlist_song, playlist, (SELECT song.song_id, AVG(song_rating.rating_score) AS 'average_song_rating'
+FROM song, song_rating
+WHERE song.song_id = song_rating.song_id 
+GROUP BY song_id) songs_avg
+WHERE playlist_song.song_id = songs_avg.song_id AND playlist.playlist_id = playlist_song.playlist_id
+GROUP BY playlist_song.playlist_id;
+HAVING average_song_rating >=4;

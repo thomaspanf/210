@@ -1,0 +1,27 @@
+7. Find the top 10 most prolific artists (most number of songs) in the years 1990-2010? Count each song in an album individually.
+
+The result must have 2 columns, named artist_name and number_of_songs.
+
+mysql> select * from song;
++---------+--------+---------+--------------+
+| Song_ID | Title  | Artist  | Release_Date |
++---------+--------+---------+--------------+
+|       1 | title0 | artist0 | 0000-00-00   |
+|       4 | title1 | artist1 | 0000-00-00   |
+|       5 | title2 | artist4 | 0000-00-00   |
++---------+--------+---------+--------------+
+
+insert into song (Song_ID, Title, Artist, Release_Date) values ('6', 'title6', 'artist0', '1992-01-01');
+insert into song (Song_ID, Title, Artist, Release_Date) values ('7', 'title7', 'artist0', '1992-01-01');
+insert into song (Song_ID, Title, Artist, Release_Date) values ('8', 'title8', 'artist0', '1992-01-01');
+insert into song (Song_ID, Title, Artist, Release_Date) values ('9', 'title9', 'artist1', '1992-01-01');
+insert into song (Song_ID, Title, Artist, Release_Date) values ('10', 'title10', 'artist1', '1992-01-01');
+
+
+select artist as 'artist_name', count(*) as 'number_of_songs'
+    from song
+    where year(release_date) between 1990 and 2010
+    group by artist_name
+    order by number_of_songs desc
+    limit 10;
+    

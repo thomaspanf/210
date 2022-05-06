@@ -1,0 +1,79 @@
+Problem Set 12: Relational Databases
+
+==================================================================================
+
+1. Design a Hospitals database for the following structure.
+
+HOSPITAL: Each hospital has an integer id that uniquely identfies it, name, 
+phone number, and address. The address is composed of a street address, city, 
+2-character state code, and zip code.
+
+DOCTOR: Each doctor has a unique integer id, first name, last name, and specialty. 
+Each doctor is associated with exactly one hospital.
+
+PATIENT: Each patient has a unique integer id, first name, last name, and age. 
+Each patient is associated with exactly one primary doctor, but may have other 
+additional doctors.
+
+A. Write the database schema as a set of CREATE TABLE statements. For each column
+in each table, be sure to choose the most appropriate/precise data type, and specify 
+whether it can be null or not. Be sure to specify primary key and unique columns 
+as appropriate.
+
+Your schema should be minimally redundant in storage of data, and should allow for 
+effective querying. 
+
+B. For your schema, write SQL statements for the following queries:
+
+a. Find the names and phone numbers of all hospitals that are in the city 'New Brunswick'
+b. Find the first and last names of doctors that specialize in 'Pediatrics'
+c. Find the number of patients that are over 20 and under 60
+d. Find the number of primary doctors
+
+================================================================================
+
+2. Implement a Flights database with the following structure.
+
+FLIGHT:
+A flight has an origin and destination, and flies non-stop between them. Each of
+origin and destination are represented by a 3-character airport code, e.g. 'LAX',
+'EWR','JFK'. A flight has a time of departure, time of arrival, duration in hours 
+and minutes, and seating capacity. A flight is uniquely identified by a combination 
+of airline code (such as 'UA') and flight number (such as '1234'). For the purpose 
+of this exercise you may assume that the airline code is a maximum of 3 letters, 
+and the flight number is a maximum of 4 digits. (If a flight number is fewer 
+than 4 digits, it is padded  with leading zeros.) The airline code is unique to an airline.
+
+PASSENGER:
+A passenger is identified by their email address, and has a name, age, gender
+(male, female, other), and frequent flier info. The frequent flier info is a unique 
+combination of airline code (same as code  used in FLIGHT above) and number (
+2 letters + 6 digits). A passenger is a frequent flier on only one airline.
+
+TICKET:
+A ticket is issued for a passenger on a flight. It has a unique 10-digit ticket
+number, a date of departure, and a price in dollars and cents. 
+
+
+A. Write the database schema as a set of CREATE TABLE statements. For each column
+in each table, be sure to choose the most appropriate/precise data type, and specify 
+whether it can be null or not. Be sure to specify primary key and unique columns 
+as appropriate.
+
+Your schema should be minimally redundant in storage of data, and should allow for 
+effective querying. 
+
+B. For your schema, write SQL statements for the following queries:
+
+a. List the flights and prices for which passengers paid between $500 and $1000 on a ticket.
+   Your list should be in descending order of prices.
+b. Find the emails of the passengers who have tickets with departure dates
+   of today, or upto 5 days earlier than today, or upto 5 days later than today.
+c. Find the number of female passengers under 30 who are frequent fliers on United Airlines,
+   which has an airline code of 'UA'.
+d. List, in chronological order of arrival times, all flights that arrive at EWR before noon.
+
+
+
+
+

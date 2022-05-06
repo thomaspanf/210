@@ -1,0 +1,615 @@
+Look Who's Talking	10/12/89	Romance
+Driving Miss Daisy	12/13/89	Comedy
+Turner & Hooch	7/28/89	Crime
+Born on the Fourth of July	12/20/89	War
+Field of Dreams	4/21/89	Drama
+Uncle Buck	8/16/89	Family
+When Harry Met Sally...	7/21/89	Romance
+Dead Poets Society	6/2/89	Drama
+Parenthood	7/31/89	Comedy
+Lethal Weapon 2	7/7/89	Comedy
+The War of the Roses	12/8/89	Comedy
+National Lampoon's Christmas Vacation	12/1/89	Action
+"Honey, I Shrunk the Kids"	6/22/89	Family
+Batman	6/23/89	Action
+Ghostbusters II	6/15/89	Comedy
+The Little Mermaid	11/17/89	Animation
+Back to the Future Part II	11/20/89	Science Fiction
+Indiana Jones and the Last Crusade	5/24/89	Adventure
+Tango & Cash	12/22/89	Action
+Steel Magnolias	11/15/89	Drama
+Three Men and a Little Lady	11/21/90	Family
+Teenage Mutant Ninja Turtles	3/30/90	Action
+Pretty Woman	3/23/90	Romance
+Kindergarten Cop	12/21/90	Action
+Home Alone	11/9/90	Family
+Bird on a Wire	5/18/90	Comedy
+Misery	11/28/90	Drama
+Edward Scissorhands	12/5/90	Drama
+Ghost	7/12/90	Thriller
+Presumed Innocent	7/26/90	Crime
+Dances with Wolves	11/9/90	Western
+Flatliners	8/9/90	Horror
+The Hunt for Red October	3/2/90	Thriller
+Another 48 Hrs.	6/8/90	Action
+Back to the Future Part III	5/25/90	Family
+Dick Tracy	6/15/90	Crime
+The Godfather: Part III	12/24/90	Drama
+Days of Thunder	6/27/90	Adventure
+Total Recall	6/1/90	Science Fiction
+Die Hard 2	7/2/90	Thriller
+Fried Green Tomatoes	12/27/91	Comedy
+The Silence of the Lambs	2/1/91	Crime
+Sleeping with the Enemy	2/8/91	Drama
+Father of the Bride	12/20/91	Romance
+The Naked Gun 2 1/2: The Smell of Fear	6/28/91	Drama
+Teenage Mutant Ninja Turtles II	3/22/91	Action
+Beauty and the Beast	11/13/91	Animation
+Hot Shots!	7/31/91	Comedy
+City Slickers	6/7/91	Comedy
+Star Trek VI: The Undiscovered Country	12/5/91	Science Fiction
+The Addams Family	11/22/91	Comedy
+The Prince of Tides	12/25/91	Romance
+What About Bob?	5/17/91	Comedy
+Cape Fear	11/15/91	Crime
+JFK	12/20/91	Drama
+Robin Hood: Prince of Thieves	6/14/91	Adventure
+Hook	12/11/91	Family
+Backdraft	5/24/91	Mystery
+Terminator 2: Judgment Day	7/1/91	Science Fiction
+The Crying Game	9/2/92	Romance
+The Hand that Rocks the Cradle	1/10/92	Drama
+Unforgiven	8/7/92	Western
+Home Alone 2: Lost in New York	11/19/92	Family
+Wayne's World	2/14/92	Comedy
+The Bodyguard	11/25/92	Action
+Aladdin	11/25/92	Animation
+White Men Can't Jump	3/26/92	Comedy
+Sister Act	5/28/92	Comedy
+Scent of a Woman	12/23/92	Drama
+Lethal Weapon 3	5/15/92	Action
+Under Siege	10/8/92	Action
+Boomerang	6/30/92	Romance
+A League of Their Own	7/1/92	Comedy
+The Last of the Mohicans	9/25/92	Action
+Bram Stoker's Dracula	11/13/92	Drama
+A Few Good Men	12/11/92	Drama
+Patriot Games	6/4/92	Thriller
+Basic Instinct	3/20/92	Thriller
+Batman Returns	6/19/92	Action
+Cool Runnings	9/30/93	Comedy
+Groundhog Day	2/11/93	Comedy
+Free Willy	7/16/93	Family
+Sleepless in Seattle	6/24/93	Romance
+Schindler's List	11/29/93	History
+Mrs. Doubtfire	11/24/93	Family
+Tombstone	12/25/93	Drama
+Philadelphia	12/22/93	Drama
+Dave	5/7/93	Comedy
+Grumpy Old Men	12/25/93	Comedy
+Indecent Proposal	4/7/93	Drama
+Sister Act 2: Back in the Habit	12/9/93	Comedy
+In the Line of Fire	7/8/93	Crime
+Rising Sun	7/30/93	Thriller
+The Firm	6/30/93	Mystery
+The Fugitive	8/6/93	Adventure
+The Pelican Brief	12/16/93	Crime
+Demolition Man	10/8/93	Action
+Cliffhanger	5/28/93	Adventure
+Jurassic Park III	7/16/01	Thriller
+Pulp Fiction	9/10/94	Thriller
+Ace Ventura: Pet Detective	2/4/94	Comedy
+Dumb and Dumber	12/16/94	Comedy
+The Santa Clause	11/10/94	Family
+The Mask	7/29/94	Romance
+Speed	6/9/94	Action
+Legends of the Fall	12/16/94	Drama
+Star Trek: Generations	11/17/94	Science Fiction
+The Lion King	6/23/94	Animation
+The Client	7/20/94	Drama
+The Specialist	10/7/94	Action
+The Flintstones	5/26/94	Family
+Forrest Gump	7/6/94	Comedy
+Stargate	10/27/94	Science Fiction
+Disclosure	12/9/94	Drama
+Interview with the Vampire	11/11/94	Horror
+Clear and Present Danger	8/3/94	Thriller
+Wolf	6/17/94	Fantasy
+Maverick	5/20/94	Action
+True Lies	7/14/94	Action
+While You Were Sleeping	4/21/95	Romance
+Dangerous Minds	8/11/95	Crime
+Grumpier Old Men	12/22/95	Comedy
+Father of the Bride Part II	2/10/95	Comedy
+Toy Story	10/30/95	Animation
+Ace Ventura: When Nature Calls	11/10/95	Comedy
+Get Shorty	10/20/95	Comedy
+Mr. Holland's Opus	12/29/95	Family
+Se7en	9/22/95	Action
+Casper	5/26/95	Family
+Congo	6/9/95	Drama
+Apollo 13	6/30/95	Drama
+Crimson Tide	5/12/95	Thriller
+Pocahontas	6/14/95	Animation
+GoldenEye	11/16/95	Action
+Jumanji	12/15/95	Family
+Braveheart	5/24/95	Action
+Die Hard: With a Vengeance	5/19/95	Thriller
+Batman Forever	6/16/95	Action
+Waterworld	7/28/95	Action
+Scream	12/20/96	Horror
+The First Wives Club	9/20/96	Comedy
+The English Patient	11/14/96	War
+The Birdcage	3/8/96	Comedy
+Phenomenon	7/5/96	Drama
+A Time to Kill	7/24/96	Crime
+Star Trek: First Contact	11/21/96	Science Fiction
+Broken Arrow	2/9/96	Thriller
+Jerry Maguire	12/6/96	Comedy
+The Nutty Professor	6/26/96	Comedy
+101 Dalmatians	11/17/96	Comedy
+The Rock	6/6/96	Action
+Independence Day	6/25/96	Action
+Mission: Impossible	5/22/96	Action
+Ransom	11/8/96	Thriller
+Space Jam	11/15/96	Comedy
+Twister	5/10/96	Action
+The Hunchback of Notre Dame	6/21/96	Animation
+Eraser	6/21/96	Drama
+Michael	12/25/96	Fantasy
+Good Will Hunting	12/5/97	Drama
+I Know What You Did Last Summer	10/17/97	Horror
+Scream 2	12/9/97	Horror
+My Best Friend's Wedding	6/19/97	Comedy
+Liar Liar	3/21/97	Comedy
+As Good as It Gets	12/19/97	Comedy
+George of the Jungle	7/15/97	Family
+The Lost World: Jurassic Park	5/23/97	Action
+Con Air	6/1/97	Action
+Conspiracy Theory	8/7/97	Action
+Face/Off	6/27/97	Thriller
+Flubber	11/26/97	Science Fiction
+Hercules	6/26/97	Animation
+Air Force One	7/25/97	Action
+Men in Black	7/2/97	Thriller
+Contact	7/11/97	Science Fiction
+Tomorrow Never Dies	12/11/97	Action
+Batman and Robin	6/12/97	Action
+Titanic	11/18/97	Romance
+There's Something About Mary	7/15/98	Romance
+The Waterboy	11/6/98	Comedy
+Shakespeare in Love	12/11/98	History
+The Rugrats Movie	11/20/98	Animation
+Rush Hour	9/18/98	Comedy
+Stepmom	12/25/98	Drama
+Patch Adams	12/25/98	Drama
+The Truman Show	6/4/98	Comedy
+You've Got Mail	12/17/98	Romance
+Saving Private Ryan	7/24/98	War
+The Prince of Egypt	12/15/98	Animation
+Doctor Dolittle	6/22/98	Family
+Deep Impact	5/8/98	Drama
+Mulan	6/18/98	Animation
+Enemy of the State	11/20/98	Thriller
+The Mask of Zorro	7/16/98	Action
+A Bug's Life	11/25/98	Animation
+Godzilla	5/20/98	Thriller
+Armageddon	7/1/98	Science Fiction
+Lethal Weapon 4	7/10/98	Comedy
+The Blair Witch Project	7/14/99	Horror
+American Pie	7/9/99	Comedy
+American Beauty	9/15/99	Drama
+Big Daddy	6/25/99	Comedy
+The Sixth Sense	8/6/99	Thriller
+Notting Hill	5/13/99	Romance
+The General's Daughter	6/18/99	Thriller
+The Green Mile	12/10/99	Fantasy
+The Matrix	3/30/99	Science Fiction
+Runaway Bride	7/30/99	Romance
+Double Jeopardy	9/24/99	Crime
+Analyze This	3/5/99	Comedy
+The Mummy	4/16/99	Adventure
+Toy Story 2	10/30/99	Animation
+Star Wars: Episode I - The Phantom Menace	5/19/99	Science Fiction
+Stuart Little	12/17/99	Family
+The World Is Not Enough	11/8/99	Adventure
+Tarzan	6/18/99	Animation
+Wild Wild West	6/29/99	Western
+"Crouching Tiger, Hidden Dragon"	10/1/00	Romance
+Scary Movie	7/7/00	Comedy
+Big Momma's House	5/31/00	Crime
+Remember the Titans	9/29/00	Drama
+Chicken Run	6/21/00	Comedy
+Traffic	12/27/00	Drama
+Erin Brockovich	3/17/00	Drama
+Meet the Parents	10/6/00	Comedy
+What Women Want	12/15/00	Comedy
+X-Men	7/13/00	Adventure
+Nutty Professor II: The Klumps	7/27/00	Comedy
+Cast Away	12/22/00	Drama
+Charlie's Angels	11/2/00	Comedy
+What Lies Beneath	7/21/00	Drama
+Gladiator	5/1/00	Action
+The Patriot	6/28/00	History
+The Perfect Storm	3/15/00	Drama
+How the Grinch Stole Christmas	11/17/00	Family
+Mission: Impossible II	5/24/00	Adventure
+Dinosaur	5/19/00	Animation
+American Pie 2	8/10/01	Comedy
+Spy Kids	3/18/01	Family
+The Princess Diaries	8/3/01	Romance
+The Fast and the Furious	6/22/01	Crime
+Shrek	5/16/01	Animation
+A Beautiful Mind	12/11/01	Drama
+Vanilla Sky	12/10/01	Mystery
+Dr. Dolittle 2	6/22/01	Comedy
+Ocean's Eleven	12/7/01	Thriller
+Hannibal	2/8/01	Thriller
+Rush Hour 2	8/3/01	Comedy
+Black Hawk Down	12/28/01	War
+Jurassic Park III	7/18/01	Adventure
+The Lord of the Rings: The Fellowship of the Ring	12/18/01	Fantasy
+The Mummy Returns	4/28/01	Adventure
+Planet of the Apes	7/25/01	Science Fiction
+Lara Croft: Tomb Raider	6/11/01	Adventure
+"Monsters, Inc."	11/1/01	Comedy
+Harry Potter and the Sorcerer's Stone	11/4/01	Fantasy
+Pearl Harbor	5/21/01	War
+My Big Fat Greek Wedding	2/22/02	Comedy
+Sweet Home Alabama	9/26/02	Romance
+The Ring	10/18/02	Horror
+Mr. Deeds	6/28/02	Comedy
+Ice Age	3/10/02	Animation
+The Bourne Identity	6/14/02	Action
+Austin Powers in Goldmember	7/26/02	Science Fiction
+The Santa Clause 2	10/31/02	Family
+xXx	8/9/02	Adventure
+Signs	8/2/02	Science Fiction
+The Lord of the Rings: The Two Towers	12/18/02	Fantasy
+Lilo & Stitch	6/21/02	Animation
+Scooby-Doo	6/14/02	Mystery
+Harry Potter and the Chamber of Secrets	11/13/02	Fantasy
+Minority Report	6/20/02	Science Fiction
+Star Wars: Episode II - Attack of the Clones	5/15/02	Science Fiction
+Spider-Man	5/1/02	Fantasy
+Men in Black 2	7/3/02	Action
+Die Another Day	11/17/02	Adventure
+Bringing Down the House	3/7/03	Comedy
+Elf	10/9/03	Comedy
+Spy Kids 3-D: Game Over	7/25/03	Family
+Cheaper by the Dozen	12/24/03	Comedy
+Anger Management	4/11/03	Comedy
+2 Fast 2 Furious	6/5/03	Thriller
+Bruce Almighty	5/23/03	Comedy
+S.W.A.T.	8/8/03	Crime
+Something's Gotta Give	12/12/03	Drama
+Seabiscuit	7/22/03	Drama
+Finding Nemo	5/30/03	Animation
+The Lord of the Rings: The Return of the King	12/1/03	Fantasy
+X2: X-Men United	5/2/03	Action
+Bad Boys II	7/18/03	Comedy
+Hulk	6/19/03	Science Fiction
+Pirates of the Caribbean: The Curse of the Black Pearl	7/9/03	Adventure
+The Last Samurai	12/5/03	War
+The Matrix Reloaded	5/15/03	Science Fiction
+The Matrix Revolutions	11/5/03	Science Fiction
+Terminator 3: Rise of the Machines	7/2/03	Thriller
+Fahrenheit 9/11	6/25/04	Drama
+DodgeBall: A True Underdog Story	6/18/04	Comedy
+The Passion of the Christ	2/25/04	Drama
+The Village	7/30/04	Drama
+50 First Dates	2/13/04	Comedy
+The Bourne Supremacy	7/23/04	Action
+Shark Tale	9/20/04	Animation
+Meet the Fockers	12/22/04	Comedy
+The Incredibles	11/5/04	Animation
+National Treasure	11/19/04	Mystery
+Ocean's Twelve	12/9/04	Thriller
+"I, Robot"	7/15/04	Science Fiction
+The Day After Tomorrow	5/26/04	Action
+Harry Potter and the Prisoner of Azkaban	5/31/04	Fantasy
+Lemony Snicket's A Series of Unfortunate Events	12/16/04	Comedy
+Shrek 2	5/19/04	Animation
+Van Helsing	5/5/04	Horror
+The Polar Express	11/10/04	Animation
+Troy	5/13/04	War
+Spider-Man 2	6/25/04	Action
+The 40 Year Old Virgin	8/11/05	Comedy
+Walk the Line	9/13/05	Drama
+Wedding Crashers	7/14/05	Comedy
+Flightplan	9/22/05	Thriller
+The Pacifier	3/4/05	Comedy
+Hitch	2/10/05	Comedy
+Robots	3/10/05	Animation
+Madagascar	5/25/05	Animation
+The Longest Yard	5/19/05	Drama
+Fantastic Four	6/29/05	Action
+Fun with Dick and Jane	12/21/05	Comedy
+Mr. & Mrs. Smith	6/7/05	Comedy
+Star Wars: Episode III - Revenge of the Sith	5/17/05	Science Fiction
+War of the Worlds	6/28/05	Science Fiction
+Batman Begins	6/10/05	Action
+Charlie and the Chocolate Factory	7/13/05	Family
+Chicken Little	11/4/05	Animation
+Harry Potter and the Goblet of Fire	11/5/05	Fantasy
+"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe"	12/7/05	Fantasy
+King Kong	12/14/05	Adventure
+Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan	11/1/06	Comedy
+The Devil Wears Prada	6/30/06	Comedy
+Scary Movie 4	4/13/06	Comedy
+The Break-Up	6/1/06	Romance
+The Pursuit of Happyness	12/14/06	Drama
+Dreamgirls	12/25/06	Drama
+Talladega Nights: The Ballad of Ricky Bobby	8/4/06	Comedy
+Ice Age: The Meltdown	3/23/06	Animation
+Over the Hedge	4/22/06	Animation
+Click	6/22/06	Comedy
+The Departed	10/5/06	Drama
+Happy Feet	11/16/06	Animation
+Night at the Museum	10/20/06	Family
+Cars	6/8/06	Animation
+The Da Vinci Code	5/17/06	Mystery
+Mission: Impossible III	5/3/06	Adventure
+Casino Royale	11/14/06	Thriller
+Pirates of the Caribbean: Dead Man's Chest	6/20/06	Adventure
+X-Men: The Last Stand	5/24/06	Action
+Superman Returns	6/28/06	Action
+Juno	12/5/07	Comedy
+Knocked Up	6/1/07	Comedy
+Wild Hogs	3/2/07	Comedy
+300	3/9/07	Action
+Alvin and the Chipmunks	12/13/07	Family
+The Bourne Ultimatum	8/3/07	Action
+The Simpsons Movie	7/25/07	Comedy
+Enchanted	11/20/07	Family
+American Gangster	11/2/07	Crime
+Live Free or Die Hard	6/20/07	Thriller
+Fantastic 4: Rise of the Silver Surfer	6/13/07	Action
+National Treasure: Book of Secrets	12/13/07	Mystery
+Rush Hour 3	8/8/07	Comedy
+Ratatouille	6/22/07	Animation
+Transformers	6/27/07	Action
+Harry Potter and the Order of the Phoenix	6/28/07	Fantasy
+I Am Legend	12/14/07	Drama
+Shrek the Third	5/17/07	Animation
+Spider-Man 3	5/1/07	Action
+Pirates of the Caribbean: At World's End	5/19/07	Adventure
+Slumdog Millionaire	5/12/08	Drama
+Gran Torino	12/9/08	Drama
+Twilight	11/20/08	Romance
+Mamma Mia!	7/3/08	Romance
+Marley and Me	12/25/08	Drama
+Sex and the City	5/12/08	Drama
+Wanted	6/19/08	Crime
+Get Smart	6/19/08	Comedy
+Horton Hears a Who!	3/3/08	Animation
+Kung Fu Panda	6/4/08	Animation
+Iron Man	4/30/08	Action
+The Incredible Hulk	6/12/08	Action
+Hancock	7/1/08	Fantasy
+Madagascar: Escape 2 Africa	10/30/08	Animation
+The Curious Case of Benjamin Button	11/24/08	Mystery
+WALL-E	6/23/08	Animation
+Indiana Jones and the Kingdom of the Crystal Skull	5/21/08	Adventure
+The Dark Knight	7/16/08	Action
+Quantum of Solace	10/30/08	Action
+The Chronicles of Narnia: Prince Caspian	5/15/08	Fantasy
+Taken	1/30/09	Thriller
+Paul Blart: Mall Cop	1/15/09	Comedy
+The Blind Side	11/20/09	Drama
+The Hangover	6/5/09	Comedy
+The Proposal	6/1/09	Romance
+The Twilight Saga: New Moon	3/15/09	Romance
+Alvin and the Chipmunks: The Squeakquel	12/21/09	Family
+Fast and Furious	4/3/09	Thriller
+Ice Age: Dawn of the Dinosaurs	6/29/09	Animation
+Sherlock Holmes	12/23/09	Mystery
+X-Men Origins: Wolverine	4/28/09	Action
+Star Trek	5/6/09	Science Fiction
+Night at the Museum: Battle of the Smithsonian	5/20/09	Family
+Transformers: Revenge of the Fallen	6/19/09	Action
+Monsters vs Aliens	3/19/09	Animation
+Up	5/13/09	Animation
+G.I. Joe: The Rise of Cobra	8/4/09	Action
+2012	10/10/09	Adventure
+Avatar	12/10/09	Adventure
+Harry Potter and the Half-Blood Prince	7/7/09	Fantasy
+The King's Speech	9/6/10	Drama
+True Grit	12/22/10	Western
+The Karate Kid	6/10/10	Action
+The Twilight Saga: Eclipse	6/23/10	Romance
+Despicable Me	7/8/10	Animation
+Shutter Island	2/18/10	Drama
+Grown Ups	6/24/10	Comedy
+Little Fockers	12/21/10	Comedy
+Clash of the Titans	4/2/10	Thriller
+Megamind	10/28/10	Animation
+The Last Airbender	6/30/10	Adventure
+Inception	7/14/10	Action
+How to Train Your Dragon	3/5/10	Animation
+Shrek Forever After	5/16/10	Animation
+Tron Legacy	12/17/10	Science Fiction
+Alice in Wonderland	3/3/10	Fantasy
+Iron Man 2	4/28/10	Action
+Toy Story 3	6/16/10	Animation
+Harry Potter and the Deathly Hallows: Part 1	10/17/10	Fantasy
+Tangled	11/24/10	Animation
+The Help	8/9/11	Drama
+Bridesmaids	4/28/11	Comedy
+Alvin and the Chipmunks: Chipwrecked	12/14/11	Family
+The Hangover Part II	5/25/11	Comedy
+Rio	4/3/11	Animation
+Rise of the Planet of the Apes	8/3/11	Science Fiction
+The Twilight Saga: Breaking Dawn - Part 1	3/15/11	Romance
+The Smurfs	7/29/11	Animation
+Fast Five	4/20/11	Action
+Harry Potter and the Deathly Hallows: Part 2	7/7/11	Fantasy
+Sherlock Holmes: A Game of Shadows	11/22/11	Mystery
+Puss in Boots: The Three Diablos	12/8/11	Animation
+Captain America: The First Avenger	7/22/11	Action
+Mission: Impossible - Ghost Protocol	12/7/11	Thriller
+Thor	4/21/11	Action
+Kung Fu Panda 2	5/25/11	Animation
+Transformers: Dark of the Moon	6/28/11	Action
+Cars 2	6/11/11	Animation
+Pirates of the Caribbean: On Stranger Tides	5/14/11	Action
+Taken 2	9/27/12	Thriller
+Ted	6/29/12	Comedy
+Les Miserables	12/5/12	Drama
+Lincoln	11/9/12	History
+The Lorax	3/1/12	Animation
+The Hunger Games	3/12/12	Adventure
+Hotel Transylvania	9/20/12	Animation
+Ice Age: Continental Drift	6/26/12	Animation
+Django Unchained	12/25/12	Western
+The Twilight Saga: Breaking Dawn - Part 2	11/13/12	Romance
+Madagascar 3: Europe's Most Wanted	6/6/12	Animation
+Wreck-It Ralph	11/1/12	Animation
+Snow White and the Huntsman	5/30/12	Fantasy
+Brave	6/21/12	Animation
+Skyfall	10/25/12	Action
+The Amazing Spider-Man	6/27/12	Action
+The Avengers	4/25/12	Action
+Men in Black 3	5/23/12	Action
+The Dark Knight Rises	7/16/12	Action
+The Hobbit: An Unexpected Journey	11/26/12	Fantasy
+The Conjuring	7/18/13	Horror
+Identity Thief	2/7/13	Comedy
+We're The Millers	8/3/13	Comedy
+American Hustle	12/12/13	Crime
+The Heat	6/27/13	Comedy
+Despicable Me 2	6/25/13	Animation
+The Great Gatsby	5/10/13	Drama
+Gravity	9/27/13	Science Fiction
+The Hunger Games: Catching Fire	11/15/13	Adventure
+The Croods	3/20/13	Animation
+Frozen	11/27/13	Animation
+Fast & Furious 6	5/6/13	Action
+Thor: The Dark World	10/29/13	Action
+Star Trek Into Darkness	5/5/13	Science Fiction
+Oz: The Great and Powerful	3/7/13	Drama
+Iron Man 3	4/18/13	Action
+World War Z	6/20/13	Science Fiction
+Monsters University	6/20/13	Animation
+Man of Steel	6/12/13	Action
+The Hobbit: The Desolation of Smaug	12/11/13	Fantasy
+Neighbors	5/8/14	Comedy
+22 Jump Street	6/5/14	Comedy
+American Sniper	12/11/14	War
+The Lego Movie	2/6/14	Animation
+Gone Girl	10/1/14	Thriller
+Divergent	3/14/14	Action
+Teenage Mutant Ninja Turtles	8/7/14	Action
+The Hunger Games: Mockingjay - Part 1	11/18/14	Adventure
+How to Train Your Dragon 2	6/12/14	Animation
+Godzilla	5/14/14	Thriller
+Big Hero 6	10/24/14	Animation
+Interstellar	11/5/14	Science Fiction
+Captain America: The Winter Soldier	3/20/14	Action
+Dawn of the Planet of the Apes	6/26/14	Science Fiction
+Guardians of the Galaxy	7/30/14	Action
+Maleficent	5/28/14	Fantasy
+The Amazing Spider-Man 2	4/16/14	Action
+Transformers: Age of Extinction	6/25/14	Action
+X-Men: Days of Future Past	5/15/14	Action
+The Hobbit: The Battle of the Five Armies	12/10/14	Fantasy
+Straight Outta Compton	8/13/15	Drama
+Pitch Perfect 2	5/7/15	Comedy
+Fifty Shades of Grey	2/11/15	Drama
+The SpongeBob Movie: Sponge Out of Water	2/5/15	Animation
+Minions	6/17/15	Animation
+Hotel Transylvania 2	9/21/15	Animation
+Cinderella	3/12/15	Drama
+The Martian	9/30/15	Science Fiction
+San Andreas	5/27/15	Thriller
+Ant-Man	7/14/15	Action
+Home	3/18/15	Animation
+The Revenant	12/25/15	Western
+Jurassic World	6/9/15	Thriller
+Mission: Impossible - Rogue Nation	7/23/15	Action
+The Hunger Games: Mockingjay - Part 2	11/18/15	Adventure
+Inside Out	6/9/15	Animation
+Furious 7	4/1/15	Action
+Spectre	10/26/15	Crime
+Star Wars: The Force Awakens	12/15/15	Science Fiction
+Avengers: Age of Ultron	4/22/15	Action
+Hidden Figures	12/10/16	Drama
+La La Land	11/29/16	Drama
+Deadpool	2/9/16	Comedy
+The Secret Life of Pets	6/18/16	Animation
+Sing	11/23/16	Animation
+Jason Bourne	7/27/16	Action
+Trolls	10/13/16	Animation
+Ghostbusters	7/14/16	Thriller
+Zootopia	2/11/16	Animation
+Moana	11/23/16	Animation
+Doctor Strange	10/25/16	Action
+The Jungle Book	4/7/16	Action
+Suicide Squad	8/2/16	Action
+X-Men: Apocalypse	5/18/16	Action
+Fantastic Beasts and Where to Find Them	11/16/16	Fantasy
+Star Trek Beyond	7/7/16	Science Fiction
+Finding Dory	6/16/16	Animation
+Rogue One: A Star Wars Story	12/14/16	Science Fiction
+Batman v Superman: Dawn of Justice	3/23/16	Action
+Captain America: Civil War	4/27/16	Action
+Get Out	2/24/17	Horror
+It	9/5/17	Horror
+The LEGO Batman Movie	1/29/17	Animation
+Despicable Me 3	6/15/17	Animation
+The Greatest Showman	12/8/17	Drama
+Logan	2/28/17	Action
+Dunkirk	7/19/17	War
+The Boss Baby	3/23/17	Animation
+Wonder Woman	5/30/17	Action
+Jumanji: Welcome to the Jungle	12/5/17	Thriller
+Beauty and the Beast	3/16/17	Drama
+Spider-Man: Homecoming	6/28/17	Action
+Coco	10/20/17	Animation
+Thor: Ragnarok	10/25/17	Action
+Kong: Skull Island	3/8/17	Adventure
+Guardians of the Galaxy Vol. 2	4/19/17	Action
+Pirates of the Caribbean: Dead Men Tell No Tales	5/23/17	Action
+The Fate of the Furious	4/12/17	Action
+Justice League	11/15/17	Action
+Star Wars: The Last Jedi	12/9/19	Science Fiction
+A Quiet Place	3/9/18	Horror
+Crazy Rich Asians	8/7/18	Romance
+A Star is Born	8/31/18	Romance
+Bohemian Rhapsody	10/23/18	Drama
+Dr. Seuss' The Grinch	10/22/18	Animation
+Hotel Transylvania 3: Summer Vacation	6/13/18	Animation
+Spider-Man: Into the Spider-Verse	12/1/18	Animation
+Deadpool 2	5/10/18	Comedy
+Venom	10/1/18	Action
+Mary Poppins Returns	11/29/18	Family
+Aquaman	11/26/18	Action
+Jurassic World: Fallen Kingdom	5/21/18	Action
+Ralph Breaks the Internet	11/5/18	Animation
+Mission: Impossible - Fallout	7/12/18	Action
+Ant-Man and the Wasp	6/25/18	Action
+Black Panther	1/29/18	Action
+Incredibles 2	6/5/18	Animation
+Fantanstic Beasts: The Crimes of Grindelwald	11/8/18	Fantasy
+Solo: A Star Wars Story	5/10/18	Science Fiction
+Avengers: Infinity War	4/23/18	Action
+Glass	1/12/19	Thriller
+Us	3/8/19	Horror
+The Upside	1/11/19	Comedy
+John Wick: Chapter 3 - Parabellum	5/9/19	Thriller
+It: Chapter Two	8/26/19	Horror
+The Secret Life of Pets 2	5/24/19	Animation
+Once Upon a Time in Hollywood	5/21/19	Comedy
+The LEGO Movie 2: The Second Part	2/7/19	Animation
+Shazam!	3/15/19	Action
+How to Train Your Dragon: The Hidden World	1/3/19	Animation
+Pokemon Detective Pikachu	5/3/19	Mystery
+Spider-Man: Far from Home	6/26/19	Action
+Dumbo	3/11/19	Adventure
+Captain Marvel	2/27/19	Action
+Aladdin	5/8/19	Fantasy
+Godzilla: King of the Monsters	5/13/19	Adventure
+Toy Story 4	6/11/19	Animation
+Fast & Furious Presents: Hobbs & Shaw	7/13/19	Thriller
+The Lion King	7/9/19	Drama
+Avengers: Endgame	4/22/19	Action

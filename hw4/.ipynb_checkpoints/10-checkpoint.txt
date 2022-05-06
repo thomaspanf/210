@@ -1,0 +1,20 @@
+Find all artists who discontinued making music after 1993.
+The result should be a single column named artist_title
+
+
+
+mysql> desc song;
++--------------+--------------+------+-----+---------+----------------+
+| Field        | Type         | Null | Key | Default | Extra          |
++--------------+--------------+------+-----+---------+----------------+
+| Song_ID      | int unsigned | NO   | PRI | NULL    | auto_increment |
+| Title        | varchar(30)  | NO   | MUL | NULL    |                |
+| Artist       | varchar(30)  | NO   |     | NULL    |                |
+| Release_Date | date         | YES  |     | NULL    |                |
++--------------+--------------+------+-----+---------+----------------+
+
+insert into song (Song_ID, Title, Artist, Release_Date) values ('12', 'newnew', 'testartist', '1994-01-01');
+
+Select Artist as artist_title
+from song 
+where song.release_date <=1993;
